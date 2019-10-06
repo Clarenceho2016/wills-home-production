@@ -6,6 +6,23 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+//Import material UI
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+}));
+
+
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -16,38 +33,82 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
+    <Grid container  spacing={3}>
       <div
+        className="full-width-image margin-top-0"
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `top left`,
+          backgroundAttachment: `fixed`,
         }}
       >
-        <h1
-          className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        <Grid item xs={12} sm={6}
           style={{
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            backgroundColor : '#ffffffcc',
+            padding: '10px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            transform: 'scale(0.8)',
           }}
         >
-          {title}
-        </h1>
+          <div
+              style={{
+                display: 'flex',
+                height: '150px',
+                lineHeight: '1',
+                justifyContent: 'space-around',
+                alignItems: 'left',
+                flexDirection: 'column',
+              }}
+            >
+              <h1
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  color: '#2b2523a3',
+                  fontWeight: '400',
+                  position: 'static',
+                  lineHeight: '1',
+                  padding: '0.25em',
+                }}
+              >
+                Wills in a Day.
+              </h1>
+              <h1
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  color: '#2b2523a3',
+                  fontWeight: '400',
+                  position: 'static',
+                  lineHeight: '1',
+                  padding: '0.25em',
+                }}
+              >
+                Wills in a week.
+              </h1>
+              <h1
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  color: '#2b2523a3',
+                  fontWeight: '400',
+                  position: 'static',
+                  lineHeight: '1',
+                  padding: '0.25em',
+                }}
+              >
+                We come to you.
+              </h1>
+
+              
+            </div>  
+        </Grid>
+        
+        
       </div>
-    </div>
+    </Grid>
+    
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
