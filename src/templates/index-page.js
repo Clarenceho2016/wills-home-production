@@ -11,8 +11,9 @@ import Grid from '@material-ui/core/Grid';
 
 //Font-Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMousePointer,faAddressBook,faUserTie,faScroll } from '@fortawesome/free-solid-svg-icons'
-
+import { faMousePointer,faAddressBook,faUserTie,faScroll,faHandshake,faBrain } from '@fortawesome/free-solid-svg-icons'
+import { Paper } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
 
 
 
@@ -202,6 +203,196 @@ export const IndexPageTemplate = ({
             </Grid>
           </div>
         </div>     
+      </div>
+    </section>
+
+    <Grid container  spacing={3}>
+      <div
+        className="full-width-image margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
+            height: '60vh',
+            backgroundPosition: 'center',
+          }}
+        >  
+      </div>
+    </Grid>
+      
+    <section  style={{paddingBottom: '0px',}} className="section section--platform">
+      <div className="container-fluid">
+        <div className="section">
+          <div className="column">
+            <Grid style={{
+              marginBottom : '20px',
+            }} container spacing={12}>
+              <Grid item xs={12} sm={12} className="grid-content">
+                  <h3
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                  >
+                    Why choose Wills platform? 
+                  </h3>
+              </Grid>
+            </Grid>
+            <Grid container spacing={12}>
+              <Grid item xs={12} sm={4} className="grid-content">
+                <Paper>
+                  <Grid container spacing={12} style={{
+                    padding: '1.25em',
+                  }}>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <FontAwesomeIcon style={{
+                        padding: '20px',
+                        borderRadius: '50%',
+                        width: '100px',
+                        height: '100px',
+                        position: 'absolute',
+                        backgroundColor: '#ffa207d1',
+                        marginTop: '-63px',
+                      }} icon={faUserTie} />
+                    </Grid>               
+                    <Grid item xs={12} style={{
+                      padding: '10px',
+                    }} sm={12} className="grid-content">
+                      <Typography variant="h5" component="h3">
+                        Professional
+                     </Typography> 
+                    </Grid>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <Typography component="p">
+                        We're experts at drafing Wills.
+                    </Typography>
+                    </Grid>
+                  </Grid>     
+                </Paper>
+              </Grid>
+              <Grid item xs={12} sm={4} className="grid-content">
+                <Paper>
+                  <Grid container spacing={12} style={{
+                    padding: '1.25em',
+                  }}>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <FontAwesomeIcon style={{
+                        padding: '20px',
+                        borderRadius: '50%',
+                        width: '100px',
+                        height: '100px',
+                        position: 'absolute',
+                        backgroundColor: '#ffa207d1',
+                        marginTop: '-63px',
+                      }} icon={faBrain} />
+                    </Grid>               
+                    <Grid item xs={12} style={{
+                      padding: '10px',
+                    }} sm={12} className="grid-content">
+                      <Typography variant="h5" component="h3">
+                        Knowledge
+                     </Typography> 
+                    </Grid>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <Typography component="p">
+                        We've got the answers to your pool of questions
+                    </Typography>
+                    </Grid>
+                  </Grid>     
+                </Paper>    
+              </Grid>
+              <Grid item xs={12} sm={4} className="grid-content">
+                <Paper>
+                  <Grid container spacing={12} style={{
+                    padding: '1.25em',
+                  }}>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <FontAwesomeIcon style={{
+                        padding: '20px',
+                        borderRadius: '50%',
+                        width: '100px',
+                        height: '100px',
+                        position: 'absolute',
+                        backgroundColor: '#ffa207d1',
+                        marginTop: '-63px',
+                      }} icon={faHandshake} />
+                    </Grid>               
+                    <Grid item xs={12} style={{
+                      padding: '10px',
+                    }} sm={12} className="grid-content">
+                      <Typography variant="h5" component="h3">
+                        Understanding
+                     </Typography> 
+                    </Grid>
+                    <Grid item xs={12} sm={12} className="grid-content">
+                      <Typography component="p">
+                        We understand and we listen
+                    </Typography>
+                    </Grid>
+                  </Grid>     
+                </Paper>       
+              </Grid>
+            </Grid>
+          </div>
+        </div>
+      </div>
+    </section>      
+    
+    <section style={{padding: '0px',}} className="section section--Booking">
+      <div className="container-fluid">
+        <div  style={{padding: '0px',}} className="section">
+          <div className="column">
+            <Grid style={{
+              marginBottom : '20px',
+            }} container spacing={12}>
+              <Grid item xs={12} sm={12} className="grid-content">
+                <Button variant="primary" style={{
+                    margin: '15px',
+                    
+                    borderRadius: '10px',
+                    fontSize: '20px',
+                    padding: '15px',
+                }}>
+                  Book            
+                </Button>
+              </Grid>   
+            </Grid> 
+            <Grid container spacing={12}>
+              <Grid style={{justifyContent: 'right', textAlign: 'right',}} item xs={6} >
+                <a
+                  className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                  style={{
+                    color: '#2b2523a3',
+                    fontWeight: '400',
+                    position: 'static',
+                    lineHeight: '1',
+                    padding: '1.25em',
+                  }}
+                  >
+                  For Clients 
+                </a>
+              </Grid>
+              <Grid item xs={6} >
+                <a
+                  className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                  style={{
+                    color: '#2b2523a3',
+                    fontWeight: '400',
+                    position: 'static',
+                    lineHeight: '1',
+                    padding: '1.25em',
+                  }}
+                  >
+                  For Lawyers 
+                </a>
+              </Grid>
+            </Grid>           
+          </div>
+        </div>
       </div>
     </section>
   </div>
