@@ -5,23 +5,14 @@ import { Link, graphql } from 'gatsby'
 import Button from 'react-bootstrap/Button';
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
 //Import material UI
 import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-}));
+//Font-Awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMousePointer,faAddressBook,faUserTie,faScroll } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -42,7 +33,6 @@ export const IndexPageTemplate = ({
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-          backgroundPosition: `top left`,
           backgroundAttachment: `fixed`,
         }}
       >
@@ -120,51 +110,98 @@ export const IndexPageTemplate = ({
       </div>
     </Grid>
     
-    <section className="section section--gradient">
-      <div className="container">
+    <section className="section section--service">
+      <div className="container-fluid">
         <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+          <div className="column">
+            <Grid container spacing={12}>
+              <Grid item xs={12} sm={3}>
+                <Grid container spacing={12}>
+                  <Grid item xs={12}  className="grid-content">
+                    <FontAwesomeIcon icon={faMousePointer} />
+                  </Grid>
+                  <Grid item xs={12} className="grid-content">
+                  <h3
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                  >
+                    Register
                   </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+                  </Grid>  
+                </Grid>
+              </Grid>
+              <Grid item xs={12} sm={3}>
+                <Grid container spacing={12}>
+                  <Grid item xs={12} className="grid-content">
+                    <FontAwesomeIcon icon={faAddressBook} />
+                  </Grid>
+                  <Grid item xs={12} className="grid-content">
+                  <h3
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                  >
+                    Book
+                  </h3>
+                  </Grid>  
+                </Grid>
+              </Grid>
+              <Grid item xs={12} sm={3} >
+                <Grid container spacing={12}>
+                  <Grid item xs={12} className="grid-content">
+                    <FontAwesomeIcon icon={faUserTie} />
+                  </Grid>
+                  <Grid item xs={12}  className="grid-content">
+                  <h3
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                  >
+                    Consultation 
+                  </h3>
+                  </Grid>  
+                </Grid>
+              </Grid>
+              <Grid item xs={12} sm={3}>
+                <Grid container spacing={12}>
+                  <Grid item xs={12} className="grid-content">
+                    <FontAwesomeIcon icon={faScroll} />
+                  </Grid>
+                  <Grid item xs={12} className="grid-content">
+                  <h3
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                  >
+                    Will 
+                  </h3>
+                  </Grid>  
+                </Grid>
+              </Grid>    
+            </Grid>
           </div>
-        </div>
+        </div>     
       </div>
     </section>
   </div>
