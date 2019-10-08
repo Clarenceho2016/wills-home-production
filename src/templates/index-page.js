@@ -11,7 +11,7 @@ import Grid from '@material-ui/core/Grid';
 
 //Font-Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMousePointer,faAddressBook,faUserTie,faScroll,faHandshake,faBrain } from '@fortawesome/free-solid-svg-icons'
+import { faMousePointer,faAddressBook,faUserTie,faScroll,faHandshake,faBrain,faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
@@ -342,9 +342,9 @@ export const IndexPageTemplate = ({
       </div>
     </section>      
     
-    <section style={{padding: '0px',}} className="section section--Booking">
+    <section style={{padding: '0px'}} className="section section--Booking">
       <div className="container-fluid">
-        <div  style={{padding: '0px',}} className="section">
+        <div  style={{padding: '0px', margin: '20px'}} className="section">
           <div className="column">
             <Grid style={{
               marginBottom : '20px',
@@ -362,39 +362,191 @@ export const IndexPageTemplate = ({
               </Grid>   
             </Grid> 
             <Grid container spacing={12}>
-              <Grid style={{justifyContent: 'right', textAlign: 'right',}} item xs={6} >
-                <a
-                  className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                  style={{
-                    color: '#2b2523a3',
-                    fontWeight: '400',
-                    position: 'static',
-                    lineHeight: '1',
-                    padding: '1.25em',
-                  }}
+              <Grid item xs={12} sm={6} style={{textAlign: 'center'}}>
+                <Grid item xs={12} >
+                  <a
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                    >
+                    For Clients 
+                  </a>
+                </Grid>
+                <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
+                  <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(../img/Mother.jpg)',
+                      height: '60vh',
+                      }}>
+                  </Grid>          
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}>
+                  <h3
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '2rem'
+                    }}
                   >
-                  For Clients 
-                </a>
-              </Grid>
-              <Grid item xs={6} >
-                <a
-                  className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                  style={{
-                    color: '#2b2523a3',
-                    fontWeight: '400',
-                    position: 'static',
-                    lineHeight: '1',
-                    padding: '1.25em',
-                  }}
+                    Who do you need a will ? 
+                  </h3>
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}> 
+                  <h4
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '1.5rem'
+                    }}
                   >
-                  For Lawyers 
-                </a>
+                    Ask the right questions when it comes to your personal will
+                  </h4>
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}> 
+                  <a
+                    style={{
+                      color: '#3273dc',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '1.5rem'
+                    }}
+                  >
+                   Learn More
+                   <FontAwesomeIcon style={{ marginLeft: '20px'}} icon={faArrowRight} />
+                  </a>
+                  
+                </Grid>  
               </Grid>
-            </Grid>           
+              
+              <Grid item xs={12} sm={6} style={{textAlign: 'center'}}>
+                <Grid item xs={12}>
+                  <a
+                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      lineHeight: '1',
+                      padding: '1.25em',
+                    }}
+                    >
+                    For Lawyers 
+                  </a>
+                </Grid>
+                <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
+                  <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(../img/Mother.jpg)',
+                      height: '60vh',
+                      }}>
+                  </Grid> 
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}>
+                  <h3
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '2rem'
+                    }}
+                  >
+                    Who do you need a will ? 
+                  </h3>
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}> 
+                  <h4
+                    style={{
+                      color: '#2b2523a3',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '1.5rem'
+                    }}
+                  >
+                    Ask the right questions when it comes to your personal will
+                  </h4>
+                </Grid>
+                <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}> 
+                  <a
+                    style={{
+                      color: '#3273dc',
+                      fontWeight: '400',
+                      position: 'static',
+                      fontSize: '1.5rem'
+                    }}
+                  >
+                   Learn More
+                   <FontAwesomeIcon style={{ marginLeft: '20px'}} icon={faArrowRight} />
+                  </a>          
+                </Grid>
+              </Grid>              
+            </Grid>
           </div>
         </div>
       </div>
     </section>
+    
+    <Grid container  spacing={3}>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: 'url(../img/Family.jpg)',
+          backgroundAttachment: `fixed`,
+        }}
+      >
+        <Grid item xs={12} sm={6}
+          style={{
+            backgroundColor : '#ffffffcc',
+            padding: '10px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            transform: 'scale(0.4)',
+          }}
+        >
+          <div
+              style={{
+                display: 'flex',
+                height: '150px',
+                lineHeight: '1',
+                justifyContent: 'space-around',
+                alignItems: 'left',
+                flexDirection: 'column',
+              }}
+            >
+              <h3
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  color: '#2b2523a3',
+                  fontWeight: '400',
+                  position: 'static',
+                  lineHeight: '1',
+                  padding: '0.25em',
+                }}
+              >
+                Learn about our packages
+              </h3>
+
+              <Button variant="primary" style={{
+                  margin: '15px',
+                  width: '50%',
+                  borderRadius: '30px',
+                  fontSize: '40px',
+                  padding: '15px',
+              }}>
+                Learn More          
+              </Button>
+            </div>  
+        </Grid>
+        
+        
+      </div>
+    </Grid>
+
   </div>
 )
 
