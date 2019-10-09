@@ -44,7 +44,7 @@ export const IndexPageTemplate = ({
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            transform: 'scale(0.8)',
+            transform: 'scale(0.6)',
           }}
         >
           <div
@@ -118,12 +118,11 @@ export const IndexPageTemplate = ({
             <Grid container spacing={12}>
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
-                  <Grid item xs={12}  className="grid-content">
+                  <Grid item xs={12}  className="grid-content icon-content">
                     <FontAwesomeIcon icon={faMousePointer} />
                   </Grid>
-                  <Grid item xs={12} className="grid-content">
+                  <Grid item xs={12} className="grid-content icon-content">
                   <h3
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
                       color: '#2b2523a3',
                       fontWeight: '400',
@@ -139,12 +138,11 @@ export const IndexPageTemplate = ({
               </Grid>
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
-                  <Grid item xs={12} className="grid-content">
+                <Grid item xs={12}  className="grid-content icon-content">
                     <FontAwesomeIcon icon={faAddressBook} />
                   </Grid>
-                  <Grid item xs={12} className="grid-content">
+                  <Grid item xs={12}  className="grid-content icon-content">
                   <h3
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
                       color: '#2b2523a3',
                       fontWeight: '400',
@@ -160,12 +158,11 @@ export const IndexPageTemplate = ({
               </Grid>
               <Grid item xs={12} sm={3} >
                 <Grid container spacing={12}>
-                  <Grid item xs={12} className="grid-content">
+                  <Grid item xs={12}  className="grid-content icon-content">
                     <FontAwesomeIcon icon={faUserTie} />
                   </Grid>
-                  <Grid item xs={12}  className="grid-content">
+                  <Grid item xs={12}  className="grid-content icon-content">
                   <h3
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
                       color: '#2b2523a3',
                       fontWeight: '400',
@@ -181,12 +178,11 @@ export const IndexPageTemplate = ({
               </Grid>
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
-                  <Grid item xs={12} className="grid-content">
+                <Grid item xs={12}  className="grid-content icon-content">
                     <FontAwesomeIcon icon={faScroll} />
                   </Grid>
-                  <Grid item xs={12} className="grid-content">
+                  <Grid item xs={12}  className="grid-content icon-content">
                   <h3
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
                       color: '#2b2523a3',
                       fontWeight: '400',
@@ -227,14 +223,14 @@ export const IndexPageTemplate = ({
             <Grid style={{
               marginBottom : '20px',
             }} container spacing={12}>
-              <Grid item xs={12} sm={12} className="grid-content">
+              <Grid item xs={12}  className="grid-content icon-content">
                   <h3
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
                       color: '#2b2523a3',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
+                      marginBottom: '1em',
                       padding: '1.25em',
                     }}
                   >
@@ -365,9 +361,9 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={6} style={{textAlign: 'center'}}>
                 <Grid item xs={12} >
                   <a
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
-                      color: '#2b2523a3',
+                      fontSize: '2em',
+                      color: '#3273dc',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
@@ -427,10 +423,10 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={6} style={{textAlign: 'center'}}>
                 <Grid item xs={12}>
                   <a
-                    className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                     style={{
-                      color: '#2b2523a3',
+                      color: '#3273dc',
                       fontWeight: '400',
+                      fontSize: '2em',
                       position: 'static',
                       lineHeight: '1',
                       padding: '1.25em',
