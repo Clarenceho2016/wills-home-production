@@ -375,7 +375,7 @@ export const IndexPageTemplate = ({
                 </Grid>
                 <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
                   <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(../img/Mother.jpg)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
                       height: '60vh',
                       }}>
                   </Grid>          
@@ -437,7 +437,7 @@ export const IndexPageTemplate = ({
                 </Grid>
                 <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
                   <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(../img/Mother.jpg)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
                       height: '60vh',
                       }}>
                   </Grid> 
@@ -490,7 +490,7 @@ export const IndexPageTemplate = ({
       <div
         className="full-width-image margin-top-0"
         style={{
-          backgroundImage: 'url(../img/Family.jpg)',
+          backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FFamily.jpg?alt=media&token=4e8942b1-f4b4-4026-850f-b572025d8774)',
           backgroundAttachment: `fixed`,
         }}
       >
