@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import Button from 'react-bootstrap/Button';
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -61,7 +63,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start has-text-centered" style={{marginLeft: "auto", marginRight: "inherit",}}>
               <Link className="navbar-item" to="/about">
                 About
               </Link>
@@ -74,6 +76,35 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact Us
               </Link>
+              <Link className="navbar-item">
+                Pricing
+              </Link>
+              <Button variant="primary" style={{
+                  margin: '10px',
+                  color: '#4a4a4a',
+                  fontSize: '1em',
+                  borderColor: '#FFF',
+                  backgroundColor: '#8080804d',
+                  borderRadius: '10px',
+                  width: '80px',
+                  padding: '0.5rem 0.75rem',
+              }}>
+                Login
+              
+              </Button>
+              <Button variant="primary" style={{
+                  margin: '10px',
+                  color: '#4a4a4a',
+                  fontSize: '1em',
+                  borderColor: '#FFF',
+                  borderRadius: '10px',
+                  width: '80px',
+                  backgroundColor: '#ffa207d1',
+                  padding: '0.5rem 0.75rem',
+              }}>
+                Join
+              
+              </Button>
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}
