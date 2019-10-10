@@ -437,7 +437,7 @@ export const IndexPageTemplate = ({
                 </Grid>
                 <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
                   <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Ffather.jpg?alt=media&token=750840c5-8bb0-458b-89d3-c9137bf4d9be)',
                       height: '60vh',
                       }}>
                   </Grid> 
