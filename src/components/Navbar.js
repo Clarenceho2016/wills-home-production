@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMy_TRIBE_LOGO.png?alt=media&token=4f517636-506c-44be-a0af-429e1f63bd0e"}  style={{ width: '88px' }} />
+              <img hlt="testtesttest"  src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fmy-tribe-blue-logo-horz.png?alt=media&token=67bac6f5-5d80-4970-87f6-96e08abaadc3"}  style={{ position: 'relative' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                   backgroundColor: '#8080804d',
                   borderRadius: '10px',
                   width: '80px',
-                  padding: '0.5rem 0.75rem',
+                  height: '37px',
               }}>
                 Login
               
@@ -99,8 +99,8 @@ const Navbar = class extends React.Component {
                   borderColor: '#FFF',
                   borderRadius: '10px',
                   width: '80px',
+                  height: '37px',
                   backgroundColor: '#ffa207d1',
-                  padding: '0.5rem 0.75rem',
               }}>
                 Join
               
