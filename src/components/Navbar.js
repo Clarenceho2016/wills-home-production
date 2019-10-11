@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                   backgroundColor: '#8080804d',
                   borderRadius: '10px',
                   width: '80px',
-                  padding: '0.5rem 0.75rem',
+                  height: '37px',
               }}>
                 Login
               
@@ -99,8 +99,8 @@ const Navbar = class extends React.Component {
                   borderColor: '#FFF',
                   borderRadius: '10px',
                   width: '80px',
+                  height: '37px',
                   backgroundColor: '#ffa207d1',
-                  padding: '0.5rem 0.75rem',
               }}>
                 Join
               

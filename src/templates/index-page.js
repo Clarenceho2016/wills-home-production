@@ -348,10 +348,10 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={12} className="grid-content">
                 <Button variant="primary" style={{
                     margin: '15px',
-                    
+                    width: '90px',            
                     borderRadius: '10px',
                     fontSize: '20px',
-                    padding: '15px',
+                    padding: '10px',
                 }}>
                   Book            
                 </Button>
