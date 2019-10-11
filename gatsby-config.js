@@ -3,6 +3,7 @@ var proxy = require('http-proxy-middleware')
 module.exports = {
   siteMetadata: {
     title: 'My-tribe',
+    description: 'My-tribe',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
