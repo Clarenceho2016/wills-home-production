@@ -9,8 +9,8 @@ intro:
     - image: /img/gfx-signup-started.png
       text: |
         Family package .......
-    - image: /img/chemex.jpg
-      text: 'Something new singles '
+    - image: /img/gfx-will.png
+      text: Standard Individual Packages
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
