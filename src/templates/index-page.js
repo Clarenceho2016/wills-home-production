@@ -110,7 +110,16 @@ export const IndexPageTemplate = ({
         
       </div>
     </Grid>
-    
+
+      <section className="section section--service">
+          <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh', }}>
+              <h1 style={{
+                  color: '#2b2523a3',
+                  fontSize: '2em',
+              }}> Your Next Steps </h1>
+          </div>
+      </section>
+
     <section className="section section--service">
       <div className="container-fluid">
         <div className="section">
@@ -119,7 +128,7 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                   <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faUserCircle} color='#00008b' />
+                    <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Register.png?alt=media&token=d31f25f6-4b03-44e2-9084-0b78143a9035"} alt="register"/>
                   </Grid>
                   <Grid item xs={12} className="grid-content icon-content">
                   <h3
@@ -139,7 +148,7 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                 <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faCalendarPlus} color='#00008b' />
+                    <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Book.png?alt=media&token=0c34eeac-12ee-4d71-96a5-ddf970f2680d"} alt="book" />
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
                   <h3
@@ -159,7 +168,7 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3} >
                 <Grid container spacing={12}>
                   <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faUserTie} color='#00008b'/>
+                      <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Consultation.png?alt=media&token=0ab3128f-edb9-4260-80f3-6192a97eda77"} alt="Consultation" />
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
                   <h3
@@ -179,21 +188,21 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                 <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faScroll} color='#00008b' />
+                    <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Will.png?alt=media&token=f137768d-92fe-4d5b-9b85-90cd2b3677d6"} alt="Will" />
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
-                  <h3
-                    style={{
-                      color: '#00008b',
-                      fontWeight: '400',
-                      position: 'static',
-                      lineHeight: '1',
-                      padding: '1.25em',
-                    }}
-                  >
-                    Will 
-                  </h3>
-                  </Grid>  
+                      <h3
+                          style={{
+                              color: '#00008b',
+                              fontWeight: '400',
+                              position: 'static',
+                              lineHeight: '1',
+                              padding: '1.25em',
+                          }}
+                      >
+                          Will
+                      </h3>
+                  </Grid>
                 </Grid>
               </Grid>    
             </Grid>
