@@ -11,7 +11,7 @@ import Grid from '@material-ui/core/Grid';
 
 //Font-Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMousePointer,faAddressBook,faUserTie,faScroll,faHandshake,faBrain,faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faMousePointer,faAddressBook,faUserTie,faScroll,faHandshake,faBrain,faArrowRight, faUserPlus, faUserCircle, faCalendarPlus, } from '@fortawesome/free-solid-svg-icons'
 import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
                   padding: '0.25em',
                 }}
               >
-                Wills in a Day.
+                1 Day or 7 Days Will
               </h3>
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
                   padding: '0.25em',
                 }}
               >
-                Wills in a week.
+                We speak your language
               </h3>
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                   padding: '0.25em',
                 }}
               >
-                We come to you.
+                Experts in the field of law
               </h3>
 
               <Button variant="primary" style={{
@@ -119,19 +119,19 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                   <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faMousePointer} />
+                    <FontAwesomeIcon icon={faUserCircle} color='#00008b' />
                   </Grid>
                   <Grid item xs={12} className="grid-content icon-content">
                   <h3
                     style={{
-                      color: '#2b2523a3',
+                      color: '#00008b',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
                       padding: '1.25em',
                     }}
                   >
-                    Register
+                    Sign-up
                   </h3>
                   </Grid>  
                 </Grid>
@@ -139,12 +139,12 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                 <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faAddressBook} />
+                    <FontAwesomeIcon icon={faCalendarPlus} color='#00008b' />
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
                   <h3
                     style={{
-                      color: '#2b2523a3',
+                      color: '#00008b',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
@@ -159,12 +159,12 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3} >
                 <Grid container spacing={12}>
                   <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faUserTie} />
+                    <FontAwesomeIcon icon={faUserTie} color='#00008b'/>
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
                   <h3
                     style={{
-                      color: '#2b2523a3',
+                      color: '#00008b',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
@@ -179,12 +179,12 @@ export const IndexPageTemplate = ({
               <Grid item xs={12} sm={3}>
                 <Grid container spacing={12}>
                 <Grid item xs={12}  className="grid-content icon-content">
-                    <FontAwesomeIcon icon={faScroll} />
+                    <FontAwesomeIcon icon={faScroll} color='#00008b' />
                   </Grid>
                   <Grid item xs={12}  className="grid-content icon-content">
                   <h3
                     style={{
-                      color: '#2b2523a3',
+                      color: '#00008b',
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
@@ -206,9 +206,7 @@ export const IndexPageTemplate = ({
       <div
         className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
+            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhome-real-estate-106399-min.jpg?alt=media&token=f8ae6499-4c26-4e0b-b282-7dcb805ee420)`,
             height: '60vh',
             backgroundPosition: 'center',
           }}

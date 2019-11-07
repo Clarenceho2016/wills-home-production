@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item">
                 Pricing
               </Link>
-              <Button variant="primary" style={{
+              <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
                   margin: '10px',
                   color: '#4a4a4a',
                   fontSize: '1em',
@@ -90,9 +90,9 @@ const Navbar = class extends React.Component {
                   height: '37px',
               }}>
                 Login
-              
+
               </Button>
-              <Button variant="primary" style={{
+              <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
                   margin: '10px',
                   color: '#4a4a4a',
                   fontSize: '1em',
@@ -103,7 +103,7 @@ const Navbar = class extends React.Component {
                   backgroundColor: '#ffa207d1',
               }}>
                 Join
-              
+
               </Button>
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
