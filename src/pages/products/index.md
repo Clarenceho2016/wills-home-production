@@ -58,32 +58,31 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/group-of-people-in-dress-suits-776615-min.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Getting the right will
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We make it simple to receive the right advice in the comfort of your own
+    home. It's a matter of someone listening to what you need and providing the
+    right customised advice. 
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: 'Perfect for singles '
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - Includes XYZ
+      plan: Standard Wills Individual
+      price: '275'
+    - description: 'Perfect for something '
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Great for XYZ
+      plan: Testamentary Trust Wills Individual
+      price: '770'
+    - description: 'Wills for couples '
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - GReat for AOS
+      plan: Standard Wills Couple
+      price: '550'
+    - description: 'Full package for all couples '
+      items:
+        - This is great for QIE
+      plan: Testamentary Trust Wills Couple
+      price: '1400'
 ---
 
