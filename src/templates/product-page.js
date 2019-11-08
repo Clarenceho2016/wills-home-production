@@ -43,9 +43,22 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+            <div className="column is-2 " style={{
+                justifyContent: 'center !important',
+            }}>
+              <h3 className="has-text-weight-semibold is-size-2"  style={{
+                justifyContent: 'center !important',
+                textAlign: 'center',
+                boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
+                backgroundColor: '#007bff',
+                color: 'white',
+                padding: '2rem',
+              }}
+              >{heading}</h3>
+              <h5 style={{
+                justifyContent: 'center !important',
+                textAlign: 'center',
+              }}>{description}</h5>
             </div>
           </div>
           <div className="columns">
