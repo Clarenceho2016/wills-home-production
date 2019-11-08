@@ -43,7 +43,7 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-8 " style={{
+            <div className="column is-7" style={{
                 justifyContent: 'center !important',
             }}>
               <h3 className="has-text-weight-semibold is-size-2"  style={{
@@ -65,7 +65,7 @@ export const ProductPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Features gridItems={intro.blurbs} />
               <div className="columns">
-                <div className="column is-5" >
+                <div className="column is-8" >
                   <h3 className="has-text-weight-semibold is-size-3" style={{
                     justifyContent: 'center !important',
                     textAlign: 'center',
