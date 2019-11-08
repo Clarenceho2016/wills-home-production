@@ -65,8 +65,13 @@ export const ProductPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Features gridItems={intro.blurbs} />
               <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
+                <div className="column is-5" >
+                  <h3 className="has-text-weight-semibold is-size-3" style={{
+                    justifyContent: 'center !important',
+                    textAlign: 'center',
+                    color: '#007bff',
+                    padding: '2rem',
+                  }} >
                     {main.heading}
                   </h3>
                   <p>{main.description}</p>
