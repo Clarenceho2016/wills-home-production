@@ -43,7 +43,7 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-2 " style={{
+            <div className="column is-8 " style={{
                 justifyContent: 'center !important',
             }}>
               <h3 className="has-text-weight-semibold is-size-2"  style={{
