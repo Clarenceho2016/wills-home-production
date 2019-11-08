@@ -40,13 +40,13 @@ main:
     Hello 
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/people-gathered-inside-house-sitting-on-sofa-1054974-min.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/woman-posing-937483-min.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/men-s-wearing-black-suit-jacket-and-pants-937481-min.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
