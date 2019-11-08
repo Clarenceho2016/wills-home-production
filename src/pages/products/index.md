@@ -48,14 +48,14 @@ main:
     alt: Coffee beans
     image: /img/men-s-wearing-black-suit-jacket-and-pants-937481-min.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Jane Kauris
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      I used My Tribe for the first time the other day and process was easy and
+      simple.
+  - author: Geoff Limonsh
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      I didn't know making a will could be so simple, in fact I didn't have to
+      leave the comfort of my own home
 full_image: /img/group-of-people-in-dress-suits-776615-min.jpg
 pricing:
   heading: Getting the right will
