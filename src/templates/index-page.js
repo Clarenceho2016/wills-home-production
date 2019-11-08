@@ -137,7 +137,7 @@ export const IndexPageTemplate = ({
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
-                      padding: '1.25em',
+                      padding: '.75em',
                     }}
                   >
                     Sign-up
@@ -157,7 +157,7 @@ export const IndexPageTemplate = ({
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
-                      padding: '1.25em',
+                      padding: '.75em',
                     }}
                   >
                     Book
@@ -177,7 +177,7 @@ export const IndexPageTemplate = ({
                       fontWeight: '400',
                       position: 'static',
                       lineHeight: '1',
-                      padding: '1.25em',
+                      padding: '.75em',
                     }}
                   >
                     Consultation 
@@ -197,7 +197,7 @@ export const IndexPageTemplate = ({
                               fontWeight: '400',
                               position: 'static',
                               lineHeight: '1',
-                              padding: '1.25em',
+                              padding: '.75em',
                           }}
                       >
                           Will
@@ -439,12 +439,12 @@ export const IndexPageTemplate = ({
                       padding: '1.25em',
                     }}
                     >
-                    For Lawyers 
+                    For Referrers
                   </a>
                 </Grid>
                 <Grid item xs={12} sm={12} style={{padding: '1.25em'}}>
                   <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Ffather.jpg?alt=media&token=750840c5-8bb0-458b-89d3-c9137bf4d9be)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
                       height: '60vh',
                       }}>
                   </Grid> 
