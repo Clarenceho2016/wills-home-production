@@ -8,7 +8,7 @@ const lawyer = () => {
             <Layout>
                 <section className="section">
                     <div className="full-width-image-container-lawyer"><img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022%20(1)%20(1).jpg?alt=media&token=3ac2f77e-31a8-41d7-a6c3-84e59bf6325b"} alt="register"/></div>
-                    <div className="container" style={{ bottom: '-250px', }}>
+                    <div className="container" style={{ bottom: '-100px', }}>
                         <div className="content" style={{ padding: '300px', }}>
                             <h1>Lawyers from MyTribe</h1>
                             <p>
