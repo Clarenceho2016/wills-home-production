@@ -43,7 +43,7 @@ main:
     image: /img/people-gathered-inside-house-sitting-on-sofa-1054974-min.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/woman-posing-937483-min.jpg
+    image: /img/man-and-woman-discussing-and-sharing-ideas-2977565.jpg
   image3:
     alt: Coffee beans
     image: /img/men-s-wearing-black-suit-jacket-and-pants-937481-min.jpg
