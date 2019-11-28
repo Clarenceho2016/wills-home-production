@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact Us
               </Link>
-              <Link className="navbar-item">
+              <Link className="navbar-item" to="/products">
                 Pricing
               </Link>
               <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{

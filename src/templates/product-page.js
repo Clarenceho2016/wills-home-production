@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Button from "react-bootstrap/Button";
 
 export const ProductPageTemplate = ({
   image,
@@ -160,6 +161,24 @@ const ProductPage = ({ data }) => {
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
       />
+      <Button variant="primary" style={{
+        margin: '15px',
+        width: '50%',
+        borderRadius: '10px',
+        fontSize: '20px',
+        padding: '15px',
+      }}>
+        <Link to="/products" style={{
+          margin: '15px',
+          width: '50%',
+          position: 'center',
+          borderRadius: '10px',
+          fontSize: '20px',
+          color: '#ffffff',
+          padding: '15px',}}>
+          Sign-Up and Book
+        </Link>
+      </Button>
     </Layout>
   )
 }
@@ -187,7 +206,7 @@ export const productPageQuery = graphql`
           }
         }
         heading
-        description
+        description         
         intro {
           blurbs {
             image {

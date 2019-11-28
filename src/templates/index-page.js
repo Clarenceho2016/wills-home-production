@@ -101,8 +101,15 @@ export const IndexPageTemplate = ({
                   fontSize: '20px',
                   padding: '15px',
               }}>
+                  <Link to="/products" style={{
+                      margin: '15px',
+                      width: '50%',
+                      borderRadius: '10px',
+                      fontSize: '20px',
+                      color: '#ffffff',
+                      padding: '15px',}}>
                 Learn More
-              
+                  </Link>
               </Button>
             </div>  
         </Grid>
@@ -353,7 +360,7 @@ export const IndexPageTemplate = ({
               marginBottom : '20px',
             }} container spacing={12}>
               <Grid item xs={12} sm={12} className="grid-content">
-                <Button variant="primary" style={{
+                <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
                     margin: '15px',
                     width: '90px',            
                     borderRadius: '10px',
@@ -412,7 +419,7 @@ export const IndexPageTemplate = ({
                   </h4>
                 </Grid>
                 <Grid item xs={12} style={{textAlign: 'left', margin: '20px'}}> 
-                  <a
+                  <Link to="/products"
                     style={{
                       color: '#3273dc',
                       fontWeight: '400',
@@ -422,7 +429,7 @@ export const IndexPageTemplate = ({
                   >
                    Learn More
                    <FontAwesomeIcon style={{ marginLeft: '20px'}} icon={faArrowRight} />
-                  </a>
+                  </Link>
                   
                 </Grid>  
               </Grid>
