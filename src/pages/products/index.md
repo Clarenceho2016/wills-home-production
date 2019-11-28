@@ -39,7 +39,7 @@ main:
 
     Hello 
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: 'Specialists in all departments '
     image: /img/nik-macmillan-yxemfqipr_e-unsplash.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
