@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
                   padding: '0.25em',
                 }}
               >
-                1 Day or 7 Days Will
+                All Day Wills
               </h3>
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
