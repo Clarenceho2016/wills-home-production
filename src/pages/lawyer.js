@@ -7,21 +7,41 @@ import Grid from "@material-ui/core/Grid";
 
 const lawyer = () => {
     return (
-            <Layout>
-                <section className="section">
-                    <div className="full-width-image-container-lawyer"><img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022%20(1)%20(1).jpg?alt=media&token=3ac2f77e-31a8-41d7-a6c3-84e59bf6325b"} alt="register"/></div>
-                    <div className="container" style={{ bottom: '-100px', }}>
-                            <div className="container1" style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems:'center', justifyContent:'center', }}>
-                            <h1 style={{ color: 'white', fontSize: '50px',}}>Lawyers from MyTribe</h1>
-                            <ul>
-                                <li style={{ color: 'white',}}>
-                                    <Link to="/contact">Lawyers register here</Link>
-                                </li>
-                            </ul>
-                            </div>
+        <Layout>
+            <section className="section"  >
+                <div className="full-width-image-container-lawyer">
+
+                    <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022%20(1)%20(1).jpg?alt=media&token=3ac2f77e-31a8-41d7-a6c3-84e59bf6325b"} alt="register" />
+                </div>
+
+                <div className="container" >
+                    <div className="content" style={{
+                        minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center',
+                    }}>
+                        <h1 style={{ color: 'white', fontSize: '3vw', background: 'orange', padding: '1vw', }}>Lawyers from MyTribe</h1>
+
                     </div>
-                </section>
-            </Layout>
+                </div>
+
+            </section>
+
+
+            <section className="section" style={{ paddingTop: "25vh" }}>
+                <div
+                    style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1vw' }}>
+                    <ul>
+                        <li style={{ color: 'white' }}>
+                            <Link to="/contact" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '32px' }}>Lawyers register here</Link>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <p>Lawyers choose MyTribe for flexibility, on-demand client bookings, access to new jobs and more</p>
+                </div>
+
+            </section>
+        </Layout>
     )
 }
 
