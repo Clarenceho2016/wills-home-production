@@ -16,9 +16,9 @@ const lawyer = () => {
 
                 <div className="container" >
                     <div className="content" style={{
-                        minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center',
+                        minHeight: '35rem', display: 'flex', justifyContent: 'center', alignItems: 'center',
                     }}>
-                        <h1 style={{ color: 'white', fontSize: '3vw', background: 'orange', padding: '1vw', }}>Lawyers from MyTribe</h1>
+                        <h1 className="has-text-weight-bold is-size-1" style={{ color: 'white', fontSize: '3vw', fontweight: 'bold', backgroundColor: '#007bff', padding: '1vw', }}>Lawyers from MyTribe</h1>
 
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const lawyer = () => {
             </section>
 
 
-            <section className="section" style={{ paddingTop: "25vh" }}>
+            <section className="section" >
                 <div
                     style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1vw' }}>
                     <ul>

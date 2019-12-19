@@ -161,25 +161,35 @@ const ProductPage = ({ data }) => {
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
       />
-      <Button variant="primary" style={{
-        margin: '15px',
-        width: '50%',
-        borderRadius: '10px',
-        fontSize: '20px',
-        padding: '15px',
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignContent: 'center'
       }}>
-        <Link to="/products" style={{
+        <Button variant="primary" style={{
           margin: '15px',
-          width: '50%',
-          position: 'center',
+
           borderRadius: '10px',
           fontSize: '20px',
-          color: '#ffffff',
           padding: '15px',
+
+
+
+
         }}>
-          Sign-Up and Book
+          <Link to="/products" style={{
+            margin: '15px',
+            width: '50%',
+            position: 'center',
+            borderRadius: '10px',
+            fontSize: '20px',
+            color: '#ffffff',
+            padding: '15px',
+          }}>
+            Sign-Up and Book
         </Link>
-      </Button>
+        </Button>
+      </div>
     </Layout>
   )
 }

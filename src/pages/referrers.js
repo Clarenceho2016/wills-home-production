@@ -11,22 +11,24 @@ const referrers = () => {
         <Layout>
             <section className="section" >
 
-                <div className="full-width-image-container-lawyer"><img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-people-doing-handshakes-3184420%20(1).jpg?alt=media&token=8688617e-1d81-415b-b5e1-897659383b25"} alt="register" /></div>
+                <div className="full-width-image-container-lawyer">
+                    <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-people-doing-handshakes-3184420%20(1).jpg?alt=media&token=8688617e-1d81-415b-b5e1-897659383b25"} alt="register" />
+                </div>
 
                 <div className="container" >
-                    <div className="content" style={{ minHeight: "80vh", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <h1 style={{ color: 'white', fontSize: '3vw', background: 'orange', padding: '1vw', }}>Referrers from MyTribe</h1>
+                    <div className="content" style={{ minHeight: "33rem", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <h1 className="has-text-weight-bold is-size-1" style={{ color: 'white', fontSize: '3vw', backgroundColor: '#007bff', padding: '1vw', }}>Referrers from MyTribe</h1>
                     </div>
                 </div>
 
             </section>
 
-            <section className="section" style={{ paddingTop: "15vh" }} >
+            <section className="section"  >
 
                 <div >
                     <div style={{ padding: '1vw', display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
 
-                        <h1 style={{ fontSize: '3vw' }}>What type of organisations can register on MyTribe?
+                        <h1 style={{ fontSize: '3vw', fontweight: 'bold' }}>What type of organisations can register on MyTribe?
                         </h1>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginLeft: "10vw", marginRight: '10vw' }}>
@@ -40,7 +42,7 @@ const referrers = () => {
                         Referrers can easily register their organisations on MyTribe to refer clients to MyTribe Lawyers.
                         </p>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '20px' }}>
                     <ul>
                         <li style={{ color: 'white' }}>
                             <Link to="/contact">Referrers register here</Link>

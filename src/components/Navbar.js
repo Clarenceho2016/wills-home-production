@@ -25,11 +25,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -41,12 +41,12 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
 
-        style={{position: 'fixed', width: '100%'}}
+        style={{ position: 'fixed', width: '100%' }}
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img hlt="testtesttest"  src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fmy-tribe-blue-logo-horz.png?alt=media&token=67bac6f5-5d80-4970-87f6-96e08abaadc3"}  style={{ position: 'relative' }} />
+              <img hlt="testtesttest" src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fmy-tribe-blue-logo-horz.png?alt=media&token=67bac6f5-5d80-4970-87f6-96e08abaadc3"} style={{ position: 'relative' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -63,47 +63,49 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered" style={{marginLeft: "auto", marginRight: "inherit",}}>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
+            <div className="navbar-start has-text-centered" style={{ marginLeft: "auto", marginRight: "inherit", }}>
+
               <Link className="navbar-item" to="/lawyer">
                 Lawyer
               </Link>
-                <Link className="navbar-item" to="/referrers">
-                    Referrers
+              <Link className="navbar-item" to="/referrers">
+                Referrers
                 </Link>
-              {/* <Link className="navbar-item" to="/blog">
+
+              <Link className="navbar-item" to="/products">
+                Products
+              </Link>
+              <Link className="navbar-item" to="/blog">
                 Blog
-              </Link> */}
+              </Link>
               <Link className="navbar-item" to="/contact">
                 Contact Us
               </Link>
-              <Link className="navbar-item" to="/products">
-                Pricing
-              </Link>
+
               <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
-                  margin: '10px',
-                  color: '#4a4a4a',
-                  fontSize: '1em',
-                  borderColor: '#FFF',
-                  backgroundColor: '#8080804d',
-                  borderRadius: '10px',
-                  width: '80px',
-                  height: '37px',
+                margin: '10px',
+                color: '#4a4a4a',
+                fontSize: '1em',
+                borderColor: '#FFF',
+                backgroundColor: '#8080804d',
+
+                borderRadius: '10px',
+                width: '80px',
+                height: '37px',
               }}>
                 Login
 
               </Button>
               <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
-                  margin: '10px',
-                  color: '#4a4a4a',
-                  fontSize: '1em',
-                  borderColor: '#FFF',
-                  borderRadius: '10px',
-                  width: '80px',
-                  height: '37px',
-                  backgroundColor: '#ffa207d1',
+                margin: '10px',
+                color: '#4a4a4a',
+                fontSize: '1em',
+                borderColor: '#FFF',
+                borderRadius: '10px',
+                width: '80px',
+                height: '37px',
+                backgroundColor: '#007bff',
+                /*backgroundColor: '#ffa207d1',*/
               }}>
                 Join
 
