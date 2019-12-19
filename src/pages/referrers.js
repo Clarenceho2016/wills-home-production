@@ -26,10 +26,10 @@ const referrers = () => {
             <section className="section"  >
 
                 <div >
-                    <div style={{ padding: '1vw', display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
+                    <div style={{ padding: '1vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginLeft: "10vw", marginRight: '10vw' }}>
 
-                        <h1 style={{ fontSize: '3vw', fontweight: 'bold' }}>What type of organisations can register on MyTribe?
-                        </h1>
+                        <p style={{ fontSize: '25px', fontWeight: 'bold' }}>What type of organisations can register on MyTribe?
+                        </p>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginLeft: "10vw", marginRight: '10vw' }}>
                         <p> Financial Planners, Accountants, Law Firms, Wealth Managers and more. We recommend is to use registering your organisation to get the benefits of trailing commissions provided by MyTribe.
