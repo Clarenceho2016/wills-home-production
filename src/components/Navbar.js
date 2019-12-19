@@ -84,7 +84,7 @@ const Navbar = class extends React.Component {
 
               <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
                 margin: '10px',
-                color: '#4a4a4a',
+                color: 'white',
                 fontSize: '1em',
                 borderColor: '#FFF',
                 backgroundColor: '#8080804d',
@@ -98,7 +98,7 @@ const Navbar = class extends React.Component {
               </Button>
               <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
                 margin: '10px',
-                color: '#4a4a4a',
+                color: 'white',
                 fontSize: '1em',
                 borderColor: '#FFF',
                 borderRadius: '10px',
