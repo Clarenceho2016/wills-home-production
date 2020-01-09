@@ -15,6 +15,7 @@ const referrers = () => {
                     backgroundImage: `url(${
                         bg
                         })`,
+                    backgroundPosition: '10px 18px 18px 20px'
                 }}
             >
                 <h2
