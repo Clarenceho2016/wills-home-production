@@ -1,6 +1,6 @@
 ---
 templateKey: 'tc-page'
-path: /terms&conditions
+# path: /terms&conditions
 title: MyTribe Terms and Conditions of Service
 ---
 
