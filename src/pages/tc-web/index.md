@@ -99,7 +99,7 @@ To the maximum extent permitted by law, MyTribe provides our Site and content on
 (b) any third party contents therein directly or indirectly accessed through links in the Site, including but not limited to any errors or omissions;  
 (c) the unavailability of the Site, or any portion;or  
 (d) computer viruses, system failure or malfunction which may occur in connection with your use of the Site, including during hyperlink to or from third party content;or  
-(e) our supply of Products to you in accordance with our Terms of Service [link].
+(e) our supply of Products to you in accordance with our [Terms of Service](https://www.my-tribe.com.au/tc-service).
 
 To the maximum extent permitted by law, MyTribe will not have any liability to you for any direct, indirect,special or consequential losses or damages arising in contract, tort (including, without limitation, negligence) or otherwise arising from your use of or your inability to use our Site. To the extent the foregoing limitation of liability is prohibited or despite the limitation above, in the event that MyTribe is found to be liable to you, our total aggregate liability is limited to the purchase price of the Products you have paid for.
 If any warranties are implied by law that cannot be excluded, then to the maximum extent permitted by law, our liability for breach of such warranties is limited to the purchase price of the Products you have paid for.
