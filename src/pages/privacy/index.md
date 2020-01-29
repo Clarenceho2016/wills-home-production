@@ -4,7 +4,7 @@ templateKey: 'tc-page'
 title: MyTribe Privacy Policy
 ---
 
-Elysium Pty Ltd (ACN 627 988 363) (**we**, **our**, **us** or **MyTribe**) is committed to protecting the privacy of all visitors to our website [www.my-tribe.com.au](**Site**).  
+Elysium Pty Ltd (ACN 627 988 363) (**we**, **our**, **us** or **MyTribe**) is committed to protecting the privacy of all visitors to our website [www.my-tribe.com.au]() (**Site**).  
 This Privacy Policy sets out our commitment to protecting the privacy of your personal information that we collect through this or otherwise directly from you.  
 Please read this Privacy Policy carefully. Please contact us if you have any questions – our contact details are at the end of this Privacy Policy.  
 You providing us with personal information indicates that you have had sufficient opportunity to access this Privacy Policy and that you have read and accepted it.  
@@ -66,7 +66,7 @@ We may disclose personal information:
 
 (c) to courts, tribunals, regulatory authorities and law enforcement officers as required by law, in connection with any actual or prospective legal proceedings, or in order to establish, exercise or defend our legal rights; and
 
-(d) to third parties, including your accountant or financial advisors, our agents or sub-contractors, who assist us in providing information, products, services or direct marketing to you. This may include parties located, or that store data, outside of Australia.
+(d) to third parties, including your accountant or financial advisors, our agents or sub-contractors, who assist us in providing information, products, services or direct marketing to you. This may include parties located, or that store data, outside of Australia.  
 Where we disclose your personal information to third parties for these purposes, we will request that the third party follow this Privacy Policy regarding handling of your personal information.
 If there is a change of control of our business or a sale or transfer of business assets, we reserve the right to transfer to the extent permissible by law our user databases, together with any personal information and non-personal information contained in those databases. This information may be disclosed to a potential purchaser. We would seek to only disclose information in good faith and to maintain confidentiality.
 
@@ -74,13 +74,15 @@ If there is a change of control of our business or a sale or transfer of busines
 
 Sensitive information is a sub-set of personal information that is given a higher level of protection under the Australian Privacy Principles.
 In referring to ‘sensitive information’ we mean:
+
 (a) information that relates to your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation or practices and criminal records;
 
 (b) health information; or
 
 (c) biometric information.
 The type of sensitive information that we may collect includes information about your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation or practices and criminal records.
-Sensitive information will be used and disclosed for the purpose of:
+
+Sensitive information will be used and disclosed for the purpose of:  
 (a) responding to your queries in respect of legal documents, advice and services;
 
 (b) providing information to our employees and contractors for the purposes of assisting you and managing your matter;
@@ -93,9 +95,13 @@ Sensitive information may also be used or disclosed if required or authorised by
 ## 5. Your rights and controlling your personal information
 
 Providing us with your personal information is optional to you. You can choose not to provide personal information. When you provide us with your personal information, you consent to the terms in this Privacy Policy, and to us disclosing or receiving your personal information for these purposes.
-You may choose to restrict the collection or use of your personal information. If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by contacting us at the email address listed in this Privacy Policy.  
+
+You may choose to restrict the collection or use of your personal information. If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by contacting us at the email address listed in this Privacy Policy.
+
 You may request details of personal information that we hold about you, in certain circumstances set out in the Privacy Act 1988 (Cth). An administrative fee may be payable for the provision of information. We may refuse to provide you with information that we hold about you, in certain circumstances set out in the Privacy Act.
+
 If you believe that any information we hold about you is inaccurate, out of date, incomplete, irrelevant or misleading, please contact us by email. We rely in part upon clients advising us when their personal information changes. We will respond to any request within a reasonable time. We will endeavour to promptly correct any information found to be inaccurate, incomplete or out of date.
+
 If you believe that we have breached the Australian Privacy Principles and wish to make a complaint about that breach, please contact us by email setting out details of the breach. We will promptly investigate your complaint and respond to you in writing setting out the outcome of our investigation, what steps we propose to take to remedy the breach and any other action we will take to deal with your complaint.
 To unsubscribe from our e-mail database, or opt out of communications, please contact us using the details below.
 
@@ -119,4 +125,4 @@ This Privacy Policy may be amended, including with changes, additions and deleti
 
 ## 10. Your Concerns
 
-If you have any concerns about material which appears on our Service, please contact support@my-tribe.com.au
+If you have any concerns about material which appears on our Service, please contact [support@my-tribe.com.au]().
