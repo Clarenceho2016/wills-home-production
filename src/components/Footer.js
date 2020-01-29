@@ -39,7 +39,11 @@ const Footer = class extends React.Component {
                         Products
                       </Link>
                     </li>
-
+                    <li>
+                      <Link className="navbar-item" to="/tc-service">
+                        Terms & Conditions-Service
+                      </Link>
+                    </li>
                     {/*<li>
                       <a
                         className="navbar-item"
@@ -67,10 +71,17 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/tc-web">
-                        Terms & Conditions
+                      <Link className="navbar-item" to="/privacy">
+                        Privacy Policy
                       </Link>
                     </li>
+                    <li>
+                      <Link className="navbar-item" to="/tc-web">
+                        Terms & Conditions-Website
+                      </Link>
+                    </li>
+
+
                   </ul>
                 </section>
               </div>

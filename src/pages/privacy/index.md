@@ -1,6 +1,6 @@
 ---
 templateKey: 'tc-page'
-# path: /terms&conditions
+
 title: MyTribe Privacy Policy
 ---
 
