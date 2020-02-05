@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 import Button from 'react-bootstrap/Button';
-
+import Dropdown from './Dropdown';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -65,37 +65,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered" style={{ marginLeft: "auto", marginRight: "inherit", }}>
 
-              <Link className="navbar-item" to="/lawyer">
-                Lawyer
-              </Link>
-              <Link className="navbar-item" to="/referrers">
-                Referrers
-                </Link>
 
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact Us
-              </Link>
-
-              <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
-                margin: '10px',
-                color: 'white',
-                fontSize: '1em',
-                borderColor: '#FFF',
-                backgroundColor: '#8080804d',
-
-                borderRadius: '10px',
-                width: '80px',
-                height: '37px',
-              }}>
-                Login
-
-              </Button>
               <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
                 margin: '10px',
                 color: 'white',
@@ -110,6 +80,22 @@ const Navbar = class extends React.Component {
                 Join
 
               </Button>
+              <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
+                margin: '10px',
+                color: 'white',
+                fontSize: '1em',
+                borderColor: '#FFF',
+                backgroundColor: '#8080804d',
+
+                borderRadius: '10px',
+                width: '80px',
+                height: '37px',
+              }}>
+                Login
+
+              </Button>
+
+              <Dropdown></Dropdown>
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}
