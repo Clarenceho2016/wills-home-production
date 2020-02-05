@@ -355,7 +355,6 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-
       <section style={{ padding: '0px' }} className="section section--Booking">
         <div className="container-fluid">
           <div style={{ padding: '0px', margin: '20px' }} className="section">
@@ -375,134 +374,128 @@ export const IndexPageTemplate = ({
                 </Button>
                 </Grid>
               </Grid>
+
+
+
+
+              {/* styling */}
+
+
+              <h3 style={{ marginLeft: '2vw', fontSize: '3rem' }}>Title</h3>
               <Grid container spacing={12}>
-                <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
-                  <Grid item xs={12} >
-                    <a
-                      style={{
-                        fontSize: '2em',
-                        color: '#3273dc',
-                        fontWeight: '400',
-                        position: 'static',
-                        lineHeight: '1',
-                        padding: '1.25em',
-                      }}
-                    >
-                      For Clients
-                  </a>
-                  </Grid>
+                <Grid item xs={12} sm={4} >
+
                   <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
                       backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
                       height: '60vh',
                     }}>
-                    </Grid>
-                  </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <h3
-                      style={{
-                        color: '#2b2523a3',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '2rem'
-                      }}
-                    >
-                      Who do you need a will ?
-                  </h3>
-                  </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <h4
-                      style={{
-                        color: '#2b2523a3',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '1.5rem'
-                      }}
-                    >
-                      Ask the right questions when it comes to your personal will
-                  </h4>
-                  </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <Link to="/products"
-                      style={{
-                        color: '#3273dc',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '1.5rem'
-                      }}
-                    >
-                      Learn More
-                   <FontAwesomeIcon style={{ marginLeft: '20px' }} icon={faArrowRight} />
-                    </Link>
 
+
+                      <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+
+                      </svg>
+
+                    </Grid>
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
+                      <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/products">
+                          Start Now
+              </Link></Button>
+
+                    </div>
                   </Grid>
+
                 </Grid>
 
-                <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
-                  <Grid item xs={12}>
-                    <a
-                      style={{
-                        color: '#3273dc',
-                        fontWeight: '400',
-                        fontSize: '2em',
-                        position: 'static',
-                        lineHeight: '1',
-                        padding: '1.25em',
-                      }}
-                    >
-                      For Referrers
-                  </a>
-                  </Grid>
+                <Grid item xs={12} sm={4} >
+
                   <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
                       backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
                       height: '60vh',
                     }}>
+
+                      <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+
+                      </svg>
                     </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
+                      <p style={{ color: '#ffffff' }}>Join as a lawyer on the platform.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/lawyer">
+                          Join Now
+              </Link>
+                      </Button>
+                    </div>
+
+
                   </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <h3
-                      style={{
-                        color: '#2b2523a3',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '2rem'
-                      }}
-                    >
-                      Who do you need a will ?
-                  </h3>
+
+
+
+
+                </Grid>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
+                      height: '60vh',
+                    }}>
+
+                      <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+
+                      </svg>
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
+                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/referrers">
+                          Join Now
+              </Link>
+                      </Button>
+
+                    </div>
+
+
                   </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <h4
-                      style={{
-                        color: '#2b2523a3',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '1.5rem'
-                      }}
-                    >
-                      Ask the right questions when it comes to your personal will
-                  </h4>
-                  </Grid>
-                  <Grid item xs={12} style={{ textAlign: 'left', margin: '20px' }}>
-                    <a
-                      style={{
-                        color: '#3273dc',
-                        fontWeight: '400',
-                        position: 'static',
-                        fontSize: '1.5rem'
-                      }}
-                    >
-                      Learn More
-                   <FontAwesomeIcon style={{ marginLeft: '20px' }} icon={faArrowRight} />
-                    </a>
-                  </Grid>
+
+
+
+
                 </Grid>
               </Grid>
             </div>
           </div>
         </div>
       </section>
+
 
       <Grid container spacing={3}>
         <div
