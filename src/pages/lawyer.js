@@ -36,7 +36,7 @@ const lawyer = () => {
                     style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0.5vw' }}>
                     <ul>
                         <li style={{ color: 'white' }}>
-                            <Link to="/contact" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '32px' }}>Lawyers register here</Link>
+                            <a href="https://app.my-tribe.com.au/lawyer-signup" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '32px' }}>Lawyers register here</a>
                         </li>
                     </ul>
                 </div>
