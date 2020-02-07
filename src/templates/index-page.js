@@ -392,10 +392,10 @@ export const IndexPageTemplate = ({
                     }}>
 
 
-                      <svg style={{ marginTop: '30vh' }}>
+                      {/* <svg style={{ marginTop: '30vh' }}>
                         <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#007bff" }}></polygon>
 
-                      </svg>
+                      </svg> */}
 
                     </Grid>
                     <div style={{
@@ -423,10 +423,10 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      <svg style={{ marginTop: '30vh' }}>
+                      {/* <svg style={{ marginTop: '30vh' }}>
                         <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "rgba(255, 162, 7)" }}></polygon>
 
-                      </svg>
+                      </svg> */}
                     </Grid>
 
                     <div style={{
@@ -460,10 +460,10 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      <svg style={{ marginTop: '30vh' }}>
+                      {/* <svg style={{ marginTop: '30vh' }}>
                         <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#152189 " }}></polygon>
 
-                      </svg>
+                      </svg> */}
                     </Grid>
 
                     <div style={{
