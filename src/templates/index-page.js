@@ -392,20 +392,20 @@ export const IndexPageTemplate = ({
                     }}>
 
 
-                      <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+                      {/* <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#007bff" }}></polygon>
 
-                      </svg>
+                      </svg> */}
 
                     </Grid>
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#007bff', paddingLeft: '2vw'
 
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
                       <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/products">
                           Start Now
               </Link></Button>
@@ -423,14 +423,14 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+                      {/* <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "rgba(255, 162, 7)" }}></polygon>
 
-                      </svg>
+                      </svg> */}
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw'
 
 
 
@@ -438,7 +438,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
                       <p style={{ color: '#ffffff' }}>Join as a lawyer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/lawyer">
                           Join Now
               </Link>
@@ -460,14 +460,14 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="0 0  400 350 0 350" style={{ fill: "#ff483b" }}></polygon>
+                      {/* <svg style={{ marginTop: '30vh' }}>
+                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#152189 " }}></polygon>
 
-                      </svg>
+                      </svg> */}
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#ff483b', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#152189 ', paddingLeft: '2vw'
 
 
 
@@ -475,7 +475,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
                       <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#00a396', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
               </Link>
