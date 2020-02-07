@@ -53,7 +53,7 @@ const referrers = () => {
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '20px' }}>
                     <ul>
                         <li style={{ color: 'white' }}>
-                            <Link to="/contact">Referrers register here</Link>
+                            <a href="https://app.my-tribe.com.au/referrer-signup">Referrers register here</a>
                         </li>
                     </ul>
                 </div>
