@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
         >
           <Grid item xs={12} sm={6}
             style={{
-              backgroundColor: '#ffffffcc',
+
               padding: '10px',
               display: 'flex',
               justifyContent: 'center',
@@ -50,65 +50,59 @@ export const IndexPageTemplate = ({
             <div
               style={{
                 display: 'flex',
-                height: '150px',
+                marginTop: '60px',
+                backgroundColor: '#ffffffcc',
+                paddingBottom: '20px',
+                paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
+                borderRadius: '3%',
               }}
             >
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
+                  // color: '#2b2523a3',
+                  fontBold: 'bold',
                   position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+                  lineHeight: '1.5',
+                  padding: '0.5em',
+
                 }}
               >
-                Day Wills
+                Protect your family’s future with MyTribe
               </h3>
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              <p
+                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
-                  position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+
+                  fontSize: '1.75rem',
+                  lineHeight: '1.5',
+                  padding: '1em',
                 }}
               >
-                We speak your language
-              </h3>
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
-                  position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
-                }}
-              >
-                Experts in the field of law
-              </h3>
+                MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
+              </p>
+
 
               <Button variant="primary" style={{
-                margin: '15px',
+                margin: '35px',
+
                 width: '50%',
                 borderRadius: '10px',
                 fontSize: '30px',
                 padding: '15px',
 
               }}>
-                <Link to="/products" style={{
+                <a href="#nav1" style={{
                   color: '#ffffff',
 
 
                 }}>
                   Learn More
-                  </Link>
+                  </a>
               </Button>
 
 
@@ -118,15 +112,15 @@ export const IndexPageTemplate = ({
             </div>
           </Grid>
 
-
         </div>
       </Grid>
 
       <section className="section section--service">
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', }}>
           <h1 style={{
-            color: '#2b2523a3',
+            color: 'black',
             fontSize: '2em',
+            fontWeight: '700',
           }}> Your Next Steps </h1>
         </div>
       </section>
@@ -151,9 +145,19 @@ export const IndexPageTemplate = ({
                           padding: '.75em',
                         }}
                       >
-                        Sign-up
+                        Join
                   </h3>
+
                     </Grid>
+                    <Grid><p style={{
+                      paddingLeft: '1vw',
+                      paddungRight: '1vw',
+                      color: 'black',
+                      fontSize: '1.125rem',
+                      lineHeight: '1',
+
+                    }}>
+                      <ul><li>Create an account in seconds.</li> <li>No need to provide a detailed family history.</li></ul></p></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -174,6 +178,17 @@ export const IndexPageTemplate = ({
                         Book
                   </h3>
                     </Grid>
+                    <Grid><p style={{
+                      // paddingLeft: '1vw',
+                      // paddungRight: '1vw',
+                      width: '28vw',
+                      color: 'black',
+                      fontSize: '1.125rem',
+                      lineHeight: '1',
+
+                    }}><ol>
+                        <li>Simply select the right <a style={{ fontSize: '1.25rem', fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
+                        <li>Pick the time and place for your meeting.</li></ol></p></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -191,9 +206,18 @@ export const IndexPageTemplate = ({
                           padding: '.75em',
                         }}
                       >
-                        Consultation
+                        Meet
                   </h3>
                     </Grid>
+                    <Grid><p style={{
+
+                      paddingLeft: '1vw',
+                      paddungRight: '1vw',
+                      color: 'black',
+                      fontSize: '1.125rem',
+                      lineHeight: '1',
+                    }}><ol><li>One of expert lawyers comes to advise you;</li>
+                        <li>Prepare tailored documents. </li></ol></p></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -211,9 +235,19 @@ export const IndexPageTemplate = ({
                           padding: '.75em',
                         }}
                       >
-                        Will
+                        Complete
                       </h3>
                     </Grid>
+
+                    <Grid><p style={{
+                      paddingLeft: '1vw',
+                      paddungRight: '1vw',
+                      color: 'black',
+                      fontSize: '1.125rem',
+                      lineHeight: '1',
+
+                    }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></Grid>
+
                   </Grid>
                 </Grid>
               </Grid>
@@ -239,20 +273,21 @@ export const IndexPageTemplate = ({
           <div className="section">
             <div className="column">
               <Grid style={{
-                marginBottom: '20px',
+                marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
                   <h3
                     style={{
-                      color: '#2b2523a3',
-                      fontWeight: '400',
-                      position: 'static',
+                      color: 'black',
+                      fontWeight: '700',
+                      // fontWeight: '700',
+                      // position: 'static',
                       lineHeight: '1',
                       marginBottom: '1em',
                       padding: '1.25em',
                     }}
                   >
-                    Why choose Wills platform?
+                    Why MyTribe?
                   </h3>
                 </Grid>
               </Grid>
@@ -351,20 +386,30 @@ export const IndexPageTemplate = ({
                   </Paper>
                 </Grid>
               </Grid>
+              <Grid item xs={12} className="grid-content icon-content">
+                <p style={{
+                  color: 'black',
+                  fontSize: '1.125rem',
+                  lineHeight: '1',
+                  padding: '0.5em',
+                }}>
+                  9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.
+                </p>
+              </Grid>
             </div>
           </div>
         </div>
       </section>
       <section style={{ padding: '0px' }} className="section section--Booking">
         <div className="container-fluid">
-          <div style={{ padding: '0px', margin: '20px' }} className="section">
+          <div style={{ padding: '0px', }} className="section">
             <div className="column">
               <Grid style={{
                 marginBottom: '20px',
               }} container spacing={12}>
                 <Grid item xs={12} sm={12} className="grid-content">
                   <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
-                    margin: '15px',
+
                     width: '90px',
                     borderRadius: '10px',
                     fontSize: '20px',
@@ -381,7 +426,7 @@ export const IndexPageTemplate = ({
               {/* styling */}
 
 
-              <h3 style={{ marginLeft: '2vw', fontSize: '3rem' }}>Title</h3>
+              <h3 id='nav1' style={{ marginLeft: '2vw', fontSize: '3rem' }}>Join Us</h3>
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} >
 
@@ -392,20 +437,17 @@ export const IndexPageTemplate = ({
                     }}>
 
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#007bff" }}></polygon>
-
-                      </svg> */}
 
                     </Grid>
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#007bff', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
 
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
-                      <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '17vh', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/products">
                           Start Now
               </Link></Button>
@@ -423,22 +465,20 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "rgba(255, 162, 7)" }}></polygon>
 
-                      </svg> */}
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
 
 
 
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
-                      <p style={{ color: '#ffffff' }}>Join as a lawyer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '17vh', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/lawyer">
                           Join Now
               </Link>
@@ -460,22 +500,19 @@ export const IndexPageTemplate = ({
                       height: '60vh',
                     }}>
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#152189 " }}></polygon>
 
-                      </svg> */}
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#152189 ', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8 ', paddingLeft: '2vw', paddingRight: '1.5vw', borderRadius: '0 0 5% 5%', height: '65vh'
 
 
 
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
-                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <p style={{ color: '#ffffff' }}>If you have client’s that need an estate plan, but don’t have the time to meet a lawyer.  Or, perhaps you don’t have a trusted lawyer you can refer your valued clients to.  MyTribe allows your organisation to create an account and make bookings on behalf of your clients. One of our lawyers can come to your office or to your client’s home, enabling you to be as involved in the process as you like and ensuring that your client’s get expert advice and an estate plan.</p>
+                      <Button style={{ marginTop: '10px', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
               </Link>
@@ -507,7 +544,7 @@ export const IndexPageTemplate = ({
         >
           <Grid item xs={12} sm={6}
             style={{
-              backgroundColor: '#ffffffcc',
+
               padding: '10px',
               display: 'flex',
               justifyContent: 'center',
@@ -518,24 +555,26 @@ export const IndexPageTemplate = ({
             <div
               style={{
                 display: 'flex',
-                height: '150px',
+                // height: '150px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
+                padding: '2rem',
                 flexDirection: 'column',
+                backgroundColor: '#ffffffcc',
+                borderRadius: '5%'
               }}
             >
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
+
                   position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+                  lineHeight: '1.5',
+                  padding: '0.5em',
                 }}
               >
-                Learn about our packages
+                Not all wills are the same. You have options. <br />Follow the link to learn more about different types of packages.
               </h3>
 
               <Button variant="primary" style={{
@@ -545,7 +584,7 @@ export const IndexPageTemplate = ({
                 fontSize: '40px',
                 padding: '15px',
               }}>
-                Learn More
+                <Link style={{ color: 'white' }} to='/products'>Learn More</Link>
               </Button>
             </div>
           </Grid>
@@ -599,38 +638,38 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
+        markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+        frontmatter {
         title
         image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+        childImageSharp {
+        fluid(maxWidth: 2048, quality: 100) {
+        ...GatsbyImageSharpFluid
+      }
       }
     }
+    heading
+    subheading
+        mainpitch {
+        title
+          description
+    }
+    description
+        intro {
+        blurbs {
+        image {
+        childImageSharp {
+        fluid(maxWidth: 240, quality: 64) {
+        ...GatsbyImageSharpFluid
+      }
+      }
+    }
+    text
   }
+  heading
+  description
+}
+}
+}
+}
 `

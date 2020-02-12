@@ -3,7 +3,9 @@ templateKey: product-page
 title: Wills Packages
 image: /img/home-real-estate-106399-min.jpg
 heading: We offer different packages to suit your needs
-description: 'Whether you''re a single, couple of family we have a package right for you. '
+description: 'Whether you''re a single, couple of family we have a package right for you. 
+Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. 
+'
 intro:
   blurbs:
     - image: /img/gfx-signup-started.png
