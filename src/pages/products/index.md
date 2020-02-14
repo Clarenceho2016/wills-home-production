@@ -1,10 +1,10 @@
 ---
 templateKey: product-page
 title: Wills Packages
-image: /img/home-real-estate-106399-min.jpg
+image: /img/lamp-near-window-3551216.jpg
 heading: We offer different packages to suit your needs
 description: 'Whether you''re a single, couple of family we have a package right for you. 
-Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. 
+
 '
 intro:
   blurbs:
@@ -39,7 +39,7 @@ main:
     across our core focus areas.
 
 
-    Hello 
+   
   image1:
     alt: 'Specialists in all departments '
     image: /img/nik-macmillan-yxemfqipr_e-unsplash.jpg
@@ -49,6 +49,9 @@ main:
   image3:
     alt: 'lawyer '
     image: /img/helloquence-oqmzwnd3thu-unsplash-3-.jpg
+  image4:
+    alt: 'will package for couples'
+    image: /img/blur-business-coffee-commerce-273222.jpg
 testimonials:
   - author: Jane Kauris
     quote: >-
@@ -87,4 +90,3 @@ pricing:
       plan: Testamentary Trust Wills Couple
       price: '1400'
 ---
-

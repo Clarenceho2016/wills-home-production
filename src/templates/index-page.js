@@ -86,26 +86,44 @@ export const IndexPageTemplate = ({
                 MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
               </p>
 
+              <div style={{ display: 'flex', flexDirection: 'row' }}>
+                <Button variant="primary" style={{
+                  margin: '35px',
 
-              <Button variant="primary" style={{
-                margin: '35px',
-
-                width: '50%',
-                borderRadius: '10px',
-                fontSize: '30px',
-                padding: '15px',
-
-              }}>
-                <a href="#nav1" style={{
-                  color: '#ffffff',
-
+                  width: '40%',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
 
                 }}>
-                  Learn More
+                  <a href="https://app.my-tribe.com.au/signup" target='_blank' style={{
+                    color: '#ffffff',
+                    borderRadius: '10px',
+
+                  }}>
+                    Book Today
                   </a>
-              </Button>
+                </Button>
+                <Button variant="primary" style={{
+                  margin: '35px',
+                  backgroundColor: '#8080804d',
+                  borderRadius: '10px',
+                  width: '40%',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
+                  border: 'none'
+
+                }}>
+                  <a href="#nav1" style={{
+                    color: '#ffffff',
 
 
+                  }}>
+                    Learn More
+                  </a>
+                </Button>
+              </div>
 
 
 
@@ -115,80 +133,111 @@ export const IndexPageTemplate = ({
         </div>
       </Grid>
 
-      <section className="section section--service">
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', }}>
+      {/* <section style={{ paddingBottom: '0px', }} className="section section--service">
+        <div id='nav1' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
           <h1 style={{
             color: 'black',
             fontSize: '2em',
             fontWeight: '700',
           }}> Your Next Steps </h1>
         </div>
-      </section>
+      </section> */}
 
-      <section className="section section--service">
+      <section style={{ paddingBottom: '0px', }} className="section section--service">
         <div className="container-fluid">
-          <div className="section">
+          <div id='nav1' className="section">
             <div className="column">
+              <Grid style={{
+                marginBottom: '5px',
+              }} container spacing={12}>
+                <Grid item xs={12} className="grid-content icon-content">
+                  <h3
+                    style={{
+                      color: 'black',
+                      fontWeight: '700',
+                      lineHeight: '1',
+                      marginBottom: '1em',
+
+                      paddingTop: '0',
+                      fontSize: '3rem',
+                    }}
+                  >
+                    How it works
+                  </h3>
+                </Grid>
+              </Grid>
+
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={3}>
                   <Grid container spacing={12}>
                     <Grid item xs={12} className="grid-content icon-content">
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Register.png?alt=media&token=d31f25f6-4b03-44e2-9084-0b78143a9035"} alt="register" />
                     </Grid>
+
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Join
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Join
                   </h3>
 
-                    </Grid>
-                    <Grid><p style={{
-                      paddingLeft: '1vw',
-                      paddungRight: '1vw',
-                      color: 'black',
-                      fontSize: '1.125rem',
-                      lineHeight: '1',
 
-                    }}>
-                      <ul><li>Create an account in seconds.</li> <li>No need to provide a detailed family history.</li></ul></p></Grid>
+                        <p style={{
+                          paddingLeft: '1.5vw',
+                          marginRight: '3vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+
+
+                        }}>
+                          <ul><li>Create an account.</li> <li>No need a detailed family history.</li></ul>
+                        </p>
+                      </div>
+                    </Grid>
+
                   </Grid>
                 </Grid>
+
+
                 <Grid item xs={12} sm={3}>
                   <Grid container spacing={12}>
                     <Grid item xs={12} className="grid-content icon-content">
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Book.png?alt=media&token=0c34eeac-12ee-4d71-96a5-ddf970f2680d"} alt="book" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Book
-                  </h3>
-                    </Grid>
-                    <Grid><p style={{
-                      // paddingLeft: '1vw',
-                      // paddungRight: '1vw',
-                      width: '28vw',
-                      color: 'black',
-                      fontSize: '1.125rem',
-                      lineHeight: '1',
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
 
-                    }}><ol>
-                        <li>Simply select the right <a style={{ fontSize: '1.25rem', fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
-                        <li>Pick the time and place for your meeting.</li></ol></p></Grid>
+                          }}
+                        >
+                          Book
+                  </h3>
+
+                        <p style={{
+                          marginLeft: '2.5vw',
+                          paddungRight: '2vw',
+
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+
+                        }}><ol>
+                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
+                            <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -197,27 +246,28 @@ export const IndexPageTemplate = ({
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Consultation.png?alt=media&token=0ab3128f-edb9-4260-80f3-6192a97eda77"} alt="Consultation" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Meet
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Meet
                   </h3>
-                    </Grid>
-                    <Grid><p style={{
 
-                      paddingLeft: '1vw',
-                      paddungRight: '1vw',
-                      color: 'black',
-                      fontSize: '1.125rem',
-                      lineHeight: '1',
-                    }}><ol><li>One of expert lawyers comes to advise you;</li>
-                        <li>Prepare tailored documents. </li></ol></p></Grid>
+                        <p style={{
+
+                          paddingLeft: '1.5vw',
+                          paddungRight: '2vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+                        }}><ol><li>One expert lawyer will advise you;</li>
+                            <li>Prepare tailored documents. </li></ol></p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -226,27 +276,26 @@ export const IndexPageTemplate = ({
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Will.png?alt=media&token=f137768d-92fe-4d5b-9b85-90cd2b3677d6"} alt="Will" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Complete
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Complete
                       </h3>
-                    </Grid>
+                        <p style={{
+                          paddingLeft: '1.5vw',
+                          paddungRight: '2vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
 
-                    <Grid><p style={{
-                      paddingLeft: '1vw',
-                      paddungRight: '1vw',
-                      color: 'black',
-                      fontSize: '1.125rem',
-                      lineHeight: '1',
-
-                    }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></Grid>
+                        }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></div></Grid>
 
                   </Grid>
                 </Grid>
@@ -254,7 +303,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       <Grid container spacing={3}>
         <div
@@ -276,21 +325,42 @@ export const IndexPageTemplate = ({
                 marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
+                  {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}> */}
                   <h3
                     style={{
                       color: 'black',
                       fontWeight: '700',
                       // fontWeight: '700',
-                      // position: 'static',
+                      //position: 'static',
+
                       lineHeight: '1',
-                      marginBottom: '1em',
-                      padding: '1.25em',
+                      paddingBottom: '0.25em',
+                      fontSize: '3rem',
                     }}
                   >
                     Why MyTribe?
                   </h3>
+
+                </Grid>
+
+
+                <Grid item xs={12} className="grid-content icon-content">
+                  <p style={{
+                    color: 'black',
+                    fontSize: '1.125rem',
+                    lineHeight: '1.5',
+                    width: '50vw',
+                    position: 'center',
+                    paddingBottom: '4em',
+                  }}>
+                    9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.
+                </p>
+                  {/* </div> */}
                 </Grid>
               </Grid>
+
+
+
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} className="grid-content">
                   <Paper>
@@ -386,16 +456,7 @@ export const IndexPageTemplate = ({
                   </Paper>
                 </Grid>
               </Grid>
-              <Grid item xs={12} className="grid-content icon-content">
-                <p style={{
-                  color: 'black',
-                  fontSize: '1.125rem',
-                  lineHeight: '1',
-                  padding: '0.5em',
-                }}>
-                  9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.
-                </p>
-              </Grid>
+
             </div>
           </div>
         </div>
@@ -422,11 +483,17 @@ export const IndexPageTemplate = ({
 
 
 
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <h3 style={{
+                  color: 'black',
+                  fontWeight: '700',
 
-              {/* styling */}
+                  position: 'center',
+                  lineHeight: '1',
+                  padding: '0.5em',
 
-
-              <h3 id='nav1' style={{ marginLeft: '2vw', fontSize: '3rem' }}>Join Us</h3>
+                  fontSize: '3rem',
+                }}>Join Us</h3></div>
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} >
 
@@ -447,7 +514,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
                       <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
-                      <Button style={{ marginTop: '17vh', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
+                      <Button style={{ marginTop: '18vh', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/products">
                           Start Now
               </Link></Button>
@@ -478,7 +545,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
                       <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
-                      <Button style={{ marginTop: '17vh', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <Button style={{ marginTop: '18vh', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/lawyer">
                           Join Now
               </Link>
@@ -531,6 +598,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
+
       </section>
 
 
@@ -549,43 +617,58 @@ export const IndexPageTemplate = ({
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              transform: 'scale(0.4)',
+              transform: 'scale(0.6)',
             }}
           >
             <div
               style={{
+
                 display: 'flex',
-                // height: '150px',
+                marginTop: '60px',
+                backgroundColor: '#ffffffcc',
+                paddingBottom: '20px',
+                paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
-                padding: '2rem',
                 flexDirection: 'column',
-                backgroundColor: '#ffffffcc',
-                borderRadius: '5%'
+                borderRadius: '3%',
+
+
               }}
             >
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              <p
+                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
 
-                  position: 'static',
+                  fontSize: '2rem',
                   lineHeight: '1.5',
-                  padding: '0.5em',
+                  padding: '1em',
                 }}
               >
-                Not all wills are the same. You have options. <br />Follow the link to learn more about different types of packages.
-              </h3>
+                Not all wills are the same. You have options. <br />Follow the link below to learn more about different types of packages.
+              </p>
+              <div style={{
 
-              <Button variant="primary" style={{
-                margin: '15px',
-                width: '50%',
-                borderRadius: '30px',
-                fontSize: '40px',
-                padding: '15px',
+                display: 'flex',
+
+                position: 'center',
+                justifyContent: 'center'
               }}>
-                <Link style={{ color: 'white' }} to='/products'>Learn More</Link>
-              </Button>
+                <Button variant="primary" style={{
+                  margin: '15px',
+                  display: 'flex',
+                  width: '40%',
+
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
+                }}>
+                  <Link style={{ color: 'white' }} to='/products'>Learn More</Link>
+                </Button>
+              </div>
             </div>
           </Grid>
 
@@ -593,7 +676,7 @@ export const IndexPageTemplate = ({
         </div>
       </Grid>
 
-    </div>
+    </div >
   )
 
 IndexPageTemplate.propTypes = {
@@ -653,8 +736,8 @@ export const pageQuery = graphql`
         mainpitch {
         title
           description
-    }
-    description
+}
+description
         intro {
         blurbs {
         image {

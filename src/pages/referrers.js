@@ -15,16 +15,18 @@ const referrers = () => {
                     backgroundImage: `url(${
                         bg
                         })`,
-                    backgroundPosition: '10px 18px 18px 20px'
+
+                    // backgroundPosition: '10px 18px 18px 20px'
                 }}
             >
                 <h2
                     className="has-text-weight-bold is-size-1"
                     style={{
-                        boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
-                        backgroundColor: '#007bff',
+                        position: 'absolute',
+                        // marginTop: '19rem',
                         color: 'white',
                         padding: '1rem',
+                        marginLeft: '0.05vw'
                     }}
                 >
                     Referrers from MyTribe
@@ -55,16 +57,16 @@ const referrers = () => {
                     </ul>
                 </div>
             </section> */}
-            <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', backgroundColor: '#E5E5E5' }}>
-
+            <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
+                <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For referrers</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
                         <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrer.jpg?alt=media&token=8c9907c6-681b-4db4-bc9b-7b17a2c405de' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '3rem' }}>
-                            <h1 style={{ fontSize: '2rem', fontWeight: 'bold', }}>For referrers</h1>
-                            <p style={{ fontSize: '1.5rem', marginTop: '5vh' }}> If you have client’s that need an estate plan, but don’t have the time to meet a lawyer.  Or, perhaps you don’t have a trusted lawyer you can refer your valued clients to.  MyTribe allows your organisation to create an account and make bookings on behalf of your clients. </p></div>
+
+                            <p style={{ fontSize: '1.5rem', }}> If you have client’s that need an estate plan, but don’t have the time to meet a lawyer.  Or, perhaps you don’t have a trusted lawyer you can refer your valued clients to.  MyTribe allows your organisation to create an account and make bookings on behalf of your clients. </p></div>
                     </Grid>
                 </div>
                 <div
