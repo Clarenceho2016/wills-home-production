@@ -6,8 +6,8 @@ featuredpost: false
 featuredimage: /img/lawyer3.jpg
 description: MyTribe brings professional and expert legal advice to your doorstep. No need to take time out of your busy schedule, with MyTirbe you pick a time and place that suits you and one of our lawyers will take care of the rest!
 tags:
-  - will
-  - assets
+  - Will
+  - Assets
 ---
 
 ![flavor wheel](/img/lawyer3.jpg)

@@ -16,17 +16,19 @@ export default class BlogIndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              backgroundColor: '#007bff',
+              // backgroundColor: '#007bff',
+              marginTop: '10vh',
               color: 'white',
+              //color: '#152189',
               padding: '1rem',
             }}
           >
             Blog
           </h1>
         </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
+        <section className="section" >
+          <div className="container" >
+            <div className="content" >
               <BlogRoll />
             </div>
           </div>
