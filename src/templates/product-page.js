@@ -208,14 +208,17 @@ export const ProductPageTemplate = ({
                   })`,
               }}
             >
+
               <div style={{
                 marginTop: '85vh'
               }}>
                 <Button variant="primary" style={{
                   margin: '15px',
+
                   borderRadius: '10px',
                   fontSize: '20px',
                   padding: '15px',
+
                 }}>
                   <Link to="/products" style={{
                     margin: '15px',
@@ -258,7 +261,6 @@ export const ProductPageTemplate = ({
         }}>
           <Button variant="primary" style={{
             margin: '15px',
-
 
             borderRadius: '10px',
             fontSize: '20px',

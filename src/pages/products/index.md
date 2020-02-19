@@ -49,9 +49,7 @@ main:
   image3:
     alt: 'lawyer '
     image: /img/helloquence-oqmzwnd3thu-unsplash-3-.jpg
-  image4:
-    alt: 'will package for couples'
-    image: /img/blur-business-coffee-commerce-273222.jpg
+
 testimonials:
   - author: Jane Kauris
     quote: >-
