@@ -96,9 +96,7 @@ const Navbar = class extends React.Component {
               </Button>
 
               <Dropdown></Dropdown>
-              {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
+
             </div>
           </div>
         </div>

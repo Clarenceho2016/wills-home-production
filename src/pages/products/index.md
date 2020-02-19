@@ -1,9 +1,11 @@
 ---
 templateKey: product-page
 title: Wills Packages
-image: /img/home-real-estate-106399-min.jpg
+image: /img/product-o.jpg
 heading: We offer different packages to suit your needs
-description: 'Whether you''re a single, couple of family we have a package right for you. '
+description: 'Whether you''re a single, couple of family we have a package right for you. 
+
+'
 intro:
   blurbs:
     - image: /img/gfx-signup-started.png
@@ -37,7 +39,7 @@ main:
     across our core focus areas.
 
 
-    Hello 
+   
   image1:
     alt: 'Specialists in all departments '
     image: /img/nik-macmillan-yxemfqipr_e-unsplash.jpg
@@ -47,6 +49,9 @@ main:
   image3:
     alt: 'lawyer '
     image: /img/helloquence-oqmzwnd3thu-unsplash-3-.jpg
+  image4:
+    alt: 'will package for couples'
+    image: /img/blur-business-coffee-commerce-273222.jpg
 testimonials:
   - author: Jane Kauris
     quote: >-
@@ -85,4 +90,3 @@ pricing:
       plan: Testamentary Trust Wills Couple
       price: '1400'
 ---
-

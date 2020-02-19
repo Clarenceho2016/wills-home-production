@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
         >
           <Grid item xs={12} sm={6}
             style={{
-              backgroundColor: '#ffffffcc',
+
               padding: '10px',
               display: 'flex',
               justifyContent: 'center',
@@ -50,130 +50,194 @@ export const IndexPageTemplate = ({
             <div
               style={{
                 display: 'flex',
-                height: '150px',
+                marginTop: '60px',
+                backgroundColor: '#ffffffcc',
+                paddingBottom: '20px',
+                paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
+
               }}
             >
               <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
+                  // color: '#2b2523a3',
+                  fontBold: 'bold',
                   position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+                  lineHeight: '1.5',
+                  padding: '0.5em',
+
                 }}
               >
-                Day Wills
+                Protect your family’s future with MyTribe
               </h3>
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              <p
+                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
-                  position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+
+                  fontSize: '1.75rem',
+                  lineHeight: '1.5',
+                  padding: '1em',
                 }}
               >
-                We speak your language
-              </h3>
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
-                  position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
-                }}
-              >
-                Experts in the field of law
-              </h3>
+                MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
+              </p>
 
-              <Button variant="primary" style={{
-                margin: '15px',
-                width: '50%',
-                borderRadius: '10px',
-                fontSize: '30px',
-                padding: '15px',
+              <div style={{ display: 'flex', flexDirection: 'row' }}>
+                <Button variant="primary" style={{
+                  margin: '35px',
 
-              }}>
-                <Link to="/products" style={{
-                  color: '#ffffff',
-
+                  width: '40%',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
 
                 }}>
-                  Learn More
-                  </Link>
-              </Button>
+                  <a href="https://app.my-tribe.com.au/signup" target='_blank' style={{
+                    color: '#ffffff',
+                    borderRadius: '10px',
+
+                  }}>
+                    Book Today
+                  </a>
+                </Button>
+                <Button variant="primary" style={{
+                  margin: '35px',
+                  backgroundColor: '#8080804d',
+                  borderRadius: '10px',
+                  width: '40%',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
+                  border: 'none'
+
+                }}>
+                  <a href="#nav1" style={{
+                    color: '#ffffff',
 
 
+                  }}>
+                    Learn More
+                  </a>
+                </Button>
+              </div>
 
 
 
             </div>
           </Grid>
 
-
         </div>
       </Grid>
 
-      <section className="section section--service">
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', }}>
+      {/* <section style={{ paddingBottom: '0px', }} className="section section--service">
+        <div id='nav1' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
           <h1 style={{
-            color: '#2b2523a3',
+            color: 'black',
             fontSize: '2em',
+            fontWeight: '700',
           }}> Your Next Steps </h1>
         </div>
-      </section>
+      </section> */}
 
-      <section className="section section--service">
+      <section style={{ paddingBottom: '0px', }} className="section section--service">
         <div className="container-fluid">
-          <div className="section">
+          <div id='nav1' className="section">
             <div className="column">
+              <Grid style={{
+                marginBottom: '5px',
+              }} container spacing={12}>
+                <Grid item xs={12} className="grid-content icon-content">
+                  <h3
+                    style={{
+                      color: 'black',
+                      fontWeight: '700',
+                      lineHeight: '1',
+                      marginBottom: '1em',
+
+                      paddingTop: '0',
+                      fontSize: '3rem',
+                    }}
+                  >
+                    How it works
+                  </h3>
+                </Grid>
+              </Grid>
+
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={3}>
                   <Grid container spacing={12}>
                     <Grid item xs={12} className="grid-content icon-content">
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Register.png?alt=media&token=d31f25f6-4b03-44e2-9084-0b78143a9035"} alt="register" />
                     </Grid>
+
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Sign-up
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Join
                   </h3>
+
+
+                        <p style={{
+                          paddingLeft: '1.5vw',
+                          marginRight: '3vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+
+
+                        }}>
+                          <ul><li>Create an account.</li> <li>No need a detailed family history.</li></ul>
+                        </p>
+                      </div>
                     </Grid>
+
                   </Grid>
                 </Grid>
+
+
                 <Grid item xs={12} sm={3}>
                   <Grid container spacing={12}>
                     <Grid item xs={12} className="grid-content icon-content">
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Book.png?alt=media&token=0c34eeac-12ee-4d71-96a5-ddf970f2680d"} alt="book" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Book
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+
+                          }}
+                        >
+                          Book
                   </h3>
-                    </Grid>
+
+                        <p style={{
+                          marginLeft: '2.5vw',
+                          paddungRight: '2vw',
+
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+
+                        }}><ol>
+                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
+                            <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -182,18 +246,28 @@ export const IndexPageTemplate = ({
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Consultation.png?alt=media&token=0ab3128f-edb9-4260-80f3-6192a97eda77"} alt="Consultation" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Consultation
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Meet
                   </h3>
-                    </Grid>
+
+                        <p style={{
+
+                          paddingLeft: '1.5vw',
+                          paddungRight: '2vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+                        }}><ol><li>One expert lawyer will advise you;</li>
+                            <li>Prepare tailored documents. </li></ol></p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -202,25 +276,34 @@ export const IndexPageTemplate = ({
                       <img src={"https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FGfx-Will.png?alt=media&token=f137768d-92fe-4d5b-9b85-90cd2b3677d6"} alt="Will" />
                     </Grid>
                     <Grid item xs={12} className="grid-content icon-content">
-                      <h3
-                        style={{
-                          color: '#00008b',
-                          fontWeight: '400',
-                          position: 'static',
-                          lineHeight: '1',
-                          padding: '.75em',
-                        }}
-                      >
-                        Will
+                      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <h3
+                          style={{
+                            color: '#00008b',
+                            fontWeight: '400',
+                            position: 'static',
+                            lineHeight: '1',
+                            padding: '.75em',
+                          }}
+                        >
+                          Complete
                       </h3>
-                    </Grid>
+                        <p style={{
+                          paddingLeft: '1.5vw',
+                          paddungRight: '2vw',
+                          color: 'black',
+                          fontSize: '1.125rem',
+                          lineHeight: '1.5',
+
+                        }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></div></Grid>
+
                   </Grid>
                 </Grid>
               </Grid>
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       <Grid container spacing={3}>
         <div
@@ -239,23 +322,48 @@ export const IndexPageTemplate = ({
           <div className="section">
             <div className="column">
               <Grid style={{
-                marginBottom: '20px',
+                marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
+                  {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}> */}
                   <h3
                     style={{
-                      color: '#2b2523a3',
-                      fontWeight: '400',
-                      position: 'static',
+                      color: 'black',
+                      fontWeight: '700',
+                      // fontWeight: '700',
+                      //position: 'static',
+
                       lineHeight: '1',
-                      marginBottom: '1em',
-                      padding: '1.25em',
+                      paddingBottom: '0.25em',
+                      fontSize: '3rem',
                     }}
                   >
-                    Why choose Wills platform?
+                    Why MyTribe?
                   </h3>
+
+                </Grid>
+
+
+                <Grid item xs={12} className="grid-content icon-content">
+
+                  <div style={{
+                    marginTop: '2vh',
+                    color: 'black',
+                    fontSize: '1.125rem',
+                    lineHeight: '1.5',
+                    width: '50vw',
+                    position: 'center',
+                    paddingBottom: '4em',
+                  }}>
+                    <p>9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
+                    <p><br />We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.</p>
+                  </div>
+                  {/* </div> */}
                 </Grid>
               </Grid>
+
+
+
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} className="grid-content">
                   <Paper>
@@ -351,20 +459,21 @@ export const IndexPageTemplate = ({
                   </Paper>
                 </Grid>
               </Grid>
+
             </div>
           </div>
         </div>
       </section>
-      <section style={{ padding: '0px' }} className="section section--Booking">
+      {/* <section style={{ padding: '0px' }} className="section section--Booking">
         <div className="container-fluid">
-          <div style={{ padding: '0px', margin: '20px' }} className="section">
+          <div style={{ padding: '0px', }} className="section">
             <div className="column">
               <Grid style={{
                 marginBottom: '20px',
               }} container spacing={12}>
                 <Grid item xs={12} sm={12} className="grid-content">
                   <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
-                    margin: '15px',
+
                     width: '90px',
                     borderRadius: '10px',
                     fontSize: '20px',
@@ -377,11 +486,17 @@ export const IndexPageTemplate = ({
 
 
 
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <h3 style={{
+                  color: 'black',
+                  fontWeight: '700',
 
-              {/* styling */}
+                  position: 'center',
+                  lineHeight: '1',
+                  padding: '0.5em',
 
-
-              <h3 style={{ marginLeft: '2vw', fontSize: '3rem' }}>Title</h3>
+                  fontSize: '3rem',
+                }}>Join Us</h3></div>
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} >
 
@@ -392,10 +507,146 @@ export const IndexPageTemplate = ({
                     }}>
 
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#007bff" }}></polygon>
 
-                      </svg> */}
+                    </Grid>
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '18vh', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/products">
+                          Start Now
+              </Link></Button>
+
+                    </div>
+                  </Grid>
+
+                </Grid>
+
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '18vh', backgroundColor: '#17a2b8', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/lawyer">
+                          Join Now
+              </Link>
+                      </Button>
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8 ', paddingLeft: '2vw', paddingRight: '1.5vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
+                      <p style={{ color: '#ffffff' }}>If you have client’s that need an estate plan, but don’t have the time to meet a lawyer.  Or, perhaps you don’t have a trusted lawyer you can refer your valued clients to.  MyTribe allows your organisation to create an account and make bookings on behalf of your clients. One of our lawyers can come to your office or to your client’s home, enabling you to be as involved in the process as you like and ensuring that your client’s get expert advice and an estate plan.</p>
+                      <Button style={{ marginTop: '10px', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/referrers">
+                          Join Now
+              </Link>
+                      </Button>
+
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+        </div>
+
+      </section> */}
+
+      <section style={{ padding: '0px' }} className="section section--Booking">
+        <div className="container-fluid">
+          <div style={{ padding: '0px', margin: '20px' }} className="section">
+            <div className="column">
+              <Grid style={{
+                marginBottom: '20px',
+              }} container spacing={12}>
+                <Grid item xs={12} sm={12} className="grid-content">
+                  <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
+                    //margin: '15px',
+                    width: '90px',
+                    borderRadius: '10px',
+                    fontSize: '20px',
+                    padding: '3px',
+
+                    //height: '37px',
+                    // margin: '10px',
+                    // color: 'white',
+                    // fontSize: '1em',
+                    // borderColor: '#FFF',
+                    // borderRadius: '10px',
+
+                    // backgroundColor: '#007bff',
+                  }}>
+                    Book
+                </Button>
+                </Grid>
+              </Grid>
+
+
+
+              <h3 style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', marginBottom: '2vh' }}>Join us</h3>
+              <Grid container spacing={12}>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} >
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
+                      height: '60vh',
+                    }}>
+
+
+
 
                     </Grid>
                     <div style={{
@@ -417,16 +668,13 @@ export const IndexPageTemplate = ({
 
                 <Grid item xs={12} sm={4} >
 
-                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                  <Grid item xs={12} sm={12} style={{ marginLeft: '1.25em', marginRight: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
                       backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
                       height: '60vh',
                     }}>
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "rgba(255, 162, 7)" }}></polygon>
 
-                      </svg> */}
                     </Grid>
 
                     <div style={{
@@ -454,16 +702,13 @@ export const IndexPageTemplate = ({
                 </Grid>
                 <Grid item xs={12} sm={4} >
 
-                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                  <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
                       backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
                       height: '60vh',
                     }}>
 
-                      {/* <svg style={{ marginTop: '30vh' }}>
-                        <polygon points="1 302,307 302,594 304,0 95" style={{ fill: "#152189 " }}></polygon>
 
-                      </svg> */}
                     </Grid>
 
                     <div style={{
@@ -507,46 +752,69 @@ export const IndexPageTemplate = ({
         >
           <Grid item xs={12} sm={6}
             style={{
-              backgroundColor: '#ffffffcc',
+
               padding: '10px',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              transform: 'scale(0.4)',
+              transform: 'scale(0.6)',
             }}
           >
             <div
               style={{
+
                 display: 'flex',
-                height: '150px',
+                marginTop: '60px',
+                backgroundColor: '#ffffffcc',
+                paddingBottom: '20px',
+                paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
+
+
+
               }}
             >
-              <h3
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              <p
+                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  color: '#2b2523a3',
-                  fontWeight: '400',
-                  position: 'static',
-                  lineHeight: '1',
-                  padding: '0.25em',
+
+                  fontSize: '2rem',
+                  lineHeight: '1.5',
+                  padding: '1em',
                 }}
               >
-                Learn about our packages
-              </h3>
+                Not all wills are the same. You have options. <br />Follow the link below to learn more about different types of packages.
+              </p>
+              <div style={{
 
-              <Button variant="primary" style={{
-                margin: '15px',
-                width: '50%',
-                borderRadius: '30px',
-                fontSize: '40px',
-                padding: '15px',
+                display: 'flex',
+
+                position: 'center',
+                justifyContent: 'center'
               }}>
-                Learn More
-              </Button>
+                <Button variant="primary" style={{
+                  // margin: '15px',
+                  // display: 'flex',
+
+                  // width: '40%',
+                  // justifyContent: 'center',
+                  // alignItems: 'center',
+                  // borderRadius: '10px',
+                  // fontSize: '1.5em',
+                  //padding: '8px',
+                  margin: '35px',
+
+                  width: '40%',
+                  borderRadius: '10px',
+                  fontSize: '30px',
+                  padding: '15px',
+                }}>
+                  <Link style={{ color: 'white' }} to='/products'>Learn More</Link>
+                </Button>
+              </div>
             </div>
           </Grid>
 
@@ -554,7 +822,7 @@ export const IndexPageTemplate = ({
         </div>
       </Grid>
 
-    </div>
+    </div >
   )
 
 IndexPageTemplate.propTypes = {
@@ -599,38 +867,38 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
+        markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+        frontmatter {
         title
         image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+        childImageSharp {
+        fluid(maxWidth: 2048, quality: 100) {
+        ...GatsbyImageSharpFluid
+      }
       }
     }
+    heading
+    subheading
+        mainpitch {
+        title
+          description
+}
+description
+        intro {
+        blurbs {
+        image {
+        childImageSharp {
+        fluid(maxWidth: 240, quality: 64) {
+        ...GatsbyImageSharpFluid
+      }
+      }
+    }
+    text
   }
+  heading
+  description
+}
+}
+}
+}
 `
