@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-import bg from '../../static/img/lawyer2.png'
+import bg from '../../static/img/lawyer-o.jpg'
 
 
 const lawyer = () => {
@@ -22,7 +22,8 @@ const lawyer = () => {
                 <h2
                     className="has-text-weight-bold is-size-1"
                     style={{
-                        color: 'white',
+                        // color: 'white',
+                        color: '#152189',
                         padding: '1rem',
                         // marginTop: '19rem'
                     }}
@@ -37,25 +38,47 @@ const lawyer = () => {
                         <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer3.jpg?alt=media&token=4db651a2-3106-426a-a9de-c03ecdccad22' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '3rem' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>
 
-                            <p style={{ fontSize: '1.5rem', }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money.  </p>
+                            <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office.<br /><br /> </h2>
+                            <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </h3>
+                        </div>
+                        <div
+                            style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem', paddingTop: '0.5vw' }}>
+                            {/* <ul>
+                                <li style={{ color: 'white' }}>
+                                    <a href="https://app.my-tribe.com.au/lawyer-signup" style={{ backgroundColor: '#007bff', padding: '0.5em', fontSize: '32px' }}>register</a>
+                                </li>
+                            </ul> */}
+
+                            <Button variant="primary" href='https://app.my-tribe.com.au/lawyer-signup' style={{
+                                margin: '10px',
+                                // paddingLeft: '0.75em',
+                                // paddingRight: '0.75em',
+                                // paddingTop: '0.5em',
+                                // paddingBottom: '0.5em',
+                                color: 'white',
+                                fontSize: '1em',
+                                borderColor: '#FFF',
+                                borderRadius: '10px',
+
+                                // width: '80px',
+                                // height: '37px',
+                                lineHeight: '1.5em',
+                                backgroundColor: '#007bff',
+                            }}>
+                                Register
+
+              </Button>
                         </div>
                     </Grid>
                 </div>
-                <div
-                    style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem', paddingTop: '0.5vw' }}>
-                    <ul>
-                        <li style={{ color: 'white' }}>
-                            <a href="https://app.my-tribe.com.au/lawyer-signup" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '32px' }}>Lawyers register here</a>
-                        </li>
-                    </ul>
-                </div>
+
 
 
 
             </section>
-            <div style={{ height: '1vh' }}></div>
+
         </Layout>
     )
 }

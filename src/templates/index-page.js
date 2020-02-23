@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
-                borderRadius: '3%',
+
               }}
             >
               <h3
@@ -345,7 +345,9 @@ export const IndexPageTemplate = ({
 
 
                 <Grid item xs={12} className="grid-content icon-content">
-                  <p style={{
+
+                  <div style={{
+                    marginTop: '2vh',
                     color: 'black',
                     fontSize: '1.125rem',
                     lineHeight: '1.5',
@@ -353,8 +355,9 @@ export const IndexPageTemplate = ({
                     position: 'center',
                     paddingBottom: '4em',
                   }}>
-                    9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.
-                </p>
+                    <p>9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
+                    <p><br />We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.</p>
+                  </div>
                   {/* </div> */}
                 </Grid>
               </Grid>
@@ -461,7 +464,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-      <section style={{ padding: '0px' }} className="section section--Booking">
+      {/* <section style={{ padding: '0px' }} className="section section--Booking">
         <div className="container-fluid">
           <div style={{ padding: '0px', }} className="section">
             <div className="column">
@@ -599,6 +602,143 @@ export const IndexPageTemplate = ({
           </div>
         </div>
 
+      </section> */}
+
+      <section style={{ padding: '0px' }} className="section section--Booking">
+        <div className="container-fluid">
+          <div style={{ padding: '0px', margin: '20px' }} className="section">
+            <div className="column">
+              <Grid style={{
+                marginBottom: '20px',
+              }} container spacing={12}>
+                <Grid item xs={12} sm={12} className="grid-content">
+                  <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
+                    //margin: '15px',
+                    width: '90px',
+                    borderRadius: '10px',
+                    fontSize: '20px',
+                    padding: '3px',
+
+                    //height: '37px',
+                    // margin: '10px',
+                    // color: 'white',
+                    // fontSize: '1em',
+                    // borderColor: '#FFF',
+                    // borderRadius: '10px',
+
+                    // backgroundColor: '#007bff',
+                  }}>
+                    Book
+                </Button>
+                </Grid>
+              </Grid>
+
+
+
+              <h3 style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', marginBottom: '2vh' }}>Join us</h3>
+              <Grid container spacing={12}>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} >
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
+                      height: '60vh',
+                    }}>
+
+
+
+
+                    </Grid>
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#007bff', paddingLeft: '2vw'
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
+                      <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/products">
+                          Start Now
+              </Link></Button>
+
+                    </div>
+                  </Grid>
+
+                </Grid>
+
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ marginLeft: '1.25em', marginRight: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
+                      <p style={{ color: '#ffffff' }}>Join as a lawyer on the platform.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/lawyer">
+                          Join Now
+              </Link>
+                      </Button>
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} >
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#152189 ', paddingLeft: '2vw'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
+                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/referrers">
+                          Join Now
+              </Link>
+                      </Button>
+
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+        </div>
       </section>
 
 
@@ -632,7 +772,7 @@ export const IndexPageTemplate = ({
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
-                borderRadius: '3%',
+
 
 
               }}
@@ -656,12 +796,18 @@ export const IndexPageTemplate = ({
                 justifyContent: 'center'
               }}>
                 <Button variant="primary" style={{
-                  margin: '15px',
-                  display: 'flex',
-                  width: '40%',
+                  // margin: '15px',
+                  // display: 'flex',
 
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  // width: '40%',
+                  // justifyContent: 'center',
+                  // alignItems: 'center',
+                  // borderRadius: '10px',
+                  // fontSize: '1.5em',
+                  //padding: '8px',
+                  margin: '35px',
+
+                  width: '40%',
                   borderRadius: '10px',
                   fontSize: '30px',
                   padding: '15px',
