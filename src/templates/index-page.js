@@ -236,7 +236,7 @@ export const IndexPageTemplate = ({
                           lineHeight: '1.5',
 
                         }}><ol>
-                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
+                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a>;</li>
                             <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
                   </Grid>
                 </Grid>
@@ -592,11 +592,7 @@ export const IndexPageTemplate = ({
 
 
                   </Grid>
-
-
-
-
-                </Grid>
+              </Grid>
               </Grid>
             </div>
           </div>
@@ -625,7 +621,6 @@ export const IndexPageTemplate = ({
                     // fontSize: '1em',
                     // borderColor: '#FFF',
                     // borderRadius: '10px',
-
                     // backgroundColor: '#007bff',
                   }}>
                     Book
