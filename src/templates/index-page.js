@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({
                   padding: '1em',
                 }}
               >
-                MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
+                MyTribe brings professional and expert legal advice to your doorstep. No need to take timeout of your busy schedule, with MyTirbe you pick a time and place that suits you and one ofour lawyers will take care of the rest!
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -198,7 +198,7 @@ export const IndexPageTemplate = ({
 
 
                         }}>
-                          <ul><li>Create an account.</li> <li>No need a detailed family history.</li></ul>
+                          Create   an   account   in   seconds.  There   is   no   need   to   provide   a   detailed   family   history   ourlawyers will know the right questions to ask when they meet with you.
                         </p>
                       </div>
                     </Grid>
@@ -235,9 +235,9 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}><ol>
-                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a>;</li>
-                            <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
+                        }}>
+                          Simply select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a> for you, then pick the time and place for your meeting;
+                            </p></div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -266,8 +266,7 @@ export const IndexPageTemplate = ({
                           color: 'black',
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
-                        }}><ol><li>One expert lawyer will advise you;</li>
-                            <li>Prepare tailored documents. </li></ol></p>  </div></Grid>
+                        }}>One   of   our   expert   lawyers   comes   to   you,   advises   you   of   your   options   considering   yourspecific  circumstances  and  prepares  tailored  documents  that  will  protect  your   loved  one’s future. </p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -295,7 +294,7 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></div></Grid>
+                        }}>Depending   on   the   package   you   choose,   your   documents   will   be   finalised   on   the   spot   orwithin 7 days of the meeting. </p></div></Grid>
 
                   </Grid>
                 </Grid>
@@ -608,7 +607,7 @@ export const IndexPageTemplate = ({
                 marginBottom: '20px',
               }} container spacing={12}>
                 <Grid item xs={12} sm={12} className="grid-content">
-                  <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
+                  {/* <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
                     //margin: '15px',
                     width: '90px',
                     borderRadius: '10px',
@@ -624,13 +623,13 @@ export const IndexPageTemplate = ({
                     // backgroundColor: '#007bff',
                   }}>
                     Book
-                </Button>
+                </Button> */}
                 </Grid>
               </Grid>
 
 
 
-              <h3 style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', marginBottom: '2vh' }}>Join us</h3>
+              {/* <h3 style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', marginBottom: '2vh' }}>Join us</h3> */}
               <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} >
 

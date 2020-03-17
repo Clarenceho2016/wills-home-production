@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-import bg from '../../static/img/lawyer-o.jpg'
-
+//import bg from '../../static/img/lawyer-o.jpg'
+import bg from '../../static/img/lawyer33.png'
 
 const lawyer = () => {
     return (
@@ -62,8 +62,7 @@ const lawyer = () => {
                                 borderColor: '#FFF',
                                 borderRadius: '10px',
 
-                                // width: '80px',
-                                // height: '37px',
+
                                 lineHeight: '1.5em',
                                 backgroundColor: '#007bff',
                             }}>
