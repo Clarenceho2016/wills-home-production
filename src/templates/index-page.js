@@ -72,7 +72,7 @@ export const IndexPageTemplate = ({
 
                 }}
               >
-                Protect your family’s future with MyTribe
+                Protect your family's future with MyTribe
               </h3>
               <p
                 // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
