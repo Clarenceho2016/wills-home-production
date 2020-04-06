@@ -41,6 +41,7 @@ export const IndexPageTemplate = ({
             style={{
 
               padding: '10px',
+              marginTop: '10vw',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
@@ -50,10 +51,11 @@ export const IndexPageTemplate = ({
             <div
               style={{
                 display: 'flex',
-                marginTop: '60px',
+
+                // marginTop: '10vw',
                 backgroundColor: '#ffffffcc',
-                paddingBottom: '20px',
-                paddingTop: '20px',
+                paddingBottom: '2vw',
+                paddingTop: '2vw',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
@@ -83,12 +85,12 @@ export const IndexPageTemplate = ({
                   padding: '1em',
                 }}
               >
-                MyTribe brings professional and expert legal advice to your doorstep. No need to take timeout of your busy schedule, with MyTirbe you pick a time and place that suits you and one ofour lawyers will take care of the rest!
+                MyTribe brings professional and expert legal advice to your doorstep. Simply pick a time and place that suits you and one ofour lawyers will take care of the rest!
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'row' }}>
                 <Button variant="primary" style={{
-                  margin: '35px',
+                  margin: '3vw',
 
                   width: '40%',
                   borderRadius: '10px',
@@ -105,7 +107,7 @@ export const IndexPageTemplate = ({
                   </a>
                 </Button>
                 <Button variant="primary" style={{
-                  margin: '35px',
+                  margin: '3vw',
                   backgroundColor: '#8080804d',
                   borderRadius: '10px',
                   width: '40%',
@@ -198,7 +200,7 @@ export const IndexPageTemplate = ({
 
 
                         }}>
-                          Create   an   account   in   seconds.  There   is   no   need   to   provide   a   detailed   family   history   ourlawyers will know the right questions to ask when they meet with you.
+                          Create   an   account   in   seconds.  There   is   no   need   to   provide   a   detailed   family   history. Our lawyers will know the right questions to ask.
                         </p>
                       </div>
                     </Grid>
@@ -236,7 +238,7 @@ export const IndexPageTemplate = ({
                           lineHeight: '1.5',
 
                         }}>
-                          Simply select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a> for you, then pick the time and place for your meeting;
+                          Simply select the <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a> and set the time and place for your meeting.
                             </p></div></Grid>
                   </Grid>
                 </Grid>
@@ -266,7 +268,7 @@ export const IndexPageTemplate = ({
                           color: 'black',
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
-                        }}>One   of   our   expert   lawyers   comes   to   you,   advises   you   of   your   options   considering   yourspecific  circumstances  and  prepares  tailored  documents  that  will  protect  your   loved  one’s future. </p>  </div></Grid>
+                        }}>One   of   our   expert   lawyers   comes   to   you, explains your options and  prepares  tailored  documents  that  will  protect  your   loved  one’s future. </p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -354,7 +356,7 @@ export const IndexPageTemplate = ({
                     position: 'center',
                     paddingBottom: '4em',
                   }}>
-                    <p>9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
+                    <p>Nine to five is a time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
                     <p><br />We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.</p>
                   </div>
                   {/* </div> */}
@@ -389,7 +391,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We're experts at drafing Wills.
+                          We're a law firm with a team of qualified professionals.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -420,7 +422,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We've got the answers to your pool of questions
+                          Our lawyers have demonstrated experience and a deep understanding of all things relevant to creating an estate plan.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -451,7 +453,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We understand and we listen
+                          We speak your language, we understand your concerns, we listen and we implement.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -713,7 +715,7 @@ export const IndexPageTemplate = ({
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
-                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
+                      <p style={{ color: '#ffffff' }}>Become a referrer on the platform.</p>
                       <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
