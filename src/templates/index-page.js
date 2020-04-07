@@ -41,7 +41,6 @@ export const IndexPageTemplate = ({
             style={{
 
               padding: '10px',
-              marginTop: '10vw',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
@@ -51,11 +50,10 @@ export const IndexPageTemplate = ({
             <div
               style={{
                 display: 'flex',
-
-                // marginTop: '10vw',
+                marginTop: '60px',
                 backgroundColor: '#ffffffcc',
-                paddingBottom: '2vw',
-                paddingTop: '2vw',
+                paddingBottom: '20px',
+                paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
@@ -63,7 +61,7 @@ export const IndexPageTemplate = ({
 
               }}
             >
-              <h2
+              <h3
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   // color: '#2b2523a3',
@@ -71,13 +69,11 @@ export const IndexPageTemplate = ({
                   position: 'static',
                   lineHeight: '1.5',
                   padding: '0.5em',
-                  fontFamily: 'Comic Sans MS',
-                  color: '#007bff'
-
+                  color: '#152189'
                 }}
               >
-                Protect your family's future with MyTribe
-              </h2>
+                Protect your family’s future with MyTribe
+              </h3>
               <p
                 // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
@@ -87,12 +83,12 @@ export const IndexPageTemplate = ({
                   padding: '1em',
                 }}
               >
-                MyTribe brings professional and expert legal advice to your doorstep. Simply pick a time and place that suits you and one ofour lawyers will take care of the rest!
+                MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'row' }}>
                 <Button variant="primary" style={{
-                  margin: '3vw',
+                  margin: '35px',
 
                   width: '40%',
                   borderRadius: '10px',
@@ -109,7 +105,7 @@ export const IndexPageTemplate = ({
                   </a>
                 </Button>
                 <Button variant="primary" style={{
-                  margin: '3vw',
+                  margin: '35px',
                   backgroundColor: '#8080804d',
                   borderRadius: '10px',
                   width: '40%',
@@ -119,7 +115,7 @@ export const IndexPageTemplate = ({
                   border: 'none'
 
                 }}>
-                  <a href=" https://www.my-tribe.com.au/packages" target='_blank' style={{
+                  <a href="#nav1" style={{
                     color: '#ffffff',
 
 
@@ -155,20 +151,19 @@ export const IndexPageTemplate = ({
                 marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
-                  <h2
+                  <h3
                     style={{
-
+                      color: 'black',
                       fontWeight: '700',
                       lineHeight: '1',
                       marginBottom: '1em',
-                      fontFamily: 'Comic Sans MS',
-                      color: '#007bff',
+
                       paddingTop: '0',
                       fontSize: '3rem',
                     }}
                   >
                     How it works
-                  </h2>
+                  </h3>
                 </Grid>
               </Grid>
 
@@ -203,7 +198,7 @@ export const IndexPageTemplate = ({
 
 
                         }}>
-                          Create   an   account   in   seconds.  There   is   no   need   to   provide   a   detailed   family   history. Our lawyers will know the right questions to ask.
+                          <ul><li>Create an account.</li> <li>No need a detailed family history.</li></ul>
                         </p>
                       </div>
                     </Grid>
@@ -240,9 +235,9 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}>
-                          Simply select the <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//packages' target='_blank'>Package</a> and set the time and place for your meeting.
-                            </p></div></Grid>
+                        }}><ol>
+                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
+                            <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -271,7 +266,8 @@ export const IndexPageTemplate = ({
                           color: 'black',
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
-                        }}>One   of   our   expert   lawyers   comes   to   you, explains your options and  prepares  tailored  documents  that  will  protect  your   loved  one’s future. </p>  </div></Grid>
+                        }}><ol><li>One expert lawyer will advise you;</li>
+                            <li>Prepare tailored documents. </li></ol></p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -299,7 +295,7 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}>Depending   on   the   package   you   choose,   your   documents   will   be   finalised   on   the   spot or within 7 days of the meeting. </p></div></Grid>
+                        }}>Documents will be finalised on the spot or within 7 days of the meeting. </p></div></Grid>
 
                   </Grid>
                 </Grid>
@@ -313,7 +309,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhouse.png?alt=media&token=380cdadb-bef8-4ebc-8066-f0f87a827803)`,
+            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhome-real-estate-106399-min.jpg?alt=media&token=f8ae6499-4c26-4e0b-b282-7dcb805ee420)`,
             height: '60vh',
             backgroundPosition: 'center',
           }}
@@ -330,22 +326,20 @@ export const IndexPageTemplate = ({
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
                   {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}> */}
-                  <h2
+                  <h3
                     style={{
-
+                      color: 'black',
                       fontWeight: '700',
                       // fontWeight: '700',
                       //position: 'static',
-                      fontFamily: 'Comic Sans MS',
-                      color: '#007bff',
+
                       lineHeight: '1',
                       paddingBottom: '0.25em',
                       fontSize: '3rem',
-
                     }}
                   >
                     Why MyTribe?
-                  </h2>
+                  </h3>
 
                 </Grid>
 
@@ -361,7 +355,7 @@ export const IndexPageTemplate = ({
                     position: 'center',
                     paddingBottom: '4em',
                   }}>
-                    <p>Nine to five is a time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
+                    <p>9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
                     <p><br />We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.</p>
                   </div>
                   {/* </div> */}
@@ -396,7 +390,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We're a law firm with a team of qualified professionals.
+                          We're experts at drafing Wills.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -427,7 +421,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          Our lawyers have demonstrated experience and a deep understanding of all things relevant to creating an estate plan.
+                          We've got the answers to your pool of questions
                     </Typography>
                       </Grid>
                     </Grid>
@@ -458,7 +452,7 @@ export const IndexPageTemplate = ({
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We speak your language, we understand your concerns, we listen and we implement.
+                          We understand and we listen
                     </Typography>
                       </Grid>
                     </Grid>
@@ -470,6 +464,145 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      {/* <section style={{ padding: '0px' }} className="section section--Booking">
+        <div className="container-fluid">
+          <div style={{ padding: '0px', }} className="section">
+            <div className="column">
+              <Grid style={{
+                marginBottom: '20px',
+              }} container spacing={12}>
+                <Grid item xs={12} sm={12} className="grid-content">
+                  <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
+
+                    width: '90px',
+                    borderRadius: '10px',
+                    fontSize: '20px',
+                    padding: '10px',
+                  }}>
+                    Book
+                </Button>
+                </Grid>
+              </Grid>
+
+
+
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <h3 style={{
+                  color: 'black',
+                  fontWeight: '700',
+
+                  position: 'center',
+                  lineHeight: '1',
+                  padding: '0.5em',
+
+                  fontSize: '3rem',
+                }}>Join Us</h3></div>
+              <Grid container spacing={12}>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
+                      height: '60vh',
+                    }}>
+
+
+
+                    </Grid>
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '18vh', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/products">
+                          Start Now
+              </Link></Button>
+
+                    </div>
+                  </Grid>
+
+                </Grid>
+
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw', paddingRight: '2vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
+                      <p style={{ color: '#ffffff' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office. With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </p>
+                      <Button style={{ marginTop: '18vh', backgroundColor: '#17a2b8', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/lawyer">
+                          Join Now
+              </Link>
+                      </Button>
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+                <Grid item xs={12} sm={4} >
+
+                  <Grid item xs={12} sm={12} style={{ padding: '1.25em' }}>
+                    <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
+                      height: '60vh',
+                    }}>
+
+
+                    </Grid>
+
+                    <div style={{
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#17a2b8 ', paddingLeft: '2vw', paddingRight: '1.5vw', borderRadius: '0 0 5% 5%', height: '65vh'
+
+
+
+                    }}>
+
+                      <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
+                      <p style={{ color: '#ffffff' }}>If you have client’s that need an estate plan, but don’t have the time to meet a lawyer.  Or, perhaps you don’t have a trusted lawyer you can refer your valued clients to.  MyTribe allows your organisation to create an account and make bookings on behalf of your clients. One of our lawyers can come to your office or to your client’s home, enabling you to be as involved in the process as you like and ensuring that your client’s get expert advice and an estate plan.</p>
+                      <Button style={{ marginTop: '10px', backgroundColor: 'rgba(255, 162, 7)', border: 'none' }}>
+                        <Link style={{ color: 'white' }} to="/referrers">
+                          Join Now
+              </Link>
+                      </Button>
+
+                    </div>
+
+
+                  </Grid>
+
+
+
+
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+        </div>
+
+      </section> */}
 
       <section style={{ padding: '0px' }} className="section section--Booking">
         <div className="container-fluid">
@@ -479,19 +612,36 @@ export const IndexPageTemplate = ({
                 marginBottom: '20px',
               }} container spacing={12}>
                 <Grid item xs={12} sm={12} className="grid-content">
+                  <Button variant="primary" href='https://app.my-tribe.com.au/signup' style={{
+                    //margin: '15px',
+                    width: '90px',
+                    borderRadius: '10px',
+                    fontSize: '20px',
+                    padding: '3px',
 
+                    //height: '37px',
+                    // margin: '10px',
+                    // color: 'white',
+                    // fontSize: '1em',
+                    // borderColor: '#FFF',
+                    // borderRadius: '10px',
+
+                    // backgroundColor: '#007bff',
+                  }}>
+                    Book
+                </Button>
                 </Grid>
               </Grid>
 
 
 
-
-              <Grid container spacing={12} >
+              <h3 style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', marginBottom: '2vh' }}>Join us</h3>
+              <Grid container spacing={12}>
                 <Grid item xs={12} sm={4} >
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fclient-play-kids.png?alt=media&token=abad257b-1c55-4631-9f54-a8770057c0fc)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
                       height: '60vh',
                     }}>
 
@@ -507,7 +657,7 @@ export const IndexPageTemplate = ({
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
                       <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
                       <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
-                        <Link style={{ color: 'white' }} to="/clients">
+                        <Link style={{ color: 'white' }} to="/products">
                           Start Now
               </Link></Button>
 
@@ -518,9 +668,9 @@ export const IndexPageTemplate = ({
 
                 <Grid item xs={12} sm={4} >
 
-                  <Grid item xs={12} sm={12} style={{ marginRight: '1.25em', marginLeft: '1.25em' }}>
+                  <Grid item xs={12} sm={12} style={{ marginLeft: '1.25em', marginRight: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer-h.png?alt=media&token=5dbf65a8-7279-4f22-8691-cdbb496fda18)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
                       height: '60vh',
                     }}>
 
@@ -554,7 +704,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferee-h.png?alt=media&token=ba20ef31-d92d-4c78-9757-dbe3b3756b80)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
                       height: '60vh',
                     }}>
 
@@ -569,7 +719,7 @@ export const IndexPageTemplate = ({
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
-                      <p style={{ color: '#ffffff' }}>Become a referrer on the platform.</p>
+                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
                       <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
