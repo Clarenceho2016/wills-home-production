@@ -37,13 +37,18 @@ class Dropdown extends React.Component {
                 {this.state.displayMenu ? (
                     <ul className='dropdown_ul'>
                         <li className='dropdown_li'>
+                            <Link className="navbar-item" to="/clients">
+                                Client
+                </Link>
+                        </li>
+                        <li className='dropdown_li'>
                             <Link className="navbar-item" to="/lawyer">
                                 Lawyer
               </Link>
                         </li>
                         <li className='dropdown_li'>
                             <Link className="navbar-item" to="/referrers">
-                                Referrers
+                                Referrer
                 </Link>
                         </li>
                         <li className='dropdown_li'>

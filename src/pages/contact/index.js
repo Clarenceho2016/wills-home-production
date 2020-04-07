@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-
+import bg from '../../../static/img/contact.png'
 function encode(data) {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -36,9 +36,34 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              bg
+              })`,
+
+
+          }}
+        >
+          {/* <h2
+                    className="has-text-weight-bold is-size-1"
+                    style={{
+
+                        // marginTop: '19rem',
+                        color: '#152189',
+                        padding: '1rem',
+                        marginLeft: '0.05vw'
+                    }}
+                >
+                    Referrers from MyTribe
+        </h2> */}
+        </div>
+
         <section className="section">
           <div className="container">
-            <div className="content" style={{ paddingTop: '25px' }}>
+            <div className="content" style={{ paddingTop: '5px' }}>
               <h1>Contact</h1>
               <form
                 name="contact"

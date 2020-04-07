@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Wills Packages
-image: /img/package-o.jpg
+image: /img/packages.png
 heading: We offer different packages to suit your needs
 description: 'Whether you''re a single, couple of family we have a package right for you. 
 
@@ -42,13 +42,13 @@ main:
    
   image1:
     alt: 'Specialists in all departments '
-    image: /img/nik-macmillan-yxemfqipr_e-unsplash.jpg
+    image: /img/helloquence-oqmzwnd3thu-unsplash-3-.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/man-and-woman-discussing-and-sharing-ideas-2977565.jpg
+    image: /img/aaa.png
   image3:
     alt: 'lawyer '
-    image: /img/helloquence-oqmzwnd3thu-unsplash-3-.jpg
+    image: /img/sss.png
   image4:
     alt: 'will package for couples'
     image: /img/blur-business-coffee-commerce-273222.jpg

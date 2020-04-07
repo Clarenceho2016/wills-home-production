@@ -23,7 +23,7 @@ class BlogRoll extends React.Component {
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                   }`}
               >
-                <header>
+                {/* <header>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -36,7 +36,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                </header>
+                </header> */}
                 <div className="post-meta" style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
                   <Link
                     className="title has-text-primary is-size-4" style={{ display: 'flex', justifyContent: 'center', textAlign: 'center', }}

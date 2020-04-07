@@ -145,7 +145,7 @@ export const ProductPageTemplate = ({
 
                         <article style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                           {/* <PreviewCompatibleImage imageInfo={main.image1} /> */}
-                          <img style={{ width: '37vw', height: '55vh' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fadult-blur-boss-business-288477.jpg?alt=media&token=95a53303-ac87-402b-b7a2-ea7165e11080' alt="register" />
+                          <img style={{ width: '37vw', height: '55vh' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FTestamentary%20Trust%20Couples.png?alt=media&token=c76e0da1-7781-4932-bcfa-0c690ae298d7' alt="register" />
                         </article>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                           <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>

@@ -16,9 +16,7 @@ const referrers = () => {
                         bg
                         })`,
 
-                    // backgroundPosition: '10px 18px 18px 20px'
-                    // WebkitMask
-                    //     : '-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,0.5))'
+
                 }}
             >
                 <h2
@@ -40,7 +38,7 @@ const referrers = () => {
                 <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For referrers</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrer.jpg?alt=media&token=8c9907c6-681b-4db4-bc9b-7b17a2c405de' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fre-t.png?alt=media&token=e20b071d-7a59-4576-aba6-a275d49c1943' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>

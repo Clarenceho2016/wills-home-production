@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fstory.jpg?alt=media&token=b533a487-a158-4777-a85e-c4552042bbde')`,
+            backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fblog.png?alt=media&token=65527b20-b7da-4aa3-a3cf-7502fde4cd9c')`,
           }}
         >
           <h1
@@ -18,7 +18,7 @@ export default class BlogIndexPage extends React.Component {
             style={{
               // backgroundColor: '#007bff',
               marginTop: '10vh',
-              color: 'white',
+              color: 'rgb(21, 33, 137)',
               //color: '#152189',
               padding: '1rem',
             }}

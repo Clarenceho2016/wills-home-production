@@ -3,10 +3,9 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-//import bg from '../../static/img/lawyer-o.jpg'
-import bg from '../../static/img/lawyer33.png'
+import bg from '../../static/img/client.png'
 
-const lawyer = () => {
+const clients = () => {
     return (
         <Layout>
             <div
@@ -22,37 +21,38 @@ const lawyer = () => {
                 <h2
                     className="has-text-weight-bold is-size-1"
                     style={{
-                        // color: 'white',
+
                         color: '#152189',
                         padding: '1rem',
-                        // marginTop: '19rem'
+
                     }}
                 >
-                    Lawyers from MyTribe
+                    Welcome to MyTribe
         </h2>
             </div>
             <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
-                <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For Lawyers</h1>
+                <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For Clients</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer-second.png?alt=media&token=54eba816-8d47-46cf-865b-a52170f633d9' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fclient-2.png?alt=media&token=2f97c8aa-dc95-4fc6-9e00-3e8704d21173' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>
 
-                            <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Want to work for a law firm but can’t commit to the fixed hours or long commute to the office.<br /><br /> </h2>
-                            <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you get to pick your hours, work when you want, where you want and develop your skills as an expert estate planning lawyer all while earning great money. </h3>
+                            <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Add comments about client.<br /><br /> </h2>
+                            <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you could experience professional service. </h3>
                         </div>
                         <div
-                            style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem', paddingTop: '0.5vw' }}>
+                            style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginLeft: '10rem', marginRight: '10rem', marginTop: '1rem', paddingTop: '0.5vw' }}>
                             {/* <ul>
                                 <li style={{ color: 'white' }}>
                                     <a href="https://app.my-tribe.com.au/lawyer-signup" style={{ backgroundColor: '#007bff', padding: '0.5em', fontSize: '32px' }}>register</a>
                                 </li>
                             </ul> */}
 
-                            <Button variant="primary" href='https://app.my-tribe.com.au/lawyer-signup' style={{
-                                margin: '10px',
+                            <Button variant="primary" href='https://app.my-tribe.com.au/signup' target='_blank' style={{
+                                //margin: '10px',
+
                                 color: 'white',
                                 fontSize: '1em',
                                 borderColor: '#FFF',
@@ -63,6 +63,21 @@ const lawyer = () => {
                                 backgroundColor: '#007bff',
                             }}>
                                 Register
+
+              </Button>
+                            <Button variant="primary" href='https://my-tribe.com.au/packages' target='_blank' style={{
+                                //margin: '10px',
+
+                                color: 'white',
+                                fontSize: '1em',
+                                borderColor: '#FFF',
+                                borderRadius: '10px',
+
+
+                                lineHeight: '1.5em',
+                                backgroundColor: '#007bff',
+                            }}>
+                                Learn More
 
               </Button>
                         </div>
@@ -78,4 +93,4 @@ const lawyer = () => {
     )
 }
 
-export default lawyer
+export default clients

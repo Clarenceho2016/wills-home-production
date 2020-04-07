@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: How it works
-image: /img/barefoot-beach-cheerful-1574653.jpg
+image: /img/111.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
