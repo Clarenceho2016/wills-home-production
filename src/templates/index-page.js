@@ -61,19 +61,25 @@ export const IndexPageTemplate = ({
 
               }}
             >
-              <h3
+              <h2
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   // color: '#2b2523a3',
-                  fontBold: 'bold',
+
                   position: 'static',
                   lineHeight: '1.5',
                   padding: '0.5em',
-                  color: '#152189'
+                  color: '#152189',
+
+
+                  fontWeight: '700',
+
+
+                  fontSize: '3rem',
                 }}
               >
                 Protect your family’s future with MyTribe
-              </h3>
+              </h2>
               <p
                 // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
@@ -151,19 +157,19 @@ export const IndexPageTemplate = ({
                 marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
-                  <h3
+                  <h2
                     style={{
-                      color: 'black',
+
                       fontWeight: '700',
                       lineHeight: '1',
                       marginBottom: '1em',
-
+                      color: '#152189',
                       paddingTop: '0',
                       fontSize: '3rem',
                     }}
                   >
                     How it works
-                  </h3>
+                  </h2>
                 </Grid>
               </Grid>
 
@@ -328,13 +334,11 @@ export const IndexPageTemplate = ({
                   {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}> */}
                   <h3
                     style={{
-                      color: 'black',
                       fontWeight: '700',
-                      // fontWeight: '700',
-                      //position: 'static',
-
                       lineHeight: '1',
-                      paddingBottom: '0.25em',
+                      marginBottom: '1em',
+                      color: '#152189',
+                      paddingTop: '0',
                       fontSize: '3rem',
                     }}
                   >
@@ -641,7 +645,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FMother.jpg?alt=media&token=ed879165-644d-441e-bf76-4f244a56c123)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fclient-play-kids.png?alt=media&token=abad257b-1c55-4631-9f54-a8770057c0fc)',
                       height: '60vh',
                     }}>
 
@@ -670,7 +674,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} style={{ marginLeft: '1.25em', marginRight: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fphoto-of-man-holding-a-book-927022-min.jpg?alt=media&token=bacb71c4-bc2c-4bcc-93a6-ea2084f8a460)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer-h.png?alt=media&token=5dbf65a8-7279-4f22-8691-cdbb496fda18)',
                       height: '60vh',
                     }}>
 
@@ -704,7 +708,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferrers.jpg?alt=media&token=eb60ad56-71f8-475f-920f-64934eee6254)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferee-h.png?alt=media&token=ba20ef31-d92d-4c78-9757-dbe3b3756b80)',
                       height: '60vh',
                     }}>
 
