@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
 
               }}
             >
-              <h3
+              <h2
                 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   // color: '#2b2523a3',
@@ -71,11 +71,13 @@ export const IndexPageTemplate = ({
                   position: 'static',
                   lineHeight: '1.5',
                   padding: '0.5em',
+                  fontFamily: 'Comic Sans MS',
+                  color: '#007bff'
 
                 }}
               >
                 Protect your family's future with MyTribe
-              </h3>
+              </h2>
               <p
                 // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
@@ -117,7 +119,7 @@ export const IndexPageTemplate = ({
                   border: 'none'
 
                 }}>
-                  <a href="#nav1" style={{
+                  <a href=" https://www.my-tribe.com.au/packages" target='_blank' style={{
                     color: '#ffffff',
 
 
@@ -153,19 +155,20 @@ export const IndexPageTemplate = ({
                 marginBottom: '5px',
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
-                  <h3
+                  <h2
                     style={{
-                      color: 'black',
+
                       fontWeight: '700',
                       lineHeight: '1',
                       marginBottom: '1em',
-
+                      fontFamily: 'Comic Sans MS',
+                      color: '#007bff',
                       paddingTop: '0',
                       fontSize: '3rem',
                     }}
                   >
                     How it works
-                  </h3>
+                  </h2>
                 </Grid>
               </Grid>
 
@@ -296,7 +299,7 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}>Depending   on   the   package   you   choose,   your   documents   will   be   finalised   on   the   spot   orwithin 7 days of the meeting. </p></div></Grid>
+                        }}>Depending   on   the   package   you   choose,   your   documents   will   be   finalised   on   the   spot or within 7 days of the meeting. </p></div></Grid>
 
                   </Grid>
                 </Grid>
@@ -327,20 +330,22 @@ export const IndexPageTemplate = ({
               }} container spacing={12}>
                 <Grid item xs={12} className="grid-content icon-content">
                   {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}> */}
-                  <h3
+                  <h2
                     style={{
-                      color: 'black',
+
                       fontWeight: '700',
                       // fontWeight: '700',
                       //position: 'static',
-
+                      fontFamily: 'Comic Sans MS',
+                      color: '#007bff',
                       lineHeight: '1',
                       paddingBottom: '0.25em',
                       fontSize: '3rem',
+
                     }}
                   >
                     Why MyTribe?
-                  </h3>
+                  </h2>
 
                 </Grid>
 
