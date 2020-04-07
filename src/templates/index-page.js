@@ -315,7 +315,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhome-real-estate-106399-min.jpg?alt=media&token=f8ae6499-4c26-4e0b-b282-7dcb805ee420)`,
+            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhouse.png?alt=media&token=380cdadb-bef8-4ebc-8066-f0f87a827803)`,
             height: '60vh',
             backgroundPosition: 'center',
           }}
@@ -661,7 +661,7 @@ export const IndexPageTemplate = ({
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
                       <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
                       <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
-                        <Link style={{ color: 'white' }} to="/products">
+                        <Link style={{ color: 'white' }} to="/clients" >
                           Start Now
               </Link></Button>
 
