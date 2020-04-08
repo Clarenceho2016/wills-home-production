@@ -23,6 +23,7 @@ export const ProductPageTemplate = ({
       <div
         className="full-width-image-container margin-top-0"
         style={{
+          marginTop: '100vh',
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
@@ -33,7 +34,7 @@ export const ProductPageTemplate = ({
           style={{
             // boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
             // backgroundColor: '#007bff',
-            marginTop: '40vh',
+            //marginTop: '40vh',
             color: '#152189',
             padding: '1rem',
           }}
