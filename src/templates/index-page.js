@@ -45,13 +45,16 @@ export const IndexPageTemplate = ({
               justifyContent: 'center',
               alignItems: 'center',
               transform: 'scale(0.6)',
+
+
             }}
           >
             <div
               style={{
                 display: 'flex',
                 marginTop: '60px',
-                backgroundColor: '#ffffffcc',
+                // backgroundColor: '#ffffffcc',
+                backgroundColor: 'rgba(255,255,255,0.4)',
                 paddingBottom: '20px',
                 paddingTop: '20px',
                 lineHeight: '1',
@@ -70,11 +73,7 @@ export const IndexPageTemplate = ({
                   lineHeight: '1.5',
                   padding: '0.5em',
                   color: '#152189',
-
-
                   fontWeight: '700',
-
-
                   fontSize: '3rem',
                 }}
               >
@@ -89,7 +88,7 @@ export const IndexPageTemplate = ({
                   padding: '1em',
                 }}
               >
-                MyTribe brings professional and expert legal advice to your doorstep.<br />No need to take time out of your busy schedule.
+                MyTribe brings professional and expert legal advice to your doorstep. Simply pick a time and place that suits you and one of our lawyers will take care of the rest!
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -204,7 +203,7 @@ export const IndexPageTemplate = ({
 
 
                         }}>
-                          <ul><li>Create an account.</li> <li>No need a detailed family history.</li></ul>
+                          Create an account in seconds. There is no need to provide a detailed family history our lawyers will know the right questions to ask.
                         </p>
                       </div>
                     </Grid>
@@ -241,9 +240,9 @@ export const IndexPageTemplate = ({
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
 
-                        }}><ol>
-                            <li>Select the right <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a>;</li>
-                            <li>Pick the time and place for meeting.</li></ol></p></div></Grid>
+                        }}>
+                          Simply select the <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a> and set the time and place for your meeting.
+                            </p></div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3} >
@@ -272,8 +271,8 @@ export const IndexPageTemplate = ({
                           color: 'black',
                           fontSize: '1.125rem',
                           lineHeight: '1.5',
-                        }}><ol><li>One expert lawyer will advise you;</li>
-                            <li>Prepare tailored documents. </li></ol></p>  </div></Grid>
+                        }}>One of our expert lawyers comes to you, explains your options and prepares tailored documents that will protect your loved one’s future.
+                            </p>  </div></Grid>
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sm={3}>
@@ -359,7 +358,7 @@ export const IndexPageTemplate = ({
                     position: 'center',
                     paddingBottom: '4em',
                   }}>
-                    <p>9 to 5 is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
+                    <p>Nine to five is time that suits business, but it may not suit you. At MyTribe we understand that our clients can’t simply take time out of their day to fit into a business’s opening hours. </p>
                     <p><br />We believe it’s time that businesses become flexible to accommodate your needs. We have made obtaining the right advice easy and convenient. With the ability to choose a time, place and even language, it has never been easier to speak to a lawyer who understands you.</p>
                   </div>
                   {/* </div> */}
@@ -388,13 +387,16 @@ export const IndexPageTemplate = ({
                       <Grid item xs={12} style={{
                         padding: '10px',
                       }} sm={12} className="grid-content">
-                        <Typography variant="h5" component="h3">
+                        <Typography variant="h5" component="h3" style={{
+                          color: '#152189',
+                          fontWeight: '600'
+                        }}>
                           Professional
                      </Typography>
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We're experts at drafing Wills.
+                          We are a law firm with a team of qualified professionals.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -419,13 +421,16 @@ export const IndexPageTemplate = ({
                       <Grid item xs={12} style={{
                         padding: '10px',
                       }} sm={12} className="grid-content">
-                        <Typography variant="h5" component="h3">
+                        <Typography variant="h5" component="h3" style={{
+                          color: '#152189',
+                          fontWeight: '600'
+                        }}>
                           Knowledge
                      </Typography>
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We've got the answers to your pool of questions
+                          Our lawyers have demonstrated experience and a deep understanding of all things relevant to creating an estate plan.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -450,13 +455,16 @@ export const IndexPageTemplate = ({
                       <Grid item xs={12} style={{
                         padding: '10px',
                       }} sm={12} className="grid-content">
-                        <Typography variant="h5" component="h3">
+                        <Typography variant="h5" component="h3" style={{
+                          color: '#152189',
+                          fontWeight: '600'
+                        }}>
                           Understanding
                      </Typography>
                       </Grid>
                       <Grid item xs={12} sm={12} className="grid-content">
                         <Typography component="p">
-                          We understand and we listen
+                          We speak your language, we understand your concerns, we listen and we implement.
                     </Typography>
                       </Grid>
                     </Grid>
@@ -723,7 +731,7 @@ export const IndexPageTemplate = ({
                     }}>
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
-                      <p style={{ color: '#ffffff' }}>Join as a referrer on the platform.</p>
+                      <p style={{ color: '#ffffff' }}>Become a referrer on the platform.</p>
                       <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
@@ -750,7 +758,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FFamily.jpg?alt=media&token=4e8942b1-f4b4-4026-850f-b572025d8774)',
+            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhp-t.png?alt=media&token=71cdc880-1fc6-4b1a-b26d-e2cbf15168c6)',
             backgroundAttachment: `fixed`,
           }}
         >
@@ -769,29 +777,38 @@ export const IndexPageTemplate = ({
 
                 display: 'flex',
                 marginTop: '60px',
-                backgroundColor: '#ffffffcc',
+
                 paddingBottom: '20px',
                 paddingTop: '20px',
                 lineHeight: '1',
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
-
+                backgroundColor: 'rgba(255,255,255,0.4)',
 
 
               }}
             >
-              <p
-                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              <h2
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-
-                  fontSize: '2rem',
+                  // color: '#2b2523a3',
+                  position: 'static',
                   lineHeight: '1.5',
-                  padding: '1em',
+                  padding: '0.5em',
+                  color: '#152189',
+                  fontWeight: '700',
+                  fontSize: '3rem',
                 }}
               >
-                Not all wills are the same. You have options. <br />Follow the link below to learn more about different types of packages.
-              </p>
+                Not all wills are the same.
+              </h2>
+              <p style={{
+
+                fontSize: '1.75rem',
+                lineHeight: '1.5',
+                padding: '1em',
+              }}>You have options. Follow the link below to learn more about different types of packages.</p>
               <div style={{
 
                 display: 'flex',

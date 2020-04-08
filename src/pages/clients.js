@@ -43,7 +43,7 @@ const clients = () => {
                             <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you could experience professional service. </h3>
                         </div>
                         <div
-                            style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginLeft: '10rem', marginRight: '10rem', marginTop: '1rem', paddingTop: '0.5vw' }}>
+                            style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem', paddingTop: '0.5vw' }}>
                             {/* <ul>
                                 <li style={{ color: 'white' }}>
                                     <a href="https://app.my-tribe.com.au/lawyer-signup" style={{ backgroundColor: '#007bff', padding: '0.5em', fontSize: '32px' }}>register</a>
@@ -58,7 +58,7 @@ const clients = () => {
                                 borderColor: '#FFF',
                                 borderRadius: '10px',
 
-
+                                marginRight: '1.5rem',
                                 lineHeight: '1.5em',
                                 backgroundColor: '#007bff',
                             }}>
@@ -73,9 +73,12 @@ const clients = () => {
                                 borderColor: '#FFF',
                                 borderRadius: '10px',
 
+                                //borderColor: '#FFF',
+                                backgroundColor: '#8080804d',
 
+                                borderRadius: '10px',
                                 lineHeight: '1.5em',
-                                backgroundColor: '#007bff',
+
                             }}>
                                 Learn More
 

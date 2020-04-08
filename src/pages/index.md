@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: How it works
-image: /img/111.png
+image: /img/tree.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
