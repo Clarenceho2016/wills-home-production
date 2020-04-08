@@ -19,7 +19,8 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing,
 }) => (
-    <div className="content">
+    //<div className="content">
+    <Layout>
       <div
         className="full-width-image-container margin-top-0"
         style={{
@@ -293,7 +294,7 @@ export const ProductPageTemplate = ({
       </div>
 
 
-    </div>
+    </Layout>
   )
 
 ProductPageTemplate.propTypes = {
