@@ -19,8 +19,8 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing,
 }) => (
-    //<div className="content">
-    <Layout>
+    <div >
+
       <div
         className="full-width-image-container margin-top-0"
         style={{
@@ -58,6 +58,8 @@ export const ProductPageTemplate = ({
                 }}
                 >{heading}</h3>
                 <p style={{
+                  marginTop: '20px',
+                  marginBottom: '20px',
                   justifyContent: 'center !important',
                   textAlign: 'center',
                 }}>{description}{pricing.description}</p>
@@ -201,49 +203,6 @@ export const ProductPageTemplate = ({
               </div>
 
             </div>
-            {/* <div
-              className="full-width-image-container-product"
-              style={{
-                backgroundImage: `url(${
-                  fullImage.childImageSharp
-                    ? fullImage.childImageSharp.fluid.src
-                    : fullImage
-                  })`,
-              }}
-            >
-
-
-
-
-              <div style={{
-                marginTop: '85vh'
-              }}>
-                <Button variant="primary" style={{
-                  margin: '15px',
-
-                  borderRadius: '10px',
-                  fontSize: '20px',
-                  padding: '15px',
-
-
-
-
-                }}>
-                  <Link to="/products" style={{
-                    margin: '15px',
-                    width: '50%',
-                    position: 'center',
-                    borderRadius: '10px',
-                    fontSize: '20px',
-                    color: '#ffffff',
-                    padding: '15px',
-                  }}>
-                    Sign-Up and Book
-        </Link>
-                </Button>
-              </div>
-            </div> */}
-
 
 
           </div>
@@ -266,10 +225,12 @@ export const ProductPageTemplate = ({
 
 
         <div style={{
-          marginTop: '85vh'
+          //marginTop: '85vh',
+          justifyContent: 'center',
+          display: 'flex'
         }}>
-          <Button variant="primary" style={{
-            margin: '15px',
+          <Button variant="primary" href='https://app.my-tribe.com.au/signup' target='_blank' style={{
+            //margin: '15px',
 
             borderRadius: '10px',
             fontSize: '20px',
@@ -278,24 +239,27 @@ export const ProductPageTemplate = ({
 
 
           }}>
-            <Link to="/products" style={{
-              margin: '15px',
-              width: '50%',
-              position: 'center',
-              borderRadius: '10px',
-              fontSize: '20px',
-              color: '#ffffff',
-              padding: '15px',
-            }}>
-              Sign-Up and Book
-        </Link>
+            Sign-Up and Book
           </Button>
         </div>
       </div>
 
 
-    </Layout>
+
+    </div>
   )
+//     <Link  style={{
+//       margin: '15px',
+//       width: '50%',
+//       position: 'center',
+//       borderRadius: '10px',
+//       fontSize: '20px',
+//       color: '#ffffff',
+//       padding: '15px',
+//     }}>
+//      
+// </Link>
+
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
