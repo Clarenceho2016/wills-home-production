@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import bg from '../../../static/img/contact.png'
+import bg from '../../../static/img/contact.jpg'
 function encode(data) {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -113,7 +113,7 @@ export default class Index extends React.Component {
           </div>
         </section>
 
-        <div
+        {/* <div
           className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `url(${
@@ -123,7 +123,7 @@ export default class Index extends React.Component {
 
           }}
         >
-        </div>
+        </div> */}
       </Layout>
     )
   }

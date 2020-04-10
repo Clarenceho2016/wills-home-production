@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} >
         <div
           className="full-width-image margin-top-0"
           style={{
@@ -35,6 +35,7 @@ export const IndexPageTemplate = ({
               !!image.childImageSharp ? image.childImageSharp.fluid.src : image
               })`,
             backgroundAttachment: `fixed`,
+
           }}
         >
           <Grid item xs={12} sm={6}
@@ -138,15 +139,7 @@ export const IndexPageTemplate = ({
         </div>
       </Grid>
 
-      {/* <section style={{ paddingBottom: '0px', }} className="section section--service">
-        <div id='nav1' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}>
-          <h1 style={{
-            color: 'black',
-            fontSize: '2em',
-            fontWeight: '700',
-          }}> Your Next Steps </h1>
-        </div>
-      </section> */}
+
 
       <section style={{ paddingBottom: '0px', }} className="section section--service">
         <div className="container-fluid">
@@ -314,7 +307,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhouse.png?alt=media&token=380cdadb-bef8-4ebc-8066-f0f87a827803)`,
+            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Family%20with%20Baby%20Meeting%20Financial%20Advisor%20at%20Home.jpg?alt=media&token=1c178887-0295-46b0-878e-8fdd0002eba8)`,
             height: '60vh',
             backgroundPosition: 'center',
           }}
@@ -653,7 +646,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fclient-play-kids.png?alt=media&token=abad257b-1c55-4631-9f54-a8770057c0fc)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20%20Future%20Parents%20at%20Home.jpg?alt=media&token=b14f2f92-634c-40f7-842c-24e3cb996a50)',
                       height: '60vh',
                     }}>
 
@@ -682,7 +675,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} style={{ marginLeft: '1.25em', marginRight: '1.25em' }}>
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer-h.png?alt=media&token=5dbf65a8-7279-4f22-8691-cdbb496fda18)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Portrait%20of%20a%20Mature%20Businesswoman%20Smiling%20in%20Her%20Library.jpg?alt=media&token=f3980385-9bb5-485a-bbc5-6053d3011d5a)',
                       height: '60vh',
                     }}>
 
@@ -716,7 +709,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Freferee-h.png?alt=media&token=ba20ef31-d92d-4c78-9757-dbe3b3756b80)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Business%20Colleagues%20Discussing%20Work%20in%20Office.jpg?alt=media&token=1220316a-adf6-49da-ade7-83eb57b5eeaf)',
                       height: '60vh',
                     }}>
 
@@ -758,7 +751,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhp-t.png?alt=media&token=71cdc880-1fc6-4b1a-b26d-e2cbf15168c6)',
+            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Senior%20Couple%20Signing%20Documents%20at%20Home-min.jpg?alt=media&token=87b57f1e-ba6c-4e03-b66d-e38ac64fe0e3)',
             backgroundAttachment: `fixed`,
           }}
         >

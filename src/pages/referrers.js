@@ -38,7 +38,7 @@ const referrers = () => {
                 <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For referrers</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fre-t.png?alt=media&token=e20b071d-7a59-4576-aba6-a275d49c1943' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Lawyer%20Has%20an%20Idea-min.jpg?alt=media&token=a93a4faa-8925-48fd-8061-b04e7a416b93' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>

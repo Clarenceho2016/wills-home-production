@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-import bg from '../../static/img/client.png'
+import bg from '../../static/img/client.jpg'
 
 const clients = () => {
     return (
@@ -34,7 +34,7 @@ const clients = () => {
                 <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For Clients</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fclient-2.png?alt=media&token=2f97c8aa-dc95-4fc6-9e00-3e8704d21173' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Health%20Insurance%20Manager%20Talking%20to%20a%20Couple.jpg?alt=media&token=7419df93-b153-4283-85bc-66829ae82a76' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>

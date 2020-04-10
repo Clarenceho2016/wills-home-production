@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
 //import bg from '../../static/img/lawyer-o.jpg'
-import bg from '../../static/img/lawyer33.png'
+import bg from '../../static/img/lawyer33.jpg'
 
 const lawyer = () => {
     return (
@@ -35,7 +35,7 @@ const lawyer = () => {
                 <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For Lawyers</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flawyer-second.png?alt=media&token=54eba816-8d47-46cf-865b-a52170f633d9' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Lawyer%20Signing%20Documents%20at%20His%20Desk%20in%20an%20Office-min.jpg?alt=media&token=da59acd8-8d2b-484f-8d84-d35e9be9221b' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>
