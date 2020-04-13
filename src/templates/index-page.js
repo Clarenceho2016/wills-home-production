@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMousePointer, faAddressBook, faUserTie, faScroll, faHandshake, faBrain, faArrowRight, faUserPlus, faUserCircle, faCalendarPlus, } from '@fortawesome/free-solid-svg-icons'
 import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-
+import bg from '../../static/img/hp-1.jpg'
 
 
 export const IndexPageTemplate = ({
@@ -27,117 +27,117 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <Grid container spacing={3} >
-        <div
-          className="full-width-image margin-top-0"
+      {/* <Grid container spacing={3} > */}
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${bg
+            // !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
+          backgroundAttachment: `fixed`,
+
+        }}
+      >
+        <Grid item xs={12} sm={6}
           style={{
-            backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-              })`,
-            backgroundAttachment: `fixed`,
+
+            padding: '10px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            transform: 'scale(0.6)',
+
 
           }}
         >
-          <Grid item xs={12} sm={6}
+          <div
             style={{
-
-              padding: '10px',
               display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              transform: 'scale(0.6)',
-
+              marginTop: '60px',
+              // backgroundColor: '#ffffffcc',
+              backgroundColor: 'rgba(255,255,255,0.4)',
+              paddingBottom: '20px',
+              paddingTop: '20px',
+              lineHeight: '1',
+              justifyContent: 'space-around',
+              alignItems: 'left',
+              flexDirection: 'column',
 
             }}
           >
-            <div
+            <h2
+              className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
-                display: 'flex',
-                marginTop: '60px',
-                // backgroundColor: '#ffffffcc',
-                backgroundColor: 'rgba(255,255,255,0.4)',
-                paddingBottom: '20px',
-                paddingTop: '20px',
-                lineHeight: '1',
-                justifyContent: 'space-around',
-                alignItems: 'left',
-                flexDirection: 'column',
+                // color: '#2b2523a3',
 
+                position: 'static',
+                lineHeight: '1.5',
+                padding: '0.5em',
+                color: '#152189',
+                fontWeight: '700',
+                fontSize: '3rem',
               }}
             >
-              <h2
-                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  // color: '#2b2523a3',
-
-                  position: 'static',
-                  lineHeight: '1.5',
-                  padding: '0.5em',
-                  color: '#152189',
-                  fontWeight: '700',
-                  fontSize: '3rem',
-                }}
-              >
-                Protect your family’s future with MyTribe
+              Protect your family’s future with MyTribe
               </h2>
-              <p
-                // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
+            <p
+              // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
 
-                  fontSize: '1.75rem',
-                  lineHeight: '1.5',
-                  padding: '1em',
-                }}
-              >
-                MyTribe brings professional and expert legal advice to your doorstep. Simply pick a time and place that suits you and one of our lawyers will take care of the rest!
+                fontSize: '1.75rem',
+                lineHeight: '1.5',
+                padding: '1em',
+              }}
+            >
+              MyTribe brings professional and expert legal advice to your doorstep. Simply pick a time and place that suits you and one of our lawyers will take care of the rest!
               </p>
 
-              <div style={{ display: 'flex', flexDirection: 'row' }}>
-                <Button variant="primary" style={{
-                  margin: '35px',
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+              <Button variant="primary" style={{
+                margin: '35px',
 
-                  width: '40%',
+                width: '40%',
+                borderRadius: '10px',
+                fontSize: '30px',
+                padding: '15px',
+
+              }}>
+                <a href="https://app.my-tribe.com.au/signup" target='_blank' style={{
+                  color: '#ffffff',
                   borderRadius: '10px',
-                  fontSize: '30px',
-                  padding: '15px',
 
                 }}>
-                  <a href="https://app.my-tribe.com.au/signup" target='_blank' style={{
-                    color: '#ffffff',
-                    borderRadius: '10px',
-
-                  }}>
-                    Book Today
+                  Book Today
                   </a>
-                </Button>
-                <Button variant="primary" style={{
-                  margin: '35px',
-                  backgroundColor: '#8080804d',
-                  borderRadius: '10px',
-                  width: '40%',
-                  borderRadius: '10px',
-                  fontSize: '30px',
-                  padding: '15px',
-                  border: 'none'
+              </Button>
+              <Button variant="primary" style={{
+                margin: '35px',
+                backgroundColor: '#8080804d',
+                borderRadius: '10px',
+                width: '40%',
+                borderRadius: '10px',
+                fontSize: '30px',
+                padding: '15px',
+                border: 'none'
+
+              }}>
+                <a href="#nav1" style={{
+                  color: '#ffffff',
+
 
                 }}>
-                  <a href="#nav1" style={{
-                    color: '#ffffff',
-
-
-                  }}>
-                    Learn More
+                  Learn More
                   </a>
-                </Button>
-              </div>
-
-
-
+              </Button>
             </div>
-          </Grid>
 
-        </div>
-      </Grid>
+
+
+          </div>
+        </Grid>
+
+      </div>
+      {/* </Grid> */}
 
 
 

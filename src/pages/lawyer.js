@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 
 import bg from '../../static/img/lawyers.png'
 
+
 const lawyer = () => {
     return (
         <Layout>
