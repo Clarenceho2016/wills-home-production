@@ -307,7 +307,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Family%20with%20Baby%20Meeting%20Financial%20Advisor%20at%20Home.jpg?alt=media&token=1c178887-0295-46b0-878e-8fdd0002eba8)`,
+            backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Family%20with%20Baby%20Meeting%20Financial%20Advisor%20at%20Home-min.jpg?alt=media&token=a69c9b7c-618a-410e-8715-dd416994b803)`,
             height: '60vh',
             backgroundPosition: 'center',
           }}
@@ -646,7 +646,7 @@ export const IndexPageTemplate = ({
 
                   <Grid item xs={12} sm={12} >
                     <Grid item xs={12} sm={12} className="full-width-image margin-top-0" style={{
-                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20%20Future%20Parents%20at%20Home.jpg?alt=media&token=b14f2f92-634c-40f7-842c-24e3cb996a50)',
+                      backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fnew.jpg?alt=media&token=3874b748-97e5-42d7-bdf2-7f95bb061589)',
                       height: '60vh',
                     }}>
 
@@ -751,7 +751,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Senior%20Couple%20Signing%20Documents%20at%20Home-min.jpg?alt=media&token=87b57f1e-ba6c-4e03-b66d-e38ac64fe0e3)',
+            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Senior%20Couple%20Signing%20Documents%20at%20Home-min-min.jpg?alt=media&token=aa57a2df-9173-4a69-b0d7-7e63dcca4f5b)',
             backgroundAttachment: `fixed`,
           }}
         >

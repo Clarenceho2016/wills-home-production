@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-//import bg from '../../static/img/lawyer-o.jpg'
-import bg from '../../static/img/lawyer33.jpg'
+
+import bg from '../../static/img/lawyers.png'
 
 const lawyer = () => {
     return (
@@ -22,8 +22,8 @@ const lawyer = () => {
                 <h2
                     className="has-text-weight-bold is-size-1"
                     style={{
-                        // color: 'white',
-                        color: '#152189',
+                        color: 'white',
+                        //color: '#152189',
                         padding: '1rem',
                         // marginTop: '19rem'
                     }}
@@ -35,7 +35,7 @@ const lawyer = () => {
                 <h1 style={{ fontSize: '3rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For Lawyers</h1>
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={6}>
-                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Lawyer%20Signing%20Documents%20at%20His%20Desk%20in%20an%20Office-min.jpg?alt=media&token=da59acd8-8d2b-484f-8d84-d35e9be9221b' alt="register" ></img>
+                        <img src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Lawyer%20Signing%20Documents%20at%20His%20Desk%20in%20an%20Office-min-min.jpg?alt=media&token=271cef66-8d34-4a10-baaf-2bec4126c68a' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={6} >
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>
