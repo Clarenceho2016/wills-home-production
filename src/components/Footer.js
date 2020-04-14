@@ -117,9 +117,13 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
+                <div style={{ marginTop: '40px' }}>POWERED by<a style={{ color: 'white', fontWeight: '900', background: 'none' }} href='https://www.atlasopen.com/'>AtlasOpen</a></div>
               </div>
+
             </div>
+
           </div>
+
         </div>
       </footer>
     )

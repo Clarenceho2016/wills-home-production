@@ -5,7 +5,7 @@ import Link from "gatsby-link";
 import Grid from "@material-ui/core/Grid";
 import Button from "react-bootstrap/Button";
 import { faAlignCenter } from '@fortawesome/free-solid-svg-icons';
-import bg from '../../static/img/referrer-o.jpg'
+import bg from '../../static/img/referrer-1.png'
 const referrers = () => {
     return (
         <Layout>
@@ -24,7 +24,8 @@ const referrers = () => {
                     style={{
 
                         // marginTop: '19rem',
-                        color: '#152189',
+                        //color: '#152189',
+                        color: 'white',
                         padding: '1rem',
                         marginLeft: '0.05vw'
                     }}

@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Link from "gatsby-link";
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-import bg from '../../static/img/client.jpg'
+import bg from '../../static/img/client-3.png'
 
 const clients = () => {
     return (
@@ -22,7 +22,8 @@ const clients = () => {
                     className="has-text-weight-bold is-size-1"
                     style={{
 
-                        color: '#152189',
+                        // color: '#152189',
+                        color: 'white',
                         padding: '1rem',
 
                     }}

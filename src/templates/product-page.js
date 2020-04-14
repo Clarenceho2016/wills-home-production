@@ -36,7 +36,8 @@ export const ProductPageTemplate = ({
             // boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
             // backgroundColor: '#007bff',
             //marginTop: '40vh',
-            color: '#152189',
+            //color: '#152189',
+            color: 'white',
             padding: '1rem',
           }}
         >

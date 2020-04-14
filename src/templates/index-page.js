@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMousePointer, faAddressBook, faUserTie, faScroll, faHandshake, faBrain, faArrowRight, faUserPlus, faUserCircle, faCalendarPlus, } from '@fortawesome/free-solid-svg-icons'
 import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-import bg from '../../static/img/hp-1.jpg'
+import bg from '../../static/img/hp-1.png'
 
 
 export const IndexPageTemplate = ({
@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
               display: 'flex',
               marginTop: '60px',
               // backgroundColor: '#ffffffcc',
-              backgroundColor: 'rgba(255,255,255,0.4)',
+              // backgroundColor: 'rgba(255,255,255,0.4)',
               paddingBottom: '20px',
               paddingTop: '20px',
               lineHeight: '1',
@@ -73,7 +73,7 @@ export const IndexPageTemplate = ({
                 position: 'static',
                 lineHeight: '1.5',
                 padding: '0.5em',
-                color: '#152189',
+                color: 'white',
                 fontWeight: '700',
                 fontSize: '3rem',
               }}
@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({
             <p
               // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
-
+                color: 'white',
                 fontSize: '1.75rem',
                 lineHeight: '1.5',
                 padding: '1em',
@@ -95,7 +95,8 @@ export const IndexPageTemplate = ({
             <div style={{ display: 'flex', flexDirection: 'row' }}>
               <Button variant="primary" style={{
                 margin: '35px',
-
+                backgroundColor: '#48D1CC',
+                border: 'none',
                 width: '40%',
                 borderRadius: '10px',
                 fontSize: '30px',
@@ -751,7 +752,7 @@ export const IndexPageTemplate = ({
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Senior%20Couple%20Signing%20Documents%20at%20Home-min-min.jpg?alt=media&token=aa57a2df-9173-4a69-b0d7-7e63dcca4f5b)',
+            backgroundImage: 'url(https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FSenior%20Couple%20Signing%20Documents%20at%20Home1-min.png?alt=media&token=aa42302e-4c6a-4145-8bae-8bbaa2197809)',
             backgroundAttachment: `fixed`,
           }}
         >
@@ -777,7 +778,7 @@ export const IndexPageTemplate = ({
                 justifyContent: 'space-around',
                 alignItems: 'left',
                 flexDirection: 'column',
-                backgroundColor: 'rgba(255,255,255,0.4)',
+                // backgroundColor: 'rgba(255,255,255,0.4)',
 
 
               }}
@@ -789,7 +790,7 @@ export const IndexPageTemplate = ({
                   position: 'static',
                   lineHeight: '1.5',
                   padding: '0.5em',
-                  color: '#152189',
+                  color: 'white',
                   fontWeight: '700',
                   fontSize: '3rem',
                 }}
@@ -797,30 +798,23 @@ export const IndexPageTemplate = ({
                 Not all wills are the same.
               </h2>
               <p style={{
-
+                color: 'white',
                 fontSize: '1.75rem',
                 lineHeight: '1.5',
                 padding: '1em',
               }}>You have options. Follow the link below to learn more about different types of packages.</p>
               <div style={{
 
-                display: 'flex',
+                // display: 'flex',
 
-                position: 'center',
-                justifyContent: 'center'
+                // position: 'center',
+                // justifyContent: 'center'
               }}>
                 <Button variant="primary" style={{
-                  // margin: '15px',
-                  // display: 'flex',
 
-                  // width: '40%',
-                  // justifyContent: 'center',
-                  // alignItems: 'center',
-                  // borderRadius: '10px',
-                  // fontSize: '1.5em',
-                  //padding: '8px',
                   margin: '35px',
-
+                  backgroundColor: '#48D1CC',
+                  border: 'none',
                   width: '40%',
                   borderRadius: '10px',
                   fontSize: '30px',

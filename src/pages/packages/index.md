@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Wills Packages
-image: /img/p.jpg
+image: /img/package.png
 heading: We offer different packages to suit your needs
 description: 'Whether you''re a single, couple of family we have a package right for you. 
 

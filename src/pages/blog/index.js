@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
-import bg from '../../../static/img/blog.jpg'
+import bg from '../../../static/img/blog-1.png'
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -21,7 +21,8 @@ export default class BlogIndexPage extends React.Component {
             className="has-text-weight-bold is-size-1"
             style={{
               // backgroundColor: '#007bff',
-              color: 'rgb(21, 33, 137)',
+              //color: 'rgb(21, 33, 137)',
+              color: 'white',
               padding: '1rem',
             }}
           >
