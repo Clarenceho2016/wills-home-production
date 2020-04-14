@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMousePointer, faAddressBook, faUserTie, faScroll, faHandshake, faBrain, faArrowRight, faUserPlus, faUserCircle, faCalendarPlus, } from '@fortawesome/free-solid-svg-icons'
 import { Paper } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-import bg from '../../static/img/hp-1.png'
+
 
 
 export const IndexPageTemplate = ({
@@ -31,8 +31,9 @@ export const IndexPageTemplate = ({
       <div
         className="full-width-image margin-top-0"
         style={{
-          backgroundImage: `url(${bg
-            // !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          backgroundImage: `url(${
+
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
           backgroundAttachment: `fixed`,
 
