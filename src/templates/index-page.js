@@ -59,14 +59,14 @@ export const IndexPageTemplate = ({
               // backgroundColor: 'rgba(255,255,255,0.4)',
               paddingBottom: '20px',
               paddingTop: '20px',
-              lineHeight: '1',
+              //lineHeight: '1',
               justifyContent: 'space-around',
               alignItems: 'left',
               flexDirection: 'column',
 
             }}
           >
-            <h2
+            <h1
               className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
                 // color: '#2b2523a3',
@@ -76,11 +76,11 @@ export const IndexPageTemplate = ({
                 padding: '0.5em',
                 color: 'white',
                 fontWeight: '700',
-                fontSize: '3rem',
+                //fontSize: '50px',
               }}
             >
               Protect your family’s future with MyTribe
-              </h2>
+              </h1>
             <p
               // className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
@@ -663,7 +663,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Clients</h4>
                       <p style={{ color: '#ffffff' }}>Book a consultation today.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#48D1CC', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/clients" >
                           Start Now
               </Link></Button>
@@ -693,7 +693,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Lawyers</h4>
                       <p style={{ color: '#ffffff' }}>Join as a lawyer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#48D1CC', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/lawyer">
                           Join Now
               </Link>
@@ -719,7 +719,7 @@ export const IndexPageTemplate = ({
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#152189 ', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: '#152189', paddingLeft: '2vw'
 
 
 
@@ -727,7 +727,7 @@ export const IndexPageTemplate = ({
 
                       <h4 style={{ color: '#ffffff', fontSize: '2rem' }}>Referrers</h4>
                       <p style={{ color: '#ffffff' }}>Become a referrer on the platform.</p>
-                      <Button style={{ marginTop: '5px', backgroundColor: '#17a2b8', border: 'none' }}>
+                      <Button style={{ marginTop: '5px', backgroundColor: '#48D1CC', border: 'none' }}>
                         <Link style={{ color: 'white' }} to="/referrers">
                           Join Now
               </Link>
@@ -821,7 +821,7 @@ export const IndexPageTemplate = ({
                   fontSize: '30px',
                   padding: '15px',
                 }}>
-                  <Link style={{ color: 'white' }} to='/products'>Learn More</Link>
+                  <Link style={{ color: 'white' }} to='/packages'>Learn More</Link>
                 </Button>
               </div>
             </div>

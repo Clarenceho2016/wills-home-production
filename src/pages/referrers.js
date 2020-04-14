@@ -54,19 +54,20 @@ const referrers = () => {
 
                             <Button variant="primary" href='https://app.my-tribe.com.au/referrer-signup' style={{
                                 margin: '10px',
-                                // paddingLeft: '0.75em',
-                                // paddingRight: '0.75em',
-                                // paddingTop: '0.5em',
-                                // paddingBottom: '0.5em',
+
+                                textAlign: 'center',
                                 color: 'white',
                                 fontSize: '1em',
                                 borderColor: '#FFF',
                                 borderRadius: '10px',
+                                paddingLeft: '18px',
+                                paddingRight: '18px',
+                                paddingTop: '10px',
+                                paddingBottom: '10px',
 
-                                // width: '80px',
-                                // height: '37px',
-                                lineHeight: '1.5em',
-                                backgroundColor: '#007bff',
+                                //height: '40px',
+
+                                backgroundColor: '#48D1CC',
                             }}>
                                 Register
 

@@ -233,9 +233,22 @@ export const ProductPageTemplate = ({
           <Button variant="primary" href='https://app.my-tribe.com.au/signup' target='_blank' style={{
             //margin: '15px',
 
+            // borderRadius: '10px',
+            // fontSize: '20px',
+            // padding: '15px',
+            backgroundColor: '#48D1CC',
+            border: 'none',
+            margin: '10px',
+
+            textAlign: 'center',
+            color: 'white',
+            fontSize: '1em',
+            borderColor: '#FFF',
             borderRadius: '10px',
-            fontSize: '20px',
-            padding: '15px',
+            paddingLeft: '18px',
+            paddingRight: '18px',
+            paddingTop: '10px',
+            paddingBottom: '10px',
 
 
 

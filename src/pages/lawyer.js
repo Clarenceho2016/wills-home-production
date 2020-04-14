@@ -53,15 +53,28 @@ const lawyer = () => {
                             </ul> */}
 
                             <Button variant="primary" href='https://app.my-tribe.com.au/lawyer-signup' style={{
+                                // margin: '10px',
+                                // color: 'white',
+                                // fontSize: '1em',
+                                // borderColor: '#FFF',
+                                // borderRadius: '10px',
+
+
+                                // lineHeight: '1.5em',
+                                // backgroundColor: '#48D1CC',
                                 margin: '10px',
+
+                                textAlign: 'center',
                                 color: 'white',
                                 fontSize: '1em',
                                 borderColor: '#FFF',
                                 borderRadius: '10px',
+                                paddingLeft: '18px',
+                                paddingRight: '18px',
+                                paddingTop: '10px',
+                                paddingBottom: '10px',
 
-
-                                lineHeight: '1.5em',
-                                backgroundColor: '#007bff',
+                                backgroundColor: '#48D1CC',
                             }}>
                                 Register
 

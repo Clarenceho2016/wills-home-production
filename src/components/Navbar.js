@@ -82,7 +82,10 @@ const Navbar = class extends React.Component {
 
               </Button>
               <Button variant="primary" href='https://app.my-tribe.com.au/login' style={{
-                margin: '10px',
+                marginTop: '10px',
+                marginBottom: '10px',
+                marginLeft: '10px',
+                marginRight: '10px',
                 color: 'white',
                 fontSize: '1em',
                 borderColor: '#FFF',

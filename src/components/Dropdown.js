@@ -31,8 +31,17 @@ class Dropdown extends React.Component {
     // style={{ background: "red", width: "200px" }}
     render() {
         return (
-            <div className="dropdown" style={{ marginTop: '12px', width: "100px" }} >
-                <div className="button" onClick={this.showDropdownMenu}> Menu </div>
+            <div className="dropdown"  >
+                <div className="button" style={{
+                    margin: '10px',
+                    fontSize: '1em',
+                    border: 'none',
+                    borderRadius: '10px',
+                    width: '80px',
+                    height: '37px',
+                    color: 'white',
+                    backgroundColor: '#48D1CC',
+                }} onClick={this.showDropdownMenu}> Menu </div>
 
                 {this.state.displayMenu ? (
                     <ul className='dropdown_ul'>
