@@ -7,7 +7,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Button from "react-bootstrap/Button";
-
+import Grid from "@material-ui/core/Grid";
 export const ProductPageTemplate = ({
   image,
   title,
@@ -19,10 +19,10 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing,
 }) => (
-    <div >
+    <div>
 
       <div
-        className="full-width-image-container margin-top-0"
+        className="full-width-image margin-top-0"
         style={{
           marginTop: '100vh',
           backgroundImage: `url(${
@@ -30,26 +30,74 @@ export const ProductPageTemplate = ({
             })`,
         }}
       >
-        <h2
-          className="has-text-weight-bold is-size-1"
+        <Grid item xs={12} sm={6}
           style={{
-            // boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
-            // backgroundColor: '#007bff',
-            //marginTop: '40vh',
-            //color: '#152189',
-            color: 'white',
-            padding: '1rem',
+
+            padding: '10px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            transform: 'scale(0.6)',
+
+
           }}
         >
-          {title}
-        </h2>
+          <div
+            style={{
+              display: 'flex',
+              // padding: '0.5em',
+              marginTop: '60px',
+
+              paddingBottom: '20px',
+              paddingTop: '20px',
+
+
+              flexDirection: 'column',
+
+            }}
+          >
+            <h2
+              className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                // color: '#2b2523a3',
+
+                position: 'static',
+                lineHeight: '1.5',
+                padding: '0.5em',
+                color: 'white',
+                fontWeight: '700',
+                //fontSize: '50px',
+              }}
+            >
+              Don’t risk those most important to you missing out by failing to have a will
+              </h2>
+
+            <p style={{
+              color: 'white',
+              fontSize: '1.75rem',
+              lineHeight: '1.5',
+              padding: '1em',
+            }}>Not all wills are the same. You have options. Learn about the different types of wills here. </p>
+
+
+
+          </div>
+
+
+        </Grid>
+
+
+
+
+
+
       </div>
-      <section >
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-12">
-                <h3 className="has-text-weight-semibold is-size-2" style={{
+      <section className='section'>
+        {/* <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-12"> */}
+        {/* <h3 className="has-text-weight-semibold is-size-2" style={{
                   justifyContent: 'center !important',
                   textAlign: 'center',
                   boxShadow: '0.5rem 0 0 #007bff, -0.5rem 0 0 #007bff',
@@ -57,136 +105,220 @@ export const ProductPageTemplate = ({
                   color: 'white',
                   padding: '2rem',
                 }}
-                >{heading}</h3>
-                <p style={{
+                >{heading}</h3> */}
+        {/* <p style={{
                   marginTop: '20px',
                   marginBottom: '20px',
                   justifyContent: 'center !important',
                   textAlign: 'center',
-                }}>{description}{pricing.description}</p>
+                }}>{description}{pricing.description}</p> */}
+        <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>Don’t risk it all with a will kit</h1>
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginBottom: '25px' }}>
+          <div style={{ marginTop: '30px', marginRight: '30px' }}>
+            <p>Get a tailored package to suit your specific circumstances. We have a package to suit your needs</p>
+          </div>
+          <div >
 
-                <div className="tile is-ancestor">
-                  <div className="tile is-vertical">
-                    <div className="tile">
-                      <div className="tile is-parent is-vertical">
-                        <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189' }}>
-                          Standard Wills Individual
+            <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F549%20(1).jpg?alt=media&token=12e28b3b-4f34-49a2-9aba-db88f1cc2fb1' alt="register"></img>
+
+          </div>
+        </div>
+
+      </section>
+      <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
+        <Grid container spacing={12}>
+          <Grid item xs={12} sm={6} >
+
+            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+              <div style={{
+                display: 'flex', justifyContent: 'center', flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189', marginBottom: '10px' }}>
+                  Standard Wills Individual
           </h4>
 
-                        <article style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <PreviewCompatibleImage imageInfo={main.image1} />
-                        </article>
-
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                            $275
+                <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" />
+                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
+                  $275
           </h2>
-                          <p className="has-text-weight-semibold">Perfect for singles</p>
-                          <ul>
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left' }}>
 
-                            <li >
-                              Includes XYZ
-              </li>
+                  <p className="has-text-weight-semibold">What’s included:
+</p>
+                  <ul className='a'><li >Standard form Will
+</li>
+                    <li >Enduring Power of Attorney
 
-                          </ul>
-                        </div></div>
+</li>
+                    <li>Medical Power of Attorney (or equivalent depending on the State)
 
-                      <div className="tile is-parent is-vertical">
-                        <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189' }}>
-                          Testamentary Trust Wills Individual
-          </h4>
+</li>
+                    <li >Binding Death Benefit Nominations
 
-
-                        <article style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <PreviewCompatibleImage imageInfo={main.image2} />
-                        </article>
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                            $770
-          </h2>
-                          <p className="has-text-weight-semibold">Perfect for something</p>
-                          <ul>
-
-                            <li >
-                              Great for XYZ
-              </li>
-
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+</li>  <li >Privacy consent form
 
 
-                    <div className="tile">
-                      <div className="tile is-parent is-vertical">
-                        <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189' }}>
-                          Standard Wills Couple
-          </h4>
-
-                        <article style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <PreviewCompatibleImage imageInfo={main.image3} />
-                        </article>
-
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                            $550
-          </h2>
-                          <p className="has-text-weight-semibold">Wills for couples</p>
-                          <ul>
-
-                            <li className="is-size-5">
-                              Great for AOS
-              </li>
-
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div className="tile is-parent is-vertical">
-                        <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189' }}>
-                          Testamentary Trust Wills Couple
-          </h4>
-
-
-                        <article style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          {/* <PreviewCompatibleImage imageInfo={main.image1} /> */}
-                          <img style={{ width: '37vw', height: '55vh' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Beautiful%20Young%20Couple%20Signing%20Financial%20Contract%20in%20the%20Office..jpg?alt=media&token=e381af9e-6130-41b9-8c7e-2fe8e29c04da' alt="register" />
-                        </article>
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                          <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                            $1400
-          </h2>
-                          <p className="has-text-weight-semibold">Full package for all couples</p>
-                          <ul>
-
-                            <li className="is-size-5">
-                              This is great for RST
-              </li>
-
-                          </ul>
-                        </div>
-                      </div> </div>
-
-
-
-
-
-                  </div>
+</li></ul>
                 </div>
-
-
-
-
-
-
-
               </div>
-            </div>
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                {/* <Features gridItems={intro.blurbs} /> */}
-                <div className="columns">
-                  <div className="column is-12" >
+            </Grid>
+
+          </Grid>
+          <Grid item xs={12} sm={6} >
+
+            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }}>
+              <div style={{
+                display: 'flex', justifyContent: 'center', flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189', marginBottom: '10px' }}>
+                  Testamentary Trust Wills Individual
+          </h4>
+                <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F2nd.jpg?alt=media&token=7f1cee29-3c75-4065-922e-bc2a9d22c07a' alt="register" />
+                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
+                  $770
+          </h2>
+
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left' }}>
+
+                  <p className="has-text-weight-semibold">What’s included:
+</p>
+                  <ul className='a'><li >A Will that creates testamentary trusts
+</li>
+                    <li >Enduring Power of Attorney
+
+</li>
+                    <li>Medical Power of Attorney (or equivalent depending on the State)
+
+</li>
+                    <li >Binding Death Benefit Nominations
+
+
+</li>  <li >Privacy consent form
+
+
+
+</li></ul>
+                </div>
+              </div>
+
+            </Grid>
+
+
+
+
+          </Grid>
+          <Grid item xs={12} sm={6} >
+
+            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+              <div style={{
+                display: 'flex', justifyContent: 'center', flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+
+
+                <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189', marginTop: '15px', marginBottom: '15px' }}>
+                  Standard Wills Couple
+          </h4>
+                <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F3rd-copy-min.jpg?alt=media&token=bb885c1f-c4b9-477c-b504-1e1c5202f39b' alt="register" />
+
+                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
+                  $550
+          </h2>
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left' }}>
+
+                  <p className="has-text-weight-semibold">What’s included:
+</p>
+                  <ul className='a'><li >A standard form Will for each of you
+
+</li>
+                    <li >Enduring Power of Attorney for each of you
+
+
+</li>
+                    <li>Medical Power of Attorney for each of you (or equivalent depending on the State)
+
+</li>
+                    <li >Binding Death Benefit Nominations for each of you
+
+
+</li>  <li >Privacy consent form
+
+
+
+
+</li></ul>
+                </div>
+              </div>
+            </Grid>
+          </Grid>
+
+          <Grid item xs={12} sm={6} >
+
+            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+              <div style={{
+                display: 'flex', justifyContent: 'center', flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <h4 className="has-text-centered has-text-weight-semibold" style={{ color: '#152189', marginTop: '16px', marginBottom: '10px' }}>
+                  Testamentary Trust Wills Couple
+          </h4>
+                {/* width: '37vw', height: '55vh' */}
+
+
+                <img style={{ position: 'center' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Beautiful%20Young%20Couple%20Signing%20Financial%20Contract%20in%20the%20Office..jpg?alt=media&token=e381af9e-6130-41b9-8c7e-2fe8e29c04da' alt="register" />
+
+                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
+                  $1400
+          </h2>
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left' }}>
+
+                  <p className="has-text-weight-semibold">What’s included:
+</p>
+                  <ul className='a' ><li >A Will that creates testamentary trusts for each of you
+
+
+</li>
+                    <li >Enduring Power of Attorning for each of you
+
+
+
+</li>
+                    <li>Medical Power of Attorney for each of you (or equivalent depending on the State)
+
+</li>
+                    <li >Binding Death Benefit Nominations
+
+
+
+</li>  <li >Privacy consent form
+
+
+
+
+
+</li></ul>
+                </div>
+              </div> </Grid>
+
+
+
+
+          </Grid>
+        </Grid>
+
+
+
+
+
+      </section>
+      <section className="section" >
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            {/* <Features gridItems={intro.blurbs} /> */}
+            <div className="columns" style={{ marginBottom: '25px' }}>
+              {/* <div className="column is-12" >
                     <h3 className="has-text-weight-semibold is-size-3" style={{
                       justifyContent: 'center !important',
                       textAlign: 'center',
@@ -197,17 +329,16 @@ export const ProductPageTemplate = ({
                     </h3>
                     <p>{main.description}</p>
 
-                  </div>
-                </div>
-                <Testimonials testimonials={testimonials} />
-
-              </div>
-
+                  </div> */}
             </div>
-
+            <Testimonials testimonials={testimonials} />
 
           </div>
+
         </div>
+
+
+
 
 
       </section>
@@ -262,17 +393,6 @@ export const ProductPageTemplate = ({
 
     </div>
   )
-//     <Link  style={{
-//       margin: '15px',
-//       width: '50%',
-//       position: 'center',
-//       borderRadius: '10px',
-//       fontSize: '20px',
-//       color: '#ffffff',
-//       padding: '15px',
-//     }}>
-//      
-// </Link>
 
 
 ProductPageTemplate.propTypes = {
@@ -333,25 +453,25 @@ export default ProductPage
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      frontmatter {
-        title
+              markdownRemark(id: {eq: $id }) {
+              frontmatter {
+              title
         image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+              childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         heading
-        description         
+        description
         intro {
-          blurbs {
-            image {
+              blurbs {
+              image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+              fluid(maxWidth: 240, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
               }
             }
             text
@@ -360,56 +480,56 @@ export const productPageQuery = graphql`
           description
         }
         main {
-          heading
+              heading
           description
           image1 {
-            alt
+              alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
+              fluid(maxWidth: 526, quality: 92) {
+              ...GatsbyImageSharpFluid
+            }
               }
             }
           }
           image2 {
-            alt
+              alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
+              fluid(maxWidth: 526, quality: 92) {
+              ...GatsbyImageSharpFluid
+            }
               }
             }
           }
           image3 {
-            alt
+              alt
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
+              fluid(maxWidth: 526, quality: 92) {
+              ...GatsbyImageSharpFluid
+            }
               }
             }
           }
-       
+
         }
         testimonials {
-          author
+              author
           quote
         }
         full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+              childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         pricing {
-          heading
+              heading
           description
           plans {
-            description
+              description
             items
             plan
             price

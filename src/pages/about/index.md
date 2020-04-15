@@ -26,4 +26,6 @@ Do you have assets? Do you have a family? Do you want to decide who receives you
 
 <sub style="text-align: right">Digital illustrations used in web, designed by <a href="http://www.freepik.com">rawpixel.com,</a>
 <a href="http://www.freepik.com">iconicbestiary,</a>
+<a href="http://www.freepik.com">slidesgo,</a>
+<a href="http://www.freepik.com">studiogstock,</a>
 <a href="http://www.freepik.com">pch.vector</a> @Freepik </sub>

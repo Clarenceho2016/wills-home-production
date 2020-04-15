@@ -33,13 +33,11 @@ const clients = () => {
                 >
                     <div style={{
 
-                        //width: '50%',
-                        // position: 'left',
+
                         display: 'flex',
                         padding: '0.5em',
                         marginTop: '60px',
-                        // justifyContent: 'flex-start',
-                        // alignItems: 'left',
+
                         paddingBottom: '20px',
                         paddingTop: '20px',
 
@@ -100,9 +98,9 @@ const clients = () => {
                         <li className='listItem'> Difficult conversations made easy</li>
                         <li className='listItem'> Tailored expert advice</li></ul></div>
                     <div >
-                        {/* //<Grid item xs={12} sm={6}> */}
+
                         <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F549%20(1).jpg?alt=media&token=12e28b3b-4f34-49a2-9aba-db88f1cc2fb1' alt="register"></img>
-                        {/* //</Grid> */}
+
                     </div>
                 </div>
             </section>
@@ -120,7 +118,7 @@ const clients = () => {
 
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Make a booking</h1>
                                 <img style={{ height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F549%20(1).jpg?alt=media&token=12e28b3b-4f34-49a2-9aba-db88f1cc2fb1' alt="register"></img>
-                                <ul className='a'><li >Let us know when and where and we will take care of the rest</li>
+                                <ul className='a' style={{ width: '80%' }}><li >Let us know when and where and we will take care of the rest</li>
                                     <li >We speak your language. If English isn’t your fist language, we can arrange for a lawyer who speaks your native tongue to meet with you.</li>
                                     <li>Secure payment options</li></ul>
                             </div>
@@ -138,9 +136,9 @@ const clients = () => {
                             }}>
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Meet your lawyer</h1>
                                 <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F77429-min.jpg?alt=media&token=03243502-1d34-4f7e-9da8-3a51845c36b4' alt="register"></img>
-                                <ul className='a'><li>One of our expert lawyers will meet with you in the comfort of your home, your office or by video conference.</li>
-                                <li >No time limit, the meetings take as long as they need to.</li>
-                                <li>All of your questions will be answered</li></ul>
+                                <ul className='a' style={{ width: '80%' }}><li>One of our expert lawyers will meet with you in the comfort of your home, your office or by video conference.</li>
+                                    <li >No time limit, the meetings take as long as they need to.</li>
+                                    <li>All of your questions will be answered</li></ul>
 
                             </div>
 
@@ -154,16 +152,16 @@ const clients = () => {
 
                     <Grid item xs={12} sm={4} >
 
-                        <Grid item xs={12} sm={12}  style={{ marginLeft: '1em', marginRight: '1em' }} >
+                        <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
                             <div style={{
                                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                                 alignItems: 'center'
                             }}>
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Task completed</h1>
                                 <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F4772-min.jpg?alt=media&token=d3ee278f-0c2b-4592-8496-b64938eb6014' alt="register"></img>
-                                <ul className='a'><li>Your wills are prepared on the spot or within 7 days</li>
-                                <li>Our lawyers can help by witnessing the documents</li>
-                                <li>Store a copy of your will securely on our platform</li></ul>
+                                <ul className='a' style={{ width: '80%' }}><li>Your wills are prepared on the spot or within 7 days</li>
+                                    <li>Our lawyers can help by witnessing the documents</li>
+                                    <li>Store a copy of your will securely on our platform</li></ul>
                             </div>
 
 
@@ -182,59 +180,61 @@ const clients = () => {
 
                 <div style={{ display: 'flex' }}>
                     <Grid item xs={12} sm={4}>
-                        <img style={{marginLeft:'5vw'}}src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Health%20Insurance%20Manager%20Talking%20to%20a%20Couple-min.jpg?alt=media&token=3e1929f8-5d04-4fef-9fc2-976bc3fe9c18' alt="register" ></img>
+                        <img style={{ marginLeft: '5vw' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FCanva%20-%20Health%20Insurance%20Manager%20Talking%20to%20a%20Couple-min.jpg?alt=media&token=3e1929f8-5d04-4fef-9fc2-976bc3fe9c18' alt="register" ></img>
                     </Grid>
                     <Grid item xs={12} sm={8} >
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingLeft: '3rem', paddingRight: '3rem' }}>
+                        <div style={{ alignItems: 'left', marginLeft: '12vw', }}>
+                            {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', }}> */}
+                            <div>
+                                <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Create your booking today<br /><br /> </h2>
+                                <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you could experience professional service. </h3>
+                            </div>
 
-                            <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Create your booking today.<br /><br /> </h2>
-                            <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you could experience professional service. </h3>
-                        </div>
-                        <div
-                            style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem', paddingTop: '0.5vw' }}>
-
-
-                            <Button variant="primary" href='https://app.my-tribe.com.au/signup' target='_blank' style={{
+                            <div style={{ marginTop: '1rem', }}>
 
 
-                                margin: '10px',
-
-                                textAlign: 'center',
-                                color: 'white',
-                                fontSize: '1em',
-                                borderColor: '#FFF',
-                                borderRadius: '10px',
-                                paddingLeft: '18px',
-                                paddingRight: '18px',
-                                paddingTop: '10px',
-                                paddingBottom: '10px',
-
-                                backgroundColor: '#48D1CC',
-                            }}>
-                                Register
-
-              </Button>
-                            <Button variant="primary" href='https://my-tribe.com.au/packages' target='_blank' style={{
-
-                                margin: '10px',
-
-                                textAlign: 'center',
-                                color: 'white',
-                                fontSize: '1em',
-                                borderColor: '#FFF',
-                                borderRadius: '10px',
-                                paddingLeft: '18px',
-                                paddingRight: '18px',
-                                paddingTop: '10px',
-                                paddingBottom: '10px',
-                                backgroundColor: '#8080804d',
+                                <Button variant="primary" href='https://app.my-tribe.com.au/signup' target='_blank' style={{
 
 
+                                    // margin: '10px',
 
-                            }}>
-                                Learn More
+                                    textAlign: 'center',
+                                    color: 'white',
+                                    fontSize: '1em',
+                                    borderColor: '#FFF',
+                                    borderRadius: '10px',
+                                    paddingLeft: '18px',
+                                    paddingRight: '18px',
+                                    paddingTop: '10px',
+                                    paddingBottom: '10px',
+
+                                    backgroundColor: '#48D1CC',
+                                }}>
+                                    Register
 
               </Button>
+                                <Button variant="primary" href='https://my-tribe.com.au/packages' target='_blank' style={{
+
+                                    margin: '10px',
+
+                                    textAlign: 'center',
+                                    color: 'white',
+                                    fontSize: '1em',
+                                    borderColor: '#FFF',
+                                    borderRadius: '10px',
+                                    paddingLeft: '18px',
+                                    paddingRight: '18px',
+                                    paddingTop: '10px',
+                                    paddingBottom: '10px',
+                                    backgroundColor: '#8080804d',
+
+
+
+                                }}>
+                                    Learn More
+
+              </Button>
+                            </div>
                         </div>
                     </Grid>
                 </div>
