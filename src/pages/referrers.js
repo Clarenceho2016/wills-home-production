@@ -71,6 +71,24 @@ const referrers = () => {
                             lineHeight: '1.5',
                             padding: '1em',
                         }}>MyTribe allows your organisation to create an account and make bookings on behalf of your clients. </p>
+                        <Button variant="primary" style={{
+                            margin: '35px',
+                            backgroundColor: '#48D1CC',
+                            border: 'none',
+                            width: '40%',
+                            borderRadius: '10px',
+                            fontSize: '30px',
+                            padding: '15px',
+
+                        }}>
+                            <a href="https://app.my-tribe.com.au/referrer-signup" target='_blank' style={{
+                                color: '#ffffff',
+                                borderRadius: '10px',
+
+                            }}>
+                                Join Today
+                  </a>
+                        </Button>
 
                     </div>
                 </Grid>

@@ -66,7 +66,31 @@ const lawyer = () => {
                             Uncapped earnings, working when you want and where you want.
         </h2>
 
+                        <p style={{
+                            color: 'white',
+                            fontSize: '1.75rem',
+                            lineHeight: '1.5',
+                            padding: '1em',
+                        }}>Nine to five is time that suits business, but it may not suit you. At MyTribe we provide you uncapped earnings, working when you want and where you want. </p>
 
+                        <Button variant="primary" style={{
+                            margin: '35px',
+                            backgroundColor: '#48D1CC',
+                            border: 'none',
+                            width: '40%',
+                            borderRadius: '10px',
+                            fontSize: '30px',
+                            padding: '15px',
+
+                        }}>
+                            <a href="https://app.my-tribe.com.au/lawyer-signup" target='_blank' style={{
+                                color: '#ffffff',
+                                borderRadius: '10px',
+
+                            }}>
+                                Join Today
+                  </a>
+                        </Button>
 
 
 

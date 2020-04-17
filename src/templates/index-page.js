@@ -95,13 +95,17 @@ export const IndexPageTemplate = ({
 
             <div style={{ display: 'flex', flexDirection: 'row' }}>
               <Button variant="primary" style={{
-                margin: '35px',
-                backgroundColor: '#48D1CC',
-                border: 'none',
-                width: '40%',
-                borderRadius: '10px',
+
+                margin: '10px',
+                color: 'white',
                 fontSize: '30px',
-                padding: '15px',
+                border: 'none',
+                borderRadius: '10px',
+                // width: '80px',
+                height: '90px',
+                // paddingLeft: '10px',
+                // paddingRight: '10px',
+                backgroundColor: '#48D1CC',
 
               }}>
                 <a href="https://app.my-tribe.com.au/signup" target='_blank' style={{
@@ -113,14 +117,16 @@ export const IndexPageTemplate = ({
                   </a>
               </Button>
               <Button variant="primary" style={{
-                margin: '35px',
+                //margin: '35px',
                 backgroundColor: '#8080804d',
-                borderRadius: '10px',
-                width: '40%',
-                borderRadius: '10px',
+                marginLeft: '30px',
+                marginTop: '10px',
+                color: 'white',
                 fontSize: '30px',
-                padding: '15px',
-                border: 'none'
+                border: 'none',
+                borderRadius: '10px',
+                // width: '80px',
+                height: '90px',
 
               }}>
                 <a href="#nav1" style={{
@@ -236,7 +242,7 @@ export const IndexPageTemplate = ({
                           lineHeight: '1.5',
 
                         }}>
-                          Simply select the <a style={{ fontWeight: '500' }} href='https://www.my-tribe.com.au//products' target='_blank'>Package</a> and set the time and place for your meeting.
+                          Simply select the <Link style={{ fontWeight: '500' }} to='/packages' target='_blank'>Package</Link> and set the time and place for your meeting.
                             </p></div></Grid>
                   </Grid>
                 </Grid>
@@ -813,13 +819,16 @@ export const IndexPageTemplate = ({
               }}>
                 <Button variant="primary" style={{
 
-                  margin: '35px',
-                  backgroundColor: '#48D1CC',
-                  border: 'none',
-                  width: '40%',
-                  borderRadius: '10px',
+                  margin: '10px',
+                  color: 'white',
                   fontSize: '30px',
-                  padding: '15px',
+                  border: 'none',
+                  borderRadius: '10px',
+                  // width: '80px',
+                  height: '90px',
+                  // paddingLeft: '10px',
+                  // paddingRight: '10px',
+                  backgroundColor: '#48D1CC',
                 }}>
                   <Link style={{ color: 'white' }} to='/packages'>Learn More</Link>
                 </Button>

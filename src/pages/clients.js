@@ -93,13 +93,13 @@ const clients = () => {
             <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
                 <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>For comprehensive estate planning packages</h1>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', }}>
-                    <div style={{ marginTop: '30px', marginRight: '30px' }}><ul><li className='listItem'> Flexible options to suit your needs</li>
-                        <li className='listItem'> No matter what your circumstances we have a package for you</li>
-                        <li className='listItem'> Difficult conversations made easy</li>
-                        <li className='listItem'> Tailored expert advice</li></ul></div>
+                    <div style={{ marginTop: '30px', marginRight: '30px', }}><ul style={{ fontSize: '1.25rem' }}><li className='listItem' > Flexible options to suit your needs</li><br />
+                        <li className='listItem'> No matter what your circumstances we have a package for you</li><br />
+                        <li className='listItem'> Difficult conversations made easy</li><br />
+                        <li className='listItem'> Tailored expert advice</li><br /></ul></div>
                     <div >
 
-                        <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F549%20(1).jpg?alt=media&token=12e28b3b-4f34-49a2-9aba-db88f1cc2fb1' alt="register"></img>
+                        <img style={{ position: 'center', height: '250px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F64665-min.jpg?alt=media&token=43b855d0-aeca-4791-9ecd-21cfa2c3c122' alt="register"></img>
 
                     </div>
                 </div>
@@ -116,11 +116,11 @@ const clients = () => {
                                 alignItems: 'center'
                             }}>
 
-                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Make a booking</h1>
-                                <img style={{ height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F549%20(1).jpg?alt=media&token=12e28b3b-4f34-49a2-9aba-db88f1cc2fb1' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li >Let us know when and where and we will take care of the rest</li>
-                                    <li >We speak your language. If English isn’t your fist language, we can arrange for a lawyer who speaks your native tongue to meet with you.</li>
-                                    <li>Secure payment options</li></ul>
+                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>1. Make a booking</h1>
+                                <img style={{ height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F2300224.jpg?alt=media&token=d33f3309-85ab-42b1-ac3b-24275675b134' alt="register"></img>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li >Let us know when and where and we will take care of the rest</li><br />
+                                    <li >We speak your language. If English isn’t your fist language, we can arrange for a lawyer who speaks your native tongue to meet with you.</li><br />
+                                    <li>Secure payment options</li><br /><br /></ul>
                             </div>
 
                         </Grid>
@@ -134,11 +134,11 @@ const clients = () => {
                                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                                 alignItems: 'center'
                             }}>
-                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Meet your lawyer</h1>
-                                <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F77429-min.jpg?alt=media&token=03243502-1d34-4f7e-9da8-3a51845c36b4' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li>One of our expert lawyers will meet with you in the comfort of your home, your office or by video conference.</li>
-                                    <li >No time limit, the meetings take as long as they need to.</li>
-                                    <li>All of your questions will be answered</li></ul>
+                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>2. Meet your lawyer</h1>
+                                <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F2696087.jpg?alt=media&token=6b850bbe-1683-467b-9b21-6c701ef66232' alt="register"></img>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>One of our expert lawyers will meet with you in the comfort of your home, your office or by video conference.</li><br />
+                                    <li >No time limit, the meetings take as long as they need to.</li><br />
+                                    <li>All of your questions will be answered</li><br /></ul>
 
                             </div>
 
@@ -157,11 +157,11 @@ const clients = () => {
                                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                                 alignItems: 'center'
                             }}>
-                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Task completed</h1>
-                                <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F4772-min.jpg?alt=media&token=d3ee278f-0c2b-4592-8496-b64938eb6014' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li>Your wills are prepared on the spot or within 7 days</li>
-                                    <li>Our lawyers can help by witnessing the documents</li>
-                                    <li>Store a copy of your will securely on our platform</li></ul>
+                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>3. Task completed</h1>
+                                <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FOE5MLR0-min.jpg?alt=media&token=87dd0138-61a0-4c56-b7e7-5699d1014e38' alt="register"></img>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>Your wills are prepared on the spot or within 7 days</li><br />
+                                    <li style={{}}>Our lawyers can help by witnessing the documents</li><br />
+                                    <li>Store a copy of your will securely on our platform</li><br /></ul>
                             </div>
 
 
