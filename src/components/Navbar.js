@@ -89,7 +89,7 @@ const Navbar = class extends React.Component {
                 color: 'white',
                 fontSize: '1em',
                 borderColor: '#FFF',
-                backgroundColor: '#8080804d',
+                backgroundColor: 'rgba(128,128,128,0.301)',
 
                 borderRadius: '10px',
                 width: '80px',

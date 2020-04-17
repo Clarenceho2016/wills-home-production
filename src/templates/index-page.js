@@ -118,7 +118,7 @@ export const IndexPageTemplate = ({
               </Button>
               <Button variant="primary" style={{
                 //margin: '35px',
-                backgroundColor: '#8080804d',
+                backgroundColor: 'rgba(128,128,128,0.301)',
                 marginLeft: '30px',
                 marginTop: '10px',
                 color: 'white',
@@ -381,7 +381,8 @@ export const IndexPageTemplate = ({
                           width: '100px',
                           height: '100px',
                           position: 'absolute',
-                          backgroundColor: '#ffa207d1',
+                          marginBottom: '20px',
+                          backgroundColor: 'rgba(255,162,7,0.819)',
                           marginTop: '-63px',
                         }} icon={faUserTie} />
                       </Grid>
@@ -414,8 +415,10 @@ export const IndexPageTemplate = ({
                           borderRadius: '50%',
                           width: '100px',
                           height: '100px',
+                          marginBottom: '20px',
+                          backgroundColor: 'rgba(255,162,7,0.819)',
                           position: 'absolute',
-                          backgroundColor: '#ffa207d1',
+
                           marginTop: '-63px',
                         }} icon={faBrain} />
                       </Grid>
@@ -449,7 +452,8 @@ export const IndexPageTemplate = ({
                           width: '100px',
                           height: '100px',
                           position: 'absolute',
-                          backgroundColor: '#ffa207d1',
+                          marginBottom: '20px',
+                          backgroundColor: 'rgba(255,162,7,0.819)',
                           marginTop: '-63px',
                         }} icon={faHandshake} />
                       </Grid>
@@ -691,7 +695,7 @@ export const IndexPageTemplate = ({
                     </Grid>
 
                     <div style={{
-                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255, 162, 7)', paddingLeft: '2vw'
+                      paddingTop: '15px', paddingBottom: '15px', backgroundColor: 'rgba(255,162,7,0.819)', paddingLeft: '2vw'
 
 
 
