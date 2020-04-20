@@ -135,12 +135,12 @@ const referrers = () => {
 
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Participate in the estate planning process</h1>
                                 <img style={{ height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F3074320-min.jpg?alt=media&token=803f55fc-ea6b-419f-8bb4-dc3c9a543df4' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li >You can provide our lawyers with detailed instructions based on your knowledge of your client’s circumstances
-</li>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li >You can provide our lawyers with detailed instructions based on your knowledge of your client’s circumstances
+</li><br />
                                     <li >Collaborate with our lawyers concerning the plan for the clients
-</li>
+</li><br />
                                     <li>Weigh in on what to do with insurances and binding death benefit nominations
-</li></ul>
+</li><br /><br /></ul>
                             </div>
 
                         </Grid>
@@ -156,10 +156,10 @@ const referrers = () => {
                             }}>
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Add value to your clients</h1>
                                 <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2F4380-min.jpg?alt=media&token=bd979969-ece8-4463-b2f9-bd5337db59a5' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li>By facilitating this process, you add significant value to your client’s overall experience
-</li>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>By facilitating this process, you add significant value to your client’s overall experience
+</li><br />
 
-                                    <li>Protect your client’s generational wealth, you can even invite your clients to bring their children along to participate in the process where appropriate. </li></ul>
+                                    <li>Protect your client’s generational wealth, you can even invite your clients to bring their children along to participate in the process where appropriate. </li><br /><br /></ul>
                             </div>
 
 

@@ -99,7 +99,7 @@ const lawyer = () => {
             </div>
 
             <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
-                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>Steps to join as a lawyer</h1>
+                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '55px' }}>Steps to join as a lawyer</h1>
                 {/* <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', }}> */}
                 <Grid container spacing={12}>
                     <Grid item xs={12} sm={4} >
@@ -112,10 +112,10 @@ const lawyer = () => {
 
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Earn great money</h1>
                                 <img style={{ position: 'center', height: '180px', marginTop: '15px', marginBottom: '15px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fearn-money-min.jpg?alt=media&token=bb77d3ca-e395-433d-9965-c34693aec9c2' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li >Up to 70% of the fees for each package
-</li>
-                                    <li >Full fee is payable within 48 hours of the appointment, so your earnings are secure despite late cancellations</li>
-                                    <li>Get paid monthly </li></ul>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li >Up to 70% of the fees for each package
+                                </li><br />
+                                    <li >Full fee is payable within 48 hours of the appointment, so your earnings are secure despite late cancellations</li><br />
+                                    <li>Get paid monthly </li><br /><br /></ul>
                             </div>
 
                         </Grid>
@@ -132,13 +132,13 @@ const lawyer = () => {
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>Perks
 </h1>
                                 <img style={{ position: 'center', height: '180px', marginTop: '15px', marginBottom: '15px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fbenefit-min.jpg?alt=media&token=72fda167-3da4-463d-bb7a-68fd54e090a5' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li>Insurance</li>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>Insurance</li><br />
                                     <li >Great online resources and precedence
-</li>
+</li><br />
                                     <li>Support from an experienced team
-</li>
+</li><br />
                                     <li >Build your own client base
-</li></ul>
+</li><br /><br /></ul>
 
                             </div>
 
@@ -159,10 +159,10 @@ const lawyer = () => {
                             }}>
                                 <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>What you will need</h1>
                                 <img style={{ position: 'center', height: '180px', marginTop: '15px', marginBottom: '15px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Flaw-min.jpg?alt=media&token=ee32db8b-c97e-46d1-a89b-5274dd3f75f9' alt="register"></img>
-                                <ul className='a' style={{ width: '80%' }}><li>A car to get around</li>
-                                    <li>At least 3 years’ experience in estate panning</li>
-                                    <li>A current practicing certificate</li>
-                                    <li>We provide the rest</li></ul>
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>A car to get around</li><br />
+                                    <li>At least 3 years’ experience in estate panning</li><br />
+                                    <li>A current practicing certificate</li><br />
+                                    <li>We provide the rest</li><br /><br /></ul>
                             </div>
 
 
