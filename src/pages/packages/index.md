@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Don’t risk those most important to you missing out by failing to have a will. 
-image: /img/product-2.jpg
+image: /img/product-v1.png
 heading: We offer different packages to suit your needs
 description: 'Whether you''re a single, couple of family we have a package right for you. 
 

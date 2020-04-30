@@ -8,6 +8,7 @@ import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
+import bg from '../../static/img/product-v3.jpg'
 // import bg1 from '../../static/img/helloquence-oqmzwnd3thu-unsplash-3-.jpg'
 
 export const ProductPageTemplate = ({
@@ -28,7 +29,8 @@ export const ProductPageTemplate = ({
         style={{
           marginTop: '100vh',
           backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            bg
+            // !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
         }}
       >
