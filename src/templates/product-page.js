@@ -8,10 +8,8 @@ import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Button from "react-bootstrap/Button";
 import Grid from "@material-ui/core/Grid";
-import bg1 from '../../static/img/helloquence-oqmzwnd3thu-unsplash-3-.jpg'
-import bg2 from '../../static/img/2nd.jpg'
-import bg3 from '../../static/img/3rd.jpg'
-import bg4 from '../../static/img/img4.jpg'
+// import bg1 from '../../static/img/helloquence-oqmzwnd3thu-unsplash-3-.jpg'
+
 export const ProductPageTemplate = ({
   image,
   title,
@@ -133,95 +131,33 @@ export const ProductPageTemplate = ({
         <Grid container spacing={12}>
           <Grid item xs={12} sm={6} >
 
-            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+            <Grid item xs={12} sm={12} style={{ padding: '15px', borderRadius: '20px', boxShadow: '0px 50px 80px 50px rgba(106,114,154,0.2)', marginLeft: '1em', marginRight: '1em' }} >
+
               <div style={{
                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                 alignItems: 'center'
               }}>
-
-                <div
-
-                  style={{
-
-                    backgroundImage: `url(${
-                      bg1
-                      })`,
-                    backgroundSize: 'cover'
-                  }}
-                >
-
-                  <div
-                    style={{
-                      display: 'flex',
-                      marginTop: '60px',
-
-                      paddingBottom: '20px',
-                      paddingTop: '20px',
-
-                      justifyContent: 'space-around',
-                      alignItems: 'left',
-                      flexDirection: 'column',
-
-                    }}
-                  >
-                    <h4 className="has-text-centered has-text-weight-semibold" style={{ color: 'white', marginBottom: '10px' }}>
-                      Standard Wills Individual
-          </h4>
-
-                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', marginBottom: '40PX' }}>
-
-                      <p className="has-text-weight-semibold" style={{ color: 'white', marginLeft: '35px', }}>What’s included:
-</p>
-                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', color: 'white' }}><li >Standard form Will
-</li>
-                        <li >Enduring Power of Attorney
-
-</li>
-                        <li>Medical Power of Attorney (or equivalent depending on the State)
-
-</li>
-                        <li >Binding Death Benefit Nominations
-
-</li>  <li >Privacy consent form
-
-
-</li></ul>
-                    </div>
-
-                  </div></div>
-                {/* <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" /> */}
-                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                  $275
+                <div style={{ textAlign: 'center', }}>
+                  <h1 style={{ fontSize: '1.5em', fontWeight: '700' }} >
+                    Standard Wills Individual
+          </h1></div>
+                <div>
+                  <h2 style={{ padding: '10px', marginTop: '0.5em', backgroundColor: '#6EC1E4', fontSize: '2rem', borderRadius: '10px' }}>
+                    $275
           </h2>
+                </div>
 
-              </div>
-            </Grid>
-
-          </Grid>
-
-          <Grid item xs={12} sm={6} >
-
-            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
-              <div style={{
-                display: 'flex', justifyContent: 'center', flexDirection: 'column',
-                alignItems: 'center'
-              }}>
 
                 <div
 
                   style={{
 
-                    backgroundImage: `url(${
-                      bg2
-                      })`,
-                    backgroundSize: 'cover'
                   }}
                 >
-
                   <div
                     style={{
                       display: 'flex',
-                      marginTop: '60px',
+                      marginTop: '10px',
 
                       paddingBottom: '20px',
                       paddingTop: '20px',
@@ -232,15 +168,12 @@ export const ProductPageTemplate = ({
 
                     }}
                   >
-                    <h4 className="has-text-centered has-text-weight-semibold" style={{ color: 'white', marginBottom: '10px' }}>
-                      Testamentary Trust Wills Individual
-</h4>
 
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', marginBottom: '40PX' }}>
 
-                      <p className="has-text-weight-semibold" style={{ color: 'white', marginLeft: '35px', }}>What’s included:
+                      <p className="has-text-weight-semibold" style={{ marginLeft: '35px', }}>What’s included:
 </p>
-                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', color: 'white' }}><li >A Will that creates testamentary trusts
+                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', }}><li >Standard form Will
 </li>
                         <li >Enduring Power of Attorney
 
@@ -258,9 +191,76 @@ export const ProductPageTemplate = ({
 
                   </div></div>
                 {/* <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" /> */}
-                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                  $770
-</h2>
+
+
+              </div>
+            </Grid>
+
+          </Grid>
+
+          <Grid item xs={12} sm={6} >
+
+            <Grid item xs={12} sm={12} style={{ padding: '15px', borderRadius: '20px', boxShadow: '0px 50px 80px 50px rgba(106,114,154,0.2)', marginLeft: '1em', marginRight: '1em' }} >
+              <div style={{
+                display: 'flex', justifyContent: 'center', flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <div style={{ textAlign: 'center' }}>
+                  <h1 style={{ fontSize: '1.5em', fontWeight: '700' }} >
+                    Testamentary Trust Wills Individual
+</h1></div><div>
+                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#FBF37E', fontSize: '2rem' }}>
+                    $770
+</h2></div>
+                <div
+
+                  style={{
+
+                    // backgroundImage: `url(${
+                    //   bg2
+                    //   })`,
+                    // backgroundSize: 'cover'
+                  }}
+                >
+
+                  <div
+                    style={{
+                      display: 'flex',
+                      marginTop: '10px',
+
+                      paddingBottom: '20px',
+                      paddingTop: '20px',
+
+                      justifyContent: 'space-around',
+                      alignItems: 'left',
+                      flexDirection: 'column',
+
+                    }}
+                  >
+
+                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', marginBottom: '40PX' }}>
+
+                      <p className="has-text-weight-semibold" style={{ marginLeft: '35px', }}>What’s included:
+</p>
+                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', }}><li >A Will that creates testamentary trusts
+</li>
+                        <li >Enduring Power of Attorney
+
+</li>
+                        <li>Medical Power of Attorney (or equivalent depending on the State)
+
+</li>
+                        <li >Binding Death Benefit Nominations
+
+</li>  <li >Privacy consent form
+
+
+</li></ul>
+                    </div>
+
+                  </div></div>
+                {/* <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" /> */}
+
 
               </div>
             </Grid>
@@ -278,29 +278,35 @@ export const ProductPageTemplate = ({
 
 
 
-          <Grid item xs={12} sm={6} >
+          <Grid item xs={12} sm={6} style={{ marginTop: '30px' }}>
 
-            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+            <Grid item xs={12} sm={12} style={{ padding: '15px', borderRadius: '20px', boxShadow: '0px 50px 80px 50px rgba(106,114,154,0.2)', marginLeft: '1em', marginRight: '1em' }} >
               <div style={{
                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                 alignItems: 'center'
               }}>
-
+                <div style={{ textAlign: 'center' }}>
+                  <h1 style={{ fontSize: '1.5em', fontWeight: '700' }}>
+                    Standard Wills Couple
+</h1></div><div>
+                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#EF81D4', fontSize: '2rem' }}>
+                    $550
+</h2></div>
                 <div
 
                   style={{
 
-                    backgroundImage: `url(${
-                      bg3
-                      })`,
-                    backgroundSize: 'cover'
+                    // backgroundImage: `url(${
+                    //   bg3
+                    //   })`,
+                    // backgroundSize: 'cover'
                   }}
                 >
 
                   <div
                     style={{
                       display: 'flex',
-                      marginTop: '60px',
+                      marginTop: '10px',
 
                       paddingBottom: '20px',
                       paddingTop: '20px',
@@ -311,15 +317,12 @@ export const ProductPageTemplate = ({
 
                     }}
                   >
-                    <h4 className="has-text-centered has-text-weight-semibold" style={{ color: 'white', marginBottom: '10px' }}>
-                      Standard Wills Couple
-</h4>
 
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', marginBottom: '40PX' }}>
 
-                      <p className="has-text-weight-semibold" style={{ color: 'white', marginLeft: '35px', }}>What’s included:
+                      <p className="has-text-weight-semibold" style={{ marginLeft: '35px', }}>What’s included:
 </p>
-                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', color: 'white' }}><li >A standard form Will for each of you
+                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', }}><li >A standard form Will for each of you
 </li>
                         <li >Enduring Power of Attorney for each of you
 
@@ -337,37 +340,39 @@ export const ProductPageTemplate = ({
 
                   </div></div>
                 {/* <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" /> */}
-                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                  $550
-</h2>
+
 
               </div>
             </Grid>
 
           </Grid>
-          <Grid item xs={12} sm={6} >
+          <Grid item xs={12} sm={6} style={{ marginTop: '30px' }}>
 
-            <Grid item xs={12} sm={12} style={{ marginLeft: '1em', marginRight: '1em' }} >
+            <Grid item xs={12} sm={12} style={{ padding: '15px', borderRadius: '20px', boxShadow: '0px 50px 80px 50px rgba(106,114,154,0.2)', marginLeft: '1em', marginRight: '1em' }} >
               <div style={{
                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                 alignItems: 'center'
-              }}>
-
+              }}><div style={{ textAlign: 'center' }}>
+                  <h1 style={{ fontSize: '1.5em', fontWeight: '700' }} >
+                    Testamentary Trust Wills Couple
+</h1> </div><div><h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#7CE485', fontSize: '2rem' }}>
+                  $1400
+</h2></div>
                 <div
 
                   style={{
 
-                    backgroundImage: `url(${
-                      bg4
-                      })`,
-                    backgroundSize: 'cover'
+                    // backgroundImage: `url(${
+                    //   bg4
+                    //   })`,
+                    // backgroundSize: 'cover'
                   }}
                 >
 
                   <div
                     style={{
                       display: 'flex',
-                      marginTop: '60px',
+                      marginTop: '10px',
 
                       paddingBottom: '20px',
                       paddingTop: '20px',
@@ -378,15 +383,13 @@ export const ProductPageTemplate = ({
 
                     }}
                   >
-                    <h4 className="has-text-centered has-text-weight-semibold" style={{ color: 'white', marginBottom: '10px' }}>
-                      Testamentary Trust Wills Couple
-</h4>
+
 
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', marginBottom: '40PX' }}>
 
-                      <p className="has-text-weight-semibold" style={{ color: 'white', marginLeft: '35px', }}>What’s included:
+                      <p className="has-text-weight-semibold" style={{ marginLeft: '35px', }}>What’s included:
 </p>
-                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', color: 'white' }}><li >A Will that creates testamentary trusts for each of you
+                      <ul className='a' style={{ marginLeft: '35px', marginRight: '20px', }}><li >A Will that creates testamentary trusts for each of you
 </li>
                         <li >Enduring Power of Attorning for each of you
 
@@ -404,9 +407,7 @@ export const ProductPageTemplate = ({
 
                   </div></div>
                 {/* <img style={{ position: 'center', }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2Fhelloquence-oqmzwnd3thu-unsplash-3-.jpg?alt=media&token=23cb9f96-748a-4bfe-8f31-480353afa678' alt="register" /> */}
-                <h2 style={{ marginTop: '0.5em', color: '#007bff', fontSize: '2rem' }}>
-                  $1400
-</h2>
+
 
               </div>
             </Grid>
