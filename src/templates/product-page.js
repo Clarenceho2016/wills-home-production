@@ -144,7 +144,7 @@ export const ProductPageTemplate = ({
                     Standard Wills Individual
           </h1></div>
                 <div>
-                  <h2 style={{ padding: '10px', marginTop: '0.5em', backgroundColor: '#6EC1E4', fontSize: '2rem', borderRadius: '10px' }}>
+                  <h2 style={{ color: 'white', padding: '10px', marginTop: '0.5em', backgroundColor: 'rgb(72, 209, 204)', fontSize: '2rem', borderRadius: '10px' }}>
                     $275
           </h2>
                 </div>
@@ -211,8 +211,8 @@ export const ProductPageTemplate = ({
                   <h1 style={{ fontSize: '1.5em', fontWeight: '700' }} >
                     Testamentary Trust Wills Individual
 </h1></div><div>
-                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#FBF37E', fontSize: '2rem' }}>
-                    $770
+                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: 'rgb(32, 150, 153)', color: 'white', fontSize: '2rem' }}>
+                    $550
 </h2></div>
                 <div
 
@@ -291,8 +291,8 @@ export const ProductPageTemplate = ({
                   <h1 style={{ fontSize: '1.5em', fontWeight: '700' }}>
                     Standard Wills Couple
 </h1></div><div>
-                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#EF81D4', fontSize: '2rem' }}>
-                    $550
+                  <h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', color: 'white', backgroundColor: 'rgb(25, 79, 194)', fontSize: '2rem' }}>
+                    $770
 </h2></div>
                 <div
 
@@ -357,7 +357,7 @@ export const ProductPageTemplate = ({
               }}><div style={{ textAlign: 'center' }}>
                   <h1 style={{ fontSize: '1.5em', fontWeight: '700' }} >
                     Testamentary Trust Wills Couple
-</h1> </div><div><h2 style={{ borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: '#7CE485', fontSize: '2rem' }}>
+</h1> </div><div><h2 style={{ color: 'white', borderRadius: '10px', padding: '12px', marginTop: '0.5em', backgroundColor: 'rgb(29, 50, 133)', fontSize: '2rem' }}>
                   $1400
 </h2></div>
                 <div

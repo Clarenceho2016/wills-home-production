@@ -71,7 +71,7 @@ const lawyer = () => {
                             fontSize: '1.75rem',
                             lineHeight: '1.5',
                             padding: '1em',
-                        }}>Nine to five is time that suits business, but it may not suit you. At MyTribe we provide you uncapped earnings, working when you want and where you want. </p>
+                        }}>Join MyTribe and become a member of a team of expert estate planning lawyers. Whether you are currently employed, on leave or between jobs, join us to experience unparallel flexibility and fantastic remuneration.  </p>
 
                         <Button variant="primary" style={{
                             margin: '35px',
@@ -99,7 +99,7 @@ const lawyer = () => {
             </div>
 
             <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
-                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '55px' }}>Steps to join as a lawyer</h1>
+                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '55px' }}>Why join MyTribe</h1>
                 {/* <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', }}> */}
                 <Grid container spacing={12}>
                     <Grid item xs={12} sm={4} >
@@ -288,7 +288,7 @@ const lawyer = () => {
 
 
 
-                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>A car to get around</li><br />
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>A car to get around and a Laptop</li><br />
                                     <li>At least 3 years’ experience in estate panning</li><br />
                                     <li>A current practicing certificate</li><br />
                                     <li>We provide the rest</li><br /><br /></ul>
@@ -323,7 +323,7 @@ const lawyer = () => {
                         <div style={{ alignItems: 'left', marginLeft: '12vw', }}>
                             <div>
                                 <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Choose when you work<br /><br /> </h2>
-                                <h3 style={{ lineHeight: '1.5em', }}>Jobs will be offered to you, pick the ones that suit your schedule, but only accept the jobs you want  </h3>
+                                <h3 style={{ lineHeight: '1.5em', }}>Jobs will be offered to you, pick only the ones that suit your schedule and start earning today.  </h3>
                             </div>
                             <div style={{ marginTop: '1rem', }}>
 

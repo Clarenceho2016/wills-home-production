@@ -105,7 +105,7 @@ const clients = () => {
                 </div>
             </section>
             <section className="section" style={{ marginTop: '0.5rem', marginBottom: '0.8rem', }}>
-                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>Steps to make a booking</h1>
+                <h1 style={{ fontSize: '2rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.75em' }}>Steps to Peace of mind</h1>
                 {/* <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', }}> */}
                 <Grid container spacing={12}>
                     <Grid item xs={12} sm={4} >
@@ -148,8 +148,8 @@ const clients = () => {
 
 
 
-                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li >Let us know when and where and we will take care of the rest</li><br />
-                                    <li >We speak your language. If English isn’t your fist language, we can arrange for a lawyer who speaks your native tongue to meet with you.</li><br />
+                                <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li >Select a package, let us know when and where and we will take care of the rest. </li><br />
+                                    <li >We speak your language. We can arrange for a lawyer fluent in your preferred language to meet with you. </li><br />
                                     <li>Secure payment options</li><br /><br /></ul>
                             </div>
 
@@ -193,7 +193,7 @@ const clients = () => {
 
 
                                 <ul className='a' style={{ fontSize: '1.25rem', width: '80%', marginTop: '25px' }}><li>One of our expert lawyers will meet with you in the comfort of your home, your office or by video conference.</li><br />
-                                    <li >No time limit, the meetings take as long as they need to.</li><br />
+                                    <li >No time limit, the meeting takes as long as it needs to</li><br />
                                     <li>All of your questions will be answered</li><br /></ul>
 
                             </div>
@@ -213,7 +213,7 @@ const clients = () => {
                                 display: 'flex', justifyContent: 'center', flexDirection: 'column',
                                 alignItems: 'center'
                             }}>
-                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>3. Task completed</h1>
+                                <h1 style={{ fontWeight: '600', fontSize: '1.5rem' }}>3. Complete your will</h1>
                                 {/* <img style={{ position: 'center', height: '180px' }} src='https://firebasestorage.googleapis.com/v0/b/wills-platform.appspot.com/o/public%2Fimage%2FOE5MLR0-min.jpg?alt=media&token=87dd0138-61a0-4c56-b7e7-5699d1014e38' alt="register"></img> */}
 
                                 <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="120 250 600 80" style={{ height: '150px' }}>
@@ -261,8 +261,8 @@ const clients = () => {
                         <div style={{ alignItems: 'left', marginLeft: '12vw', }}>
                             {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'left', }}> */}
                             <div>
-                                <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Create your booking today<br /><br /> </h2>
-                                <h3 style={{ lineHeight: '1.5em', }}>With MyTribe, you could experience professional service. </h3>
+                                <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Make a booking today<br /><br /> </h2>
+                                <h3 style={{ lineHeight: '1.5em', }}>With My Tribe having a tailored estate plan prepared by a lawyer has never been easier. </h3>
                             </div>
 
                             <div style={{ marginTop: '1rem', }}>

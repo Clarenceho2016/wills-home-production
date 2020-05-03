@@ -289,7 +289,7 @@ const referrers = () => {
                             <div>
 
                                 <h2 style={{ lineHeight: '1.5em', fontSize: '1.25rem', fontWeight: 'bold' }}>Get started today with a referrer account<br /><br /> </h2>
-                                <h3 style={{ lineHeight: '1.5em', }}>We are trusted lawyers whom you can refer to meet the needs of your valued clients. </h3>
+                                <h3 style={{ lineHeight: '1.5em', }}>Help your client’s obtain peace of mind by referring them to experts in estate planning.</h3>
                             </div>
 
 
