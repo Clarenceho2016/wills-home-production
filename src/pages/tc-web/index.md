@@ -6,6 +6,9 @@ title: Terms Of Use For Website
 
 This page (together with the documents referred to on it) tells you the terms of use on which you may make use of our website my-tribe.com.au (**Site**), whether as a guest or a registered user. Please read these terms of use carefully before you start to use the Site. By accessing our Site, you indicate that you accept these terms of use and that you agree to abide by them. If you do not agree to these terms of use, do not use or access our Site.
 
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }</style>
+
 ## 1. Information About Us
 
 [www.my-tribe.com.au](www.my-tribe.com.au) is a website operated by Elysium Pty Ltd (ACN 627 988 363) (**we** or **us** or **MyTribe**), whose registered office is at Level 3, 1 Palmerston Crescent, South Melbourne, Victoria 3205, Australia. MyTribe conducts a business of providing legal services.
@@ -20,28 +23,29 @@ You may not use our Site in any way that breaches any applicable local, national
 
 ## 4. Content Standards
 
-These content standards apply to any and all material which you contribute to our Site (Contributions). The standards apply to each part of any Contributions as well as to its whole. Contributions must be accurate (where they state facts), be genuinely held (where they state opinions) and comply with applicable law in Australia and in any country from which they are posted. Contributions must not:
+These content standards apply to any and all material which you contribute to our Site (**Contributions**). The standards apply to each part of any Contributions as well as to its whole. Contributions must be accurate (where they state facts), be genuinely held (where they state opinions) and comply with applicable law in Australia and in any country from which they are posted. Contributions must not:
 
-(a) contain any material which is defamatory of any person, obscene, offensive, hateful or inflammatory, promote sexually explicit material or promote violence or promote discrimination based on race, sex, religion, nationality, disability, sexual orientation or age;
+1. contain any material which is defamatory of any person, obscene, offensive, hateful or inflammatory, promote sexually explicit material or promote violence or promote discrimination based on race, sex, religion, nationality, disability, sexual orientation or age;<br><br>
 
-(b) infringe any copyright, database right or trademark of any other person;
+2. infringe any copyright, database right or trademark of any other person;<br><br>
 
-(c) be likely to deceive any person or be made in breach of any legal duty owed to a third party, such as a contractual duty or a duty of confidence or promote any illegal activity;
+3. be likely to deceive any person or be made in breach of any legal duty owed to a third party, such as a contractual duty or a duty of confidence or promote any illegal activity;<br><br>
 
-(d) be threatening, abuse or invade another's privacy, or cause annoyance, inconvenience or needless anxiety or be likely to harass, upset, embarrass, alarm or annoy any other person;
+4. be threatening, abuse or invade another's privacy, or cause annoyance, inconvenience or needless anxiety or be likely to harass, upset, embarrass, alarm or annoy any other person;<br><br>
 
-(e) be used to impersonate any person, or to misrepresent your identity or affiliation with any person or give the impression that they emanate from us, if this is not the case; or
+5. be used to impersonate any person, or to misrepresent your identity or affiliation with any person or give the impression that they emanate from us, if this is not the case; or<br><br>
 
-(f) advocate, promote or assist any unlawful act such as (by way of example only) copyright infringement or computer misuse.
+6. advocate, promote or assist any unlawful act such as (by way of example only) copyright infringement or computer misuse.<br><br>
 
-In addition to Contributions, you must not:  
-(a) interfere with or inhibit any user from using the Site;
+In addition to Contributions, you must not:
 
-(b) use the Site to send unsolicited email messages;
+1. interfere with or inhibit any user from using the Site;<br><br>
 
-(c) attempt to or tamper with, hinder or modify the Site, knowingly transmit viruses or other disabling features, or damage or interfere with the Site, including but not limited to the use of trojan horses, viruses, or piracy or programming routines that may damage or interfere with the Site; or
+2. use the Site to send unsolicited email messages;<br><br>
 
-(d) facilitate or assist another person to do any of the above acts.
+3. attempt to or tamper with, hinder or modify the Site, knowingly transmit viruses or other disabling features, or damage or interfere with the Site, including but not limited to the use of trojan horses, viruses, or piracy or programming routines that may damage or interfere with the Site; or<br><br>
+
+4. facilitate or assist another person to do any of the above acts.
 
 ## 5. Third party information
 
@@ -59,33 +63,37 @@ We reserve the right to amend or delete any and all of your Contribution, Third 
 
 Failure to comply with section 3 (Acceptable Use) and/or 4 (Content Standards) in these Terms of Use constitutes a material breach of the Terms of Use, and may result in our taking all or any of the following actions:
 
-(a) immediate, temporary or permanent withdrawal of your right to use our Site;
+1. immediate, temporary or permanent withdrawal of your right to use our Site;<br><br>
 
-(b) immediate, temporary or permanent removal of any posting or material uploaded by you to our Site;
+2. immediate, temporary or permanent removal of any posting or material uploaded by you to our Site;<br><br>
 
-(c) issuing of a warning to you;
+3. issuing of a warning to you;<br><br>
 
-(d) legal action against you including proceedings for reimbursement of all costs on an (including, but not limited to, reasonable administrative and legal costs) resulting from the breach;
+4. legal action against you including proceedings for reimbursement of all costs on an (including, but not limited to, reasonable administrative and legal costs) resulting from the breach;<br><br>
 
-(e) disclosure of such information to law enforcement authorities as we reasonably feel is necessary.
+5. disclosure of such information to law enforcement authorities as we reasonably feel is necessary.
+
 The responses described in this clause are not limited, and we may take any other action we reasonably deem appropriate.
 
 ## 9. Intellectual Property Rights
 
-You agree that, as between you and us, we own all intellectual property rights in the Site, and in the material published on it (excluding your Contributions). Nothing in these Terms of Use constitute a transfer of any intellectual property rights. Your use of the Site does not grant you a licence to, or act as a right to, use of any of the intellectual property, whether registered or unregistered, displayed on the Site without the express written permission of the owner.
-You must not breach any copyright or intellectual property rights connected with the Site. This includes but is not limited to:  
-(a) altering or modifying any of the code or the material on the Site;  
-(b) causing any of the material on the Site to be framed or embedded in another website;  
-(c) creating derivative works from the content of the Site;or  
-(d) using the Site for commercial purposes.
+You agree that, as between you and us, we own all intellectual property rights in the Site, and in the material published on it (excluding your Contributions). Nothing in these Terms of Use constitute a transfer of any intellectual property rights. Your use of the Site does not grant you a licence to, or act as a right to, use of any of the intellectual property, whether registered or unregistered, displayed on the Site without the express written permission of the owner.<br><br>
+You must not breach any copyright or intellectual property rights connected with the Site. This includes but is not limited to:
+
+1. altering or modifying any of the code or the material on the Site;<br><br>
+2. causing any of the material on the Site to be framed or embedded in another website;<br><br>
+3. creating derivative works from the content of the Site;or<br><br>
+4. using the Site for commercial purposes.
 
 ## 10. Reliance On Information Posted
 
-The Site is provided to you without warranties, express or implied, including but not limited to implied warranties of merchantability and/or fitness for a particular purpose. We do not warrant that the functions contained in any material on the Site or your access to the Site will be error free, that any defects will be corrected, that the Site or the server which stores and transmits material to you are free of viruses or any other harmful components, or that the Site will operate on a continuous basis or be available at any time.
-While we endeavour to keep the Site and Information up to date and correct, we make no representations, warranties or guarantee, express or implied, about:  
-(a) the completeness, accuracy, reliability, suitability or availability of any Information, images, products, services, or related graphics contained on the Site for any purpose;  
-(b) Third Party Information; or  
-(c) Third Party Sites.
+The Site is provided to you without warranties, express or implied, including but not limited to implied warranties of merchantability and/or fitness for a particular purpose. We do not warrant that the functions contained in any material on the Site or your access to the Site will be error free, that any defects will be corrected, that the Site or the server which stores and transmits material to you are free of viruses or any other harmful components, or that the Site will operate on a continuous basis or be available at any time.<br><br>
+While we endeavour to keep the Site and Information up to date and correct, we make no representations, warranties or guarantee, express or implied, about:
+
+1. the completeness, accuracy, reliability, suitability or availability of any Information, images, products, services, or related graphics contained on the Site for any purpose;<br><br>
+2. Third Party Information; or<br><br>
+3. Third Party Sites.
+
 You read, use, and act on information contained on the Site, Third Party Information and/or Third Party Sites, strictly at your own risk.
 
 ## 11. Our Site Change Regularly
@@ -94,23 +102,26 @@ We aim to update our Site regularly and may change the content at any time. If t
 
 ## 12. Our Liability
 
-To the maximum extent permitted by law, MyTribe provides our Site and content on an "as-is" and "as available" basis and we make no representation or warranty of any kind, express or implied, regarding the content or availability of our Site, or that it will be timely or error-free or that defects will be corrected. To the maximum extent permitted by law and subject as provided below, MyTribe expressly disclaims all warranties and conditions with regard to any portion of our Site, including but not limited to all implied warranties and conditions of merchantability, fitness for a particular purpose, title, and non-infringement, and all responsibility for any loss, injury, claim, liability or damage of any kind, including resulting from, arising out of or any way related to:  
-(a) any errors in or omissions from the Site, including but not limited to technical inaccuracies and typographical errors;  
-(b) any third party contents therein directly or indirectly accessed through links in the Site, including but not limited to any errors or omissions;  
-(c) the unavailability of the Site, or any portion;or  
-(d) computer viruses, system failure or malfunction which may occur in connection with your use of the Site, including during hyperlink to or from third party content;or  
-(e) our supply of Products to you in accordance with our [Terms of Service](https://www.my-tribe.com.au/tc-service).
+To the maximum extent permitted by law, MyTribe provides our Site and content on an "as-is" and "as available" basis and we make no representation or warranty of any kind, express or implied, regarding the content or availability of our Site, or that it will be timely or error-free or that defects will be corrected. To the maximum extent permitted by law and subject as provided below, MyTribe expressly disclaims all warranties and conditions with regard to any portion of our Site, including but not limited to all implied warranties and conditions of merchantability, fitness for a particular purpose, title, and non-infringement, and all responsibility for any loss, injury, claim, liability or damage of any kind, including resulting from, arising out of or any way related to:
 
-To the maximum extent permitted by law, MyTribe will not have any liability to you for any direct, indirect,special or consequential losses or damages arising in contract, tort (including, without limitation, negligence) or otherwise arising from your use of or your inability to use our Site. To the extent the foregoing limitation of liability is prohibited or despite the limitation above, in the event that MyTribe is found to be liable to you, our total aggregate liability is limited to the purchase price of the Products you have paid for.
-If any warranties are implied by law that cannot be excluded, then to the maximum extent permitted by law, our liability for breach of such warranties is limited to the purchase price of the Products you have paid for.
+1. any errors in or omissions from the Site, including but not limited to technical inaccuracies and typographical errors;<br><br>
+2. any third party contents therein directly or indirectly accessed through links in the Site, including but not limited to any errors or omissions;<br><br>
+3. the unavailability of the Site, or any portion;or<br><br>
+4. computer viruses, system failure or malfunction which may occur in connection with your use of the Site, including during hyperlink to or from third party content;or<br><br>
+5. our supply of Products to you in accordance with our [Terms of Service](https://www.my-tribe.com.au/tc-service).
+
+To the maximum extent permitted by law, MyTribe will not have any liability to you for any direct, indirect,special or consequential losses or damages arising in contract, tort (including, without limitation, negligence) or otherwise arising from your use of or your inability to use our Site. To the extent the foregoing limitation of liability is prohibited or despite the limitation above, in the event that MyTribe is found to be liable to you, our total aggregate liability is limited to the purchase price of the Products you have paid for.<br><br>
+If any warranties are implied by law that cannot be excluded, then to the maximum extent permitted by law, our liability for breach of such warranties is limited to the purchase price of the Products you have paid for.<br><br>
 This does not include or limit in any way MyTribe’s liability for any matter for which it would be illegal for us or it to exclude, or attempt to exclude, our or its liability, including under the Competition and Consumer Act 2010 (Cth), the statutory consumer guarantees under the Australian Consumer Law, or similar laws in the States and Territories of Australia.
 
 ## 13. Indemnity:
 
-By using the Site, you agree to defend and fully indemnify and hold us (and our officers, directors, employees, contractors and agents) harmless from and against all claims, actions, suits, demands, damages, liabilities, costs or expenses (including legal costs and expenses on a full indemnity basis), including in tort, contract or negligence, arising out of or connected to:  
-(a) your use of or access to the Site;  
-(b) any breach by you of these Terms of Use;or  
-(c) any wilful, unlawful or negligent act or omission by you.
+By using the Site, you agree to defend and fully indemnify and hold us (and our officers, directors, employees, contractors and agents) harmless from and against all claims, actions, suits, demands, damages, liabilities, costs or expenses (including legal costs and expenses on a full indemnity basis), including in tort, contract or negligence, arising out of or connected to:
+
+1. your use of or access to the Site;<br><br>
+2. any breach by you of these Terms of Use;or<br><br>
+3. any wilful, unlawful or negligent act or omission by you.
+
 This defence and indemnification obligation will survive these Terms of Use and your use of the Site. These Terms of Use, and any rights and licences granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction.
 
 ## 14. Information About You And Your Visits To Our Site

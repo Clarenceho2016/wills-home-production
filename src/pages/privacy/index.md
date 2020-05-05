@@ -4,92 +4,103 @@ templateKey: 'tc-page'
 title: MyTribe Privacy Policy
 ---
 
-Elysium Pty Ltd (ACN 627 988 363) (**we**, **our**, **us** or **MyTribe**) is committed to protecting the privacy of all visitors to our website [www.my-tribe.com.au]() (**Site**).  
-This Privacy Policy sets out our commitment to protecting the privacy of your personal information that we collect through this or otherwise directly from you.  
-Please read this Privacy Policy carefully. Please contact us if you have any questions – our contact details are at the end of this Privacy Policy.  
-You providing us with personal information indicates that you have had sufficient opportunity to access this Privacy Policy and that you have read and accepted it.  
-If you do not wish to provide personal information to us, then you do not have to do so. However, it may affect your use of this Site or any products and services offered on it or provided by us.
+Elysium Pty Ltd (ACN 627 988 363) (**we**, **our**, **us** or **MyTribe**) is committed to protecting the privacy of all visitors to our website [www.my-tribe.com.au]() (**Site**). <br><br>
+This Privacy Policy sets out our commitment to protecting the privacy of your personal information that we collect through this or otherwise directly from you. <br><br>
+Please read this Privacy Policy carefully. Please contact us if you have any questions – our contact details are at the end of this Privacy Policy. <br><br>
+You providing us with personal information indicates that you have had sufficient opportunity to access this Privacy Policy and that you have read and accepted it. <br><br>
+If you do not wish to provide personal information to us, then you do not have to do so. However, it may affect your use of this Site or any products and services offered on it or provided by us.<br><br>
+
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }</style>
 
 ## 1. Collection of personal information
 
 The type of information we collect may include:
-(a) name;
 
-(b) contact details including email address, address and telephone number;
+1. name;<br><br>
 
-(c) marital status and anniversary;
+2. contact details including email address, address and telephone number;<br><br>
 
-(d) date of birth;
+3. marital status and anniversary;<br><br>
 
-(e) demographic information such as postcode;
+4. date of birth;<br><br>
 
-(f) information about your business or personal affairs;
+5. demographic information such as postcode;<br><br>
 
-(g) information about your legal needs;
+6. information about your business or personal affairs;<br><br>
 
-(h) preferences and opinions; and
+7. information about your legal needs;<br><br>
 
-(i) any other information requested on this Site or otherwise requested by us or provided by you.
-As with most online businesses, we may log information about your access and use of our Site, including through the use of Internet cookies, your communications with our Site, the type of browser you are using, the type of operating system you are using and the domain name of your Internet service provider.
-We may contact you to voluntarily respond to questionnaires, surveys or market research to seek your opinion and feedback. Providing this information is optional to you.  
-If we receive your personal information from third parties, we will protect it as set out in this Privacy Policy.
+8. preferences and opinions; and<br><br>
+
+9. any other information requested on this Site or otherwise requested by us or provided by you.<br><br>
+
+As with most online businesses, we may log information about your access and use of our Site, including through the use of Internet cookies, your communications with our Site, the type of browser you are using, the type of operating system you are using and the domain name of your Internet service provider.<br><br>
+We may contact you to voluntarily respond to questionnaires, surveys or market research to seek your opinion and feedback. Providing this information is optional to you. <br><br>
+If we receive your personal information from third parties, we will protect it as set out in this Privacy Policy.<br><br>
 
 ## 2. Use of personal information
 
 We collect and use the information for purposes including:
-(a) to contact and communicate with you;
 
-(b) to provide information, products and services to you;
+1. to contact and communicate with you;<br><br>
 
-(c) to respond to your queries in respect of legal documents, advice and services;
+2. to provide information, products and services to you;<br><br>
 
-(d) to provide information to our employees, contractors and your accountant or financial advisors for the purposes of assisting you and managing your matter;
+3. to respond to your queries in respect of legal documents, advice and services;<br><br>
 
-(e) to better understand your needs, enabling us to improve our products and services;
+4. to provide information to our employees, contractors and your accountant or financial advisors for the purposes of assisting you and managing your matter;<br><br>
 
-(f) for internal record keeping;
+5. to better understand your needs, enabling us to improve our products and services;<br><br>
 
-(g) for market research and business development including website development;
+6. for internal record keeping;<br><br>
 
-(h) for marketing including direct marketing;
+7. for market research and business development including website development;<br><br>
 
-(i) to run competitions or offer additional benefits to you; and
+8. for marketing including direct marketing;<br><br>
 
-(j) to send you promotional information about third parties that we think may be of interest to you.
+9. to run competitions or offer additional benefits to you; and<br><br>
+
+10. to send you promotional information about third parties that we think may be of interest to you.<br><br>
 
 ## 3. Disclosure of personal information
 
 We may disclose personal information:
-(a) for the purpose of providing information, products, services or marketing to clients;
 
-(b) to credit reporting agencies and courts, tribunals and regulatory authorities where clients fail to pay for goods or services provided by us to them;
+1. for the purpose of providing information, products, services or marketing to clients;<br><br>
 
-(c) to courts, tribunals, regulatory authorities and law enforcement officers as required by law, in connection with any actual or prospective legal proceedings, or in order to establish, exercise or defend our legal rights; and
+2. to credit reporting agencies and courts, tribunals and regulatory authorities where clients fail to pay for goods or services provided by us to them;<br><br>
 
-(d) to third parties, including your accountant or financial advisors, our agents or sub-contractors, who assist us in providing information, products, services or direct marketing to you. This may include parties located, or that store data, outside of Australia.  
-Where we disclose your personal information to third parties for these purposes, we will request that the third party follow this Privacy Policy regarding handling of your personal information.
+3. to courts, tribunals, regulatory authorities and law enforcement officers as required by law, in connection with any actual or prospective legal proceedings, or in order to establish, exercise or defend our legal rights; and<br><br>
+
+4. to third parties, including your accountant or financial advisors, our agents or sub-contractors, who assist us in providing information, products, services or direct marketing to you. This may include parties located, or that store data, outside of Australia.<br><br>
+
+Where we disclose your personal information to third parties for these purposes, we will request that the third party follow this Privacy Policy regarding handling of your personal information.<br><br>
 If there is a change of control of our business or a sale or transfer of business assets, we reserve the right to transfer to the extent permissible by law our user databases, together with any personal information and non-personal information contained in those databases. This information may be disclosed to a potential purchaser. We would seek to only disclose information in good faith and to maintain confidentiality.
 
 ## 4. How we treat personal information that is also sensitive information
 
 Sensitive information is a sub-set of personal information that is given a higher level of protection under the Australian Privacy Principles.
-In referring to ‘sensitive information’ we mean:
+<br><br>In referring to 'sensitive information' we mean:
 
-(a) information that relates to your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation or practices and criminal records;
+1. information that relates to your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation or practices and criminal records;<br><br>
 
-(b) health information; or
+2. health information; or<br><br>
 
-(c) biometric information.
+3. biometric information.
+
 The type of sensitive information that we may collect includes information about your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation or practices and criminal records.
 
-Sensitive information will be used and disclosed for the purpose of:  
-(a) responding to your queries in respect of legal documents, advice and services;
+Sensitive information will be used and disclosed for the purpose of:
 
-(b) providing information to our employees and contractors for the purposes of assisting you and managing your matter;
+1. responding to your queries in respect of legal documents, advice and services;<br><br>
 
-(c) to better understand your needs, enabling us to improve our products and services; and
+2. providing information to our employees and contractors for the purposes of assisting you and managing your matter;<br><br>
 
-(d) for internal record keeping.
+3. to better understand your needs, enabling us to improve our products and services; and<br><br>
+
+4. for internal record keeping.
+
 Sensitive information may also be used or disclosed if required or authorised by law.
 
 ## 5. Your rights and controlling your personal information
@@ -102,17 +113,17 @@ You may request details of personal information that we hold about you, in certa
 
 If you believe that any information we hold about you is inaccurate, out of date, incomplete, irrelevant or misleading, please contact us by email. We rely in part upon clients advising us when their personal information changes. We will respond to any request within a reasonable time. We will endeavour to promptly correct any information found to be inaccurate, incomplete or out of date.
 
-If you believe that we have breached the Australian Privacy Principles and wish to make a complaint about that breach, please contact us by email setting out details of the breach. We will promptly investigate your complaint and respond to you in writing setting out the outcome of our investigation, what steps we propose to take to remedy the breach and any other action we will take to deal with your complaint.
+If you believe that we have breached the Australian Privacy Principles and wish to make a complaint about that breach, please contact us by email setting out details of the breach. We will promptly investigate your complaint and respond to you in writing setting out the outcome of our investigation, what steps we propose to take to remedy the breach and any other action we will take to deal with your complaint.<br><br>
 To unsubscribe from our e-mail database, or opt out of communications, please contact us using the details below.
 
 ## 6. Storage and Security
 
-We are committed to ensuring that the information you provide is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information and protect it from misuse, interference, loss and unauthorised access, modification and disclosure.
-No information transmitted over the Internet can be guaranteed to be secure. We cannot guarantee the security of any information that you transmit to us, or receive from us. The transmission and exchange of information is carried out at your own risk. Although we take measures to safeguard against unauthorised disclosures of information, we cannot assure you that personal information that we collect will not be disclosed in a manner that is inconsistent with this Privacy Policy.
+We are committed to ensuring that the information you provide is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information and protect it from misuse, interference, loss and unauthorised access, modification and disclosure.<br><br>
+No information transmitted over the Internet can be guaranteed to be secure. We cannot guarantee the security of any information that you transmit to us, or receive from us. The transmission and exchange of information is carried out at your own risk. Although we take measures to safeguard against unauthorised disclosures of information, we cannot assure you that personal information that we collect will not be disclosed in a manner that is inconsistent with this Privacy Policy.<br><br>
 
 ## 7. Cookies & Web Beacons
 
-We may use cookies on this Site from time to time. Cookies are text files placed in your computer's browser to store your preferences. Cookies, by themselves, do not tell us your e-mail address or other personally identifiable information. However, once you choose to furnish the Site with personally identifiable information, this information may be linked to the data stored in the cookie.
+We may use cookies on this Site from time to time. Cookies are text files placed in your computer's browser to store your preferences. Cookies, by themselves, do not tell us your e-mail address or other personally identifiable information. However, once you choose to furnish the Site with personally identifiable information, this information may be linked to the data stored in the cookie.<br><br>
 We may use web beacons on this Site from time to time. Web beacons or clear .gifs are small pieces of code placed on a web page to monitor the visitors’ behaviour and collect data about the visitors viewing a web page. For example, web beacons can be used to count the users who visit a web page or to deliver a cookie to the browser of a visitor viewing that page.
 
 ## 8. Links to other websites
